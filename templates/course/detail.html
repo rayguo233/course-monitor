@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<ul>
+{% for course in courses %}
+	<li>{{ course.abbrev }}</li>
+{% endfor %}
+</ul>
+<p>is working</p>
+
+{% endblock %}
