@@ -17,10 +17,18 @@ from django.contrib import admin
 from django.urls import path
 
 from pages.views import home_view
-from course.views import course_detail_view
+from course.views import course_detail_view, course_add_view,\
+    course_update_view, load_courses
 
 urlpatterns = [
 	path('', home_view, name='home'),
-	path('course/', course_detail_view),
-    path('ray/', admin.site.urls),
+    path('ray/', admin.site.urls), # admin view
+	path('course/detail/', course_detail_view), # see all courses
+
+    # add tracking course
+    path('add/', course_add_view, name='course_add'),
+    path('<int:pk>/', course_update_view, name='course_change'),
+    path('ajax/load-courses/', load_courses, name='ajax_load_courses'),
+
+
 ]
