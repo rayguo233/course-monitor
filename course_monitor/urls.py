@@ -14,21 +14,23 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-
+from django.urls import path, include
 from pages.views import home_view
-from course.views import course_detail_view, course_add_view,\
-    course_update_view, load_courses
+from course.views import *
 
 urlpatterns = [
-	path('', home_view, name='home'),
+    path('', home_view, name='home'),
     path('ray/', admin.site.urls), # admin view
-	path('course/detail/', course_detail_view), # see all courses
+    path('course/detail/', course_detail_view), # see all courses
 
     # add tracking course
+    path('email/', EmailListView.as_view(), name='email_list'),
     path('add/', course_add_view, name='course_add'),
-    path('<int:pk>/', course_update_view, name='course_change'),
-    path('ajax/load-courses/', load_courses, name='ajax_load_courses'),
-
+    path('load-courses/', ajax_load_courses, name='ajax_load_courses'),
+    path('load-lectures/', ajax_load_lectures, name='ajax_load_lectures'),
+    path('load-sections/', ajax_load_sections, name='ajax_load_sections'),
+    # path('select2/', include('django_select2.urls')),
+    # path('track/', CourseTrackView.as_view(), name='course-track')
+    # path('<int:pk>/', course_update_view, name='course_change'),
 
 ]

@@ -1,0 +1,6 @@
+<option value="none" selected disabled hidden>
+          Select a Lecture
+</option>
+{% for lecture in lectures %}
+    <option value="{{ lecture.pk }}">{{ lecture }}</option>
+{% endfor %}

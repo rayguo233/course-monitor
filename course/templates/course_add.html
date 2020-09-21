@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Add Section</h1>
+<br>
+<form method="post" id="addSectionForm" data-courses-url="{% url 'ajax_load_courses' %}"
+data-lectures-url="{% url 'ajax_load_lectures' %}" data-sections-url="{% url 'ajax_load_sections' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit" class="form-control btn btn-primary">
+</form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $("#id_subject").change(function () {
+            var url = $("#addSectionForm").attr("data-courses-url"); // get the url of the `ajax_load_courses` view
+            var subject_pk = $(this).val(); // get the selected subject ID from the HTML input
+
+            $.ajax({                // initialize an AJAX request
+                url: url,           // set the url of the request
+                data: {
+                    'subject_pk': subject_pk    // add the subject id to the GET parameter
+                },
+                success: function (data) {  // `data` is the return of the `ajax_load_courses` view function
+                    $("#id_course").html(data);   // replace the contents of the course input with the data that came from the server
+                }
+            });
+        });
+        $("#id_course").change(function () {
+            var url = $("#addSectionForm").attr("data-lectures-url"); // get the url of the `ajax_load_courses` view
+            var course_pk = $(this).val(); // get the selected subject ID from the HTML input
+
+            $.ajax({                // initialize an AJAX request
+                url: url,           // set the url of the request
+                data: {
+                    'course_pk': course_pk    // add the subject id to the GET parameter
+                },
+                success: function (data) {  // `data` is the return of the `ajax_load_courses` view function
+                    $("#id_lecture").html(data);   // replace the contents of the course input with the data that came from the server
+                }
+            });
+        });
+        $("#id_lecture").change(function () {
+            var url = $("#addSectionForm").attr("data-sections-url");
+            var lecture_pk = $(this).val(); // get the selected subject ID from the HTML input
+
+            $.ajax({                // initialize an AJAX request
+                url: url,           // set the url of the request
+                data: {
+                    'lecture_pk': lecture_pk    // add the subject id to the GET parameter
+                },
+                success: function (data) {  // `data` is the return of the `ajax_load_courses` view function
+                    $("#id_section").html(data);   // replace the contents of the course input with the data that came from the server
+                }
+            });
+        });
+    </script>
+
+{% endblock %}
