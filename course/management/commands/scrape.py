@@ -14,6 +14,26 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 
+def send_reminder(email, section):
+	message = Mail(
+		from_email='siruiguo@outlook.com',
+		to_emails=email,
+		subject='Your ' + section + ' has an available spot',
+		html_content='<strong>Your class has an available spot (see title).</strong>\
+					 <br><br>\
+					 <p>Add the class to your email again on the website if you wish to keep receiving reminder \
+					 for this class</p>')
+	try:
+		# context = ssl._create_unverified_context()
+		sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
+		response = sg.send(message)
+	# print(response.status_code)
+	# print(response.body)
+	# print(response.headers)
+	except Exception as e:
+		print(e.message)
+
+
 def check_section(cur_section, driver, wait):
 	input_box = wait.until(EC.presence_of_element_located((By.ID, 'select_filter_subject')))
 	ActionChains(driver).move_to_element(input_box).click(input_box).perform()
@@ -51,11 +71,12 @@ def check_section(cur_section, driver, wait):
 				if 'Open' == \
 						lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p').text.partition(
 								'\n')[0]:
-					for email in cur_section.email_set.all():
-						# send an email
+					emails_to_send = cur_section.email_set.all()
+					for email in emails_to_send:
+						# send_reminder(email.__str__(), cur_section.__str__())
+						email.section.remove(cur_section)
 						print(cur_section)
 						print(email)
-						# remove the section from the Email
 						pass
 			else:
 				# find section
@@ -68,38 +89,19 @@ def check_section(cur_section, driver, wait):
 								sect_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
 									'p').text.partition(
 									'\n')[0]:
-							for email in cur_section.email_set.all():
-								# send an email
+							emails_to_send = cur_section.email_set.all()
+							for email in emails_to_send:
+								# send_reminder(email.name, cur_section.__str__())
+								email.section.remove(cur_section)
 								print(cur_section)
 								print(email)
-								# remove the section from the Email
 						break
 			break
 
 
-def send_reminder(email, section):
-	message = Mail(
-		from_email='siruiguo@outlook.com',
-		to_emails=email,
-		subject='Your ' + section + ' has an available spot',
-		html_content='<strong>Your class has an available spot (see title).</strong>\
-					 <br><br>\
-					 <p>Add the class to your email again on the website if you wish to keep receiving reminder \
-					 for this class</p>')
-	try:
-		# context = ssl._create_unverified_context()
-		sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
-		response = sg.send(message)
-	# print(response.status_code)
-	# print(response.body)
-	# print(response.headers)
-	except Exception as e:
-		print(e.message)
-
-
 def is_section_open(section):
 	op = webdriver.ChromeOptions()
-	op.add_argument("--headless")  # set headless chrome
+	# op.add_argument("--headless")  # set headless chrome
 	# op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 	# op.add_argument("--no-sandbox")  # required by heroku
 	# op.add_argument("--disable-dev-sh-usage")
@@ -142,7 +144,7 @@ class Command(BaseCommand):
 
 		# search
 		op = webdriver.ChromeOptions()
-		op.add_argument("--headless")  # set headless chrome
+		# op.add_argument("--headless")  # set headless chrome
 		# op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 		# op.add_argument("--no-sandbox")  # required by heroku
 		# op.add_argument("--disable-dev-sh-usage")
