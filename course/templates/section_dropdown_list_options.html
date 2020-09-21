@@ -1,0 +1,6 @@
+<option value="none" selected disabled hidden>
+          Select a Section
+</option>
+{% for section in sections %}
+    <option value="{{ section.pk }}">{{ section }}</option>
+{% endfor %}

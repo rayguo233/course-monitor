@@ -1,4 +1,6 @@
-<option value="">---------</option>
+<option value="" selected disabled hidden>
+          Select a Course
+</option>
 {% for course in courses %}
-<option value="{{ course.pk }}">{{ course.abbrev }}</option>
+    <option value="{{ course.pk }}">{{ course.title }}</option>
 {% endfor %}

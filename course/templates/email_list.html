@@ -1,0 +1,11 @@
+<h1>Emails</h1>
+<ul>
+{% for email in object_list %}
+    <h3>{{ email.name }}</h3>
+    {% for section in email.section.all %}
+    <li>{{ section }}</li>
+    {% endfor %}
+{% empty %}
+    <li>No articles yet.</li>
+{% endfor %}
+</ul>

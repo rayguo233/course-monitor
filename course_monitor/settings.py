@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     # own
     'course',
     'pages',
+    'django_select2',
 ]
 
 MIDDLEWARE = [
