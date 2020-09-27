@@ -38,7 +38,11 @@ def course_add_view(request):
 			email = request.POST.get('email')
 			section_id = request.POST.get('section')
 			print(section_id)
-			user = Email.objects.update_or_create(name=email)[0]
+			email_query = Email.objects.filter(name=email)
+			if email_query.count():
+				user = Email.objects.filter(name=email)[0]
+			else:
+				user = Email.objects.create(name=email)
 			print(user)
 			user.section.add(Section.objects.get(id=section_id))
 			print(user.section.all())
