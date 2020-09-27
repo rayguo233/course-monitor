@@ -36,7 +36,7 @@ class Section(models.Model):
 
 class Email(models.Model):
 	name = models.CharField(max_length=40)
-	section = models.ManyToManyField(Section)
+	section = models.ManyToManyField(Section, blank=True)
 
 	def __str__(self):
 		return self.name
