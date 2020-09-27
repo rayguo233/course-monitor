@@ -45,6 +45,7 @@ def course_add_view(request):
 				user = Email.objects.create(name=email)
 			print(user)
 			user.section.add(Section.objects.get(id=section_id))
+			user.save()
 			print(user.section.all())
 			form = SectionForm()
 
