@@ -124,6 +124,7 @@ class Command(BaseCommand):
 		# for subject in subjects:
 		# 	Subject.objects.create(subject=subject.text)
 		emails = Email.objects.all()
+		print(emails)
 		sections = Section.objects.none()
 		for email in emails:
 			print(email.name)
