@@ -34,10 +34,14 @@ def course_add_view(request):
 		# form.fields['lecture'].choices = [(lecture, lecture)]
 		# form.fields['section'].choices = [(section, section)]
 		if form.is_valid():
+			print(request.POST)
 			email = request.POST.get('email')
-			section = request.POST.get('section')
+			section_id = request.POST.get('section')
+			print(section_id)
 			user = Email.objects.update_or_create(name=email)[0]
-			user.section.add(section)
+			print(user)
+			user.section.add(Section.objects.get(id=section_id))
+			print(user.section.all())
 			form = SectionForm()
 
 	context = {

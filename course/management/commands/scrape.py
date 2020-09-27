@@ -68,6 +68,7 @@ def check_section(cur_section, driver, wait):
 		if cur_lecture.name == lec_div.find_element_by_class_name('sectionColumn').find_element_by_tag_name(
 				'a').text:
 			if cur_section.name == 'No Section':
+				print(cur_section.__str__() + ' found.')
 				if 'Open' == \
 						lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p').text.partition(
 								'\n')[0]:
@@ -85,6 +86,7 @@ def check_section(cur_section, driver, wait):
 				for sect_div in sect_divs:
 					if cur_section.name == sect_div.find_element_by_class_name('sectionColumn').find_element_by_tag_name(
 							'a').text:
+						print(cur_section.__str__() + ' found.')
 						if 'Open' == \
 								sect_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
 									'p').text.partition(
@@ -97,21 +99,6 @@ def check_section(cur_section, driver, wait):
 								print(email)
 						break
 			break
-
-
-def is_section_open(section):
-	op = webdriver.ChromeOptions()
-	# op.add_argument("--headless")  # set headless chrome
-	# op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-	# op.add_argument("--no-sandbox")  # required by heroku
-	# op.add_argument("--disable-dev-sh-usage")
-
-	# driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),\
-	# 						  chrome_options=op) # on cloud
-	driver = webdriver.Chrome(chrome_options=op)  # on local
-	driver.set_window_size(1920, 1000)
-	action = ActionChains(driver)
-	wait = WebDriverWait(driver, 10, poll_frequency=1)
 
 
 class Command(BaseCommand):
@@ -139,12 +126,17 @@ class Command(BaseCommand):
 		emails = Email.objects.all()
 		sections = Section.objects.none()
 		for email in emails:
-			sections = sections | email.section.all()
+			print(email.name)
+			print(email.section.all())
+			sections |= email.section.all()
+			print(sections)
+		print(sections)
 		sections = sections.distinct()
+		print(str(len(sections)) + ' sections to search.')
 
 		# search
 		op = webdriver.ChromeOptions()
-		# op.add_argument("--headless")  # set headless chrome
+		op.add_argument("--headless")  # set headless chrome
 		# op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
 		# op.add_argument("--no-sandbox")  # required by heroku
 		# op.add_argument("--disable-dev-sh-usage")
@@ -156,12 +148,16 @@ class Command(BaseCommand):
 		action = ActionChains(driver)
 		wait = WebDriverWait(driver, 10, poll_frequency=1)
 
+		print('Checking ' + sections[0].__str__())
 		cur_section = sections[0]
 		driver.get("https://sa.ucla.edu/ro/public/soc")
 		check_section(cur_section, driver, wait)
 		if len(sections) > 1:
+			print('Prev: ' + str(len(sections)) + ' sections left.')
 			sections = sections.exclude(id=cur_section.id)
+			print('Now: ' + str(len(sections)) + ' sections left.')
 			for cur_section in sections:
+				print('Checking ' + cur_section.__str__())
 				search_btn = wait.until(EC.element_to_be_clickable((By.ID, 'btn_start_search')))
 				ActionChains(driver).move_to_element(search_btn).click(search_btn).perform()
 				time.sleep(2)
