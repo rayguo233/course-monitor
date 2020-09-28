@@ -32,7 +32,6 @@ def send_reminder(email, section):
 	# print(response.headers)
 	except Exception as e:
 		print(e.message)
-		pass
 
 
 def check_section(cur_section, driver, wait):
