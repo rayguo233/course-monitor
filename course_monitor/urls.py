@@ -29,8 +29,4 @@ urlpatterns = [
     path('load-courses/', ajax_load_courses, name='ajax_load_courses'),
     path('load-lectures/', ajax_load_lectures, name='ajax_load_lectures'),
     path('load-sections/', ajax_load_sections, name='ajax_load_sections'),
-    # path('select2/', include('django_select2.urls')),
-    # path('track/', CourseTrackView.as_view(), name='course-track')
-    # path('<int:pk>/', course_update_view, name='course_change'),
-
 ]
