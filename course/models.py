@@ -11,8 +11,8 @@ class Subject(models.Model):
 
 class Course(models.Model):
 	subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
-	abbrev = models.CharField(max_length=20)
-	title = models.CharField(max_length=30)
+	abbrev = models.CharField(max_length=30)
+	title = models.CharField(max_length=100)
 
 	def __str__(self):
 		return self.title
