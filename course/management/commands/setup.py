@@ -95,13 +95,13 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         op = webdriver.ChromeOptions()
         op.add_argument("--headless")  # set headless chrome
-        # op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-        # op.add_argument("--no-sandbox")  # required by heroku
-        # op.add_argument("--disable-dev-sh-usage")
+        op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+        op.add_argument("--no-sandbox")  # required by heroku
+        op.add_argument("--disable-dev-sh-usage")
 
-        # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),\
-        # 						  chrome_options=op) # on cloud
-        driver = webdriver.Chrome(chrome_options=op) # on local
+        driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),\
+        						  chrome_options=op) # on cloud
+        # driver = webdriver.Chrome(chrome_options=op) # on local
         driver.set_window_size(1920, 1000)
         action = ActionChains(driver)
         wait = WebDriverWait(driver, 10, poll_frequency=1)
@@ -115,6 +115,7 @@ class Command(BaseCommand):
         ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
         subjects = ul.find_elements_by_tag_name("li")
         for subject in subjects:
+            print(subject.text)
             Subject.objects.update_or_create(name=subject.text)
 
         # get courses
