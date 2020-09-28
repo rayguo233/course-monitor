@@ -14,7 +14,7 @@ class SectionForm(forms.Form):
     # course = forms.CharField(widget=forms.ModelChoiceField(queryset=Course.objects.none()))
     # lecture = forms.CharField(widget=forms.ModelChoiceField(queryset=Lecture.objects.none()))
     # section = forms.CharField(widget=forms.ModelChoiceField(queryset=Section.objects.none()))
-    subject = forms.ModelChoiceField(queryset=Subject.objects.all())
+    subject = forms.ModelChoiceField(queryset=Subject.objects.all().order_by('name'))
     course = forms.ModelChoiceField(queryset=Course.objects.all())
     lecture = forms.ModelChoiceField(queryset=Lecture.objects.all())
     section = forms.ModelChoiceField(queryset=Section.objects.all())
