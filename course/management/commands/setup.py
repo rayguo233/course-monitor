@@ -2,16 +2,14 @@ from django.core.management.base import BaseCommand
 from selenium import webdriver
 import os
 import time
-# local
 from course.models import Course, Subject, Lecture, Section
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
-START_SUB = 'Global Studies (GLBL ST)'
+START_SUB = 'Molecular, Cell, and Developmental Biology (MCD BIO)'
 
 
 def process_results_table(table, subject, wait):
@@ -34,25 +32,24 @@ def process_results_table(table, subject, wait):
                 new_lec = Lecture.objects.update_or_create(course=course, name=lec_names[0])[0]
                 Section.objects.update_or_create(lecture=new_lec, name='No Section')
             else:
+                # pop off the first name, the rest is section names
                 new_lec = Lecture.objects.update_or_create(course=course, name=lec_names.pop(0))[0]
                 for sect_name in lec_names:     # for each section
                     Section.objects.update_or_create(lecture=new_lec, name=sect_name)
-
-        # get sections
 
 
 def get_course_info(subject, driver, wait):
     # go to result page
     driver.get("https://sa.ucla.edu/ro/public/soc")
     input_box = wait.until(EC.presence_of_element_located((By.ID, 'select_filter_subject')))
+
     ActionChains(driver).move_to_element(input_box).click(input_box).perform()
     time.sleep(2)
     ActionChains(driver).send_keys(subject.name).perform()
     time.sleep(2)
-    item_in_dropdown = driver.find_element_by_class_name('ui-menu-item')
-    ActionChains(driver).move_to_element(item_in_dropdown).click(item_in_dropdown).perform()
+    first_item_in_dropdown = driver.find_element_by_class_name('ui-menu-item')
+    ActionChains(driver).move_to_element(first_item_in_dropdown).click(first_item_in_dropdown).perform()
     time.sleep(1)
-    driver.save_screenshot('before_button_press.png')
 
     try:
         go_button = wait.until(EC.element_to_be_clickable((By.ID, 'btn_go')))
@@ -99,11 +96,9 @@ class Command(BaseCommand):
         op.add_argument("--no-sandbox")  # required by heroku
         op.add_argument("--disable-dev-sh-usage")
 
-        driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),\
-        						  chrome_options=op) # on cloud
+        driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op)  # on cloud
         # driver = webdriver.Chrome(chrome_options=op) # on local
         driver.set_window_size(1920, 1000)
-        action = ActionChains(driver)
         wait = WebDriverWait(driver, 10, poll_frequency=1)
 
         # # get subjects
@@ -131,7 +126,6 @@ class Command(BaseCommand):
                 should_start = True
                 get_course_info(subject, driver, wait)
 
-            if i == 0-1:
+            if i == -1:
                 break
         time.sleep(4)
-        # Subject.objects.create(subject=driver.title)
