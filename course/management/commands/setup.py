@@ -104,7 +104,7 @@ class Command(BaseCommand):
         # driver = webdriver.Chrome(chrome_options=op) # on local
         driver.set_window_size(1920, 1000)
         action = ActionChains(driver)
-        wait = WebDriverWait(driver, 10.1, poll_frequency=1)
+        wait = WebDriverWait(driver, 10, poll_frequency=1)
 
         # get subjects
         driver.get("https://sa.ucla.edu/ro/public/soc")

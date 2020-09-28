@@ -74,7 +74,7 @@ def check_section(cur_section, driver, wait):
 								'\n')[0]:
 					emails_to_send = cur_section.email_set.all()
 					for email in emails_to_send:
-						# send_reminder(email.__str__(), cur_section.__str__())
+						send_reminder(email.__str__(), cur_section.__str__())
 						email.section.remove(cur_section)
 						print(cur_section)
 						print(email)
@@ -93,7 +93,7 @@ def check_section(cur_section, driver, wait):
 									'\n')[0]:
 							emails_to_send = cur_section.email_set.all()
 							for email in emails_to_send:
-								# send_reminder(email.name, cur_section.__str__())
+								send_reminder(email.name, cur_section.__str__())
 								email.section.remove(cur_section)
 								print(cur_section)
 								print(email)
