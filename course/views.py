@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 
 from .forms import SectionForm
-from .models import Email, Course, Subject, Lecture, Section
+from .models import Email, Course, Lecture, Section
 from django.views.generic.list import ListView
 
 
@@ -33,19 +33,15 @@ def course_add_view(request):
 		# form.fields['lecture'].choices = [(lecture, lecture)]
 		# form.fields['section'].choices = [(section, section)]
 		if form.is_valid():
-			print(request.POST)
 			email = request.POST.get('email')
 			section_id = request.POST.get('section')
-			print(section_id)
+			when_to_remind = request.POST.get('when_to_remind_me')
 			email_query = Email.objects.filter(name=email)
 			if email_query.count():
 				user = Email.objects.filter(name=email)[0]
 			else:
 				user = Email.objects.create(name=email)
-			print(user)
 			user.section.add(Section.objects.get(id=section_id))
-			user.save()
-			print(user.section.all())
 			form = SectionForm()
 
 	context = {

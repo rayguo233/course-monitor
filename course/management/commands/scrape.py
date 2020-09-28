@@ -64,8 +64,9 @@ def check_section(cur_section, driver, wait):
 				'a').text:
 			if cur_section.name == 'No Section':
 				print(cur_section.__str__() + ' found.')
-				if 'Open' == lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p')\
-						.text.partition('\n')[0]:
+				section_status = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p')\
+						.text.partition('\n')[0]
+				if section_status == 'Open' or 'Waitlist':
 					emails_to_send = cur_section.email_set.all()
 					for email in emails_to_send:
 						send_reminder(email.__str__(), cur_section.__str__())
@@ -81,10 +82,9 @@ def check_section(cur_section, driver, wait):
 					if cur_section.name == sect_div.find_element_by_class_name('sectionColumn').find_element_by_tag_name(
 							'a').text:
 						print(cur_section.__str__() + ' found.')
-						if 'Open' == \
-								sect_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
-									'p').text.partition(
-									'\n')[0]:
+						section_status = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
+							'p').text.partition('\n')[0]
+						if section_status == 'Open' or 'Waitlist':
 							emails_to_send = cur_section.email_set.all()
 							for email in emails_to_send:
 								send_reminder(email.name, cur_section.__str__())
