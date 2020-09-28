@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
-START_SUB = 'Aerospace Studies (AERO ST)'
+START_SUB = 'Global Studies (GLBL ST)'
 
 
 def process_results_table(table, subject, wait):
@@ -106,21 +106,21 @@ class Command(BaseCommand):
         action = ActionChains(driver)
         wait = WebDriverWait(driver, 10, poll_frequency=1)
 
-        # get subjects
-        driver.get("https://sa.ucla.edu/ro/public/soc")
-        time.sleep(3)
-        input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
-        action.move_to_element(input_box).click(input_box).perform()
-        time.sleep(1)
-        ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
-        subjects = ul.find_elements_by_tag_name("li")
-        for subject in subjects:
-            print(subject.text)
-            Subject.objects.update_or_create(name=subject.text)
+        # # get subjects
+        # driver.get("https://sa.ucla.edu/ro/public/soc")
+        # time.sleep(3)
+        # input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
+        # action.move_to_element(input_box).click(input_box).perform()
+        # time.sleep(1)
+        # ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
+        # subjects = ul.find_elements_by_tag_name("li")
+        # for subject in subjects:
+        #     print(subject.text)
+        #     Subject.objects.update_or_create(name=subject.text)
 
         # get courses
         subjects = Subject.objects.all()
-        should_start = True
+        should_start = False
         for i, subject in enumerate(subjects):
             print('##########################################################')
             print(subject.name)
