@@ -3,7 +3,7 @@ from django.db import models
 
 
 class Subject(models.Model):
-	name = models.CharField(max_length=50)
+	name = models.CharField(max_length=70)
 
 	def __str__(self):
 		return self.name  # this is what shows up in the admin page otherwise it would be "subject(1)"
