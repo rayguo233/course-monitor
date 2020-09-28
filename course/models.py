@@ -12,7 +12,7 @@ class Subject(models.Model):
 class Course(models.Model):
 	subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
 	abbrev = models.CharField(max_length=30)
-	title = models.CharField(max_length=100)
+	title = models.CharField(max_length=200)
 
 	def __str__(self):
 		return self.title
