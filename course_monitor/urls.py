@@ -19,12 +19,13 @@ from pages.views import home_view
 from course.views import *
 
 urlpatterns = [
-    path('', home_view, name='home'),
-    path('ray/', admin.site.urls), # admin view
-    path('course/detail/', course_detail_view), # see all courses
+    # path('', home_view, name='home'),
+    path('', course_add_view, name='course_add'),
+    path('ray/', admin.site.urls),  # admin view
+    path('course/detail/', course_detail_view),  # see all courses
 
     # add tracking course
-    path('email/', EmailListView.as_view(), name='email_list'),
+    path('emmmail/', EmailListView.as_view(), name='email_list'),
     path('add/', course_add_view, name='course_add'),
     path('load-courses/', ajax_load_courses, name='ajax_load_courses'),
     path('load-lectures/', ajax_load_lectures, name='ajax_load_lectures'),
