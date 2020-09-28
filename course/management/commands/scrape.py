@@ -10,7 +10,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.common.exceptions import NoSuchElementException
 
 
 def send_reminder(email, section):
@@ -100,23 +100,6 @@ class Command(BaseCommand):
 
 	# define logic of command
 	def handle(self, *args, **options):
-		# op = webdriver.ChromeOptions()
-		# op.add_argument("--headless")  # set headless chrome
-		# op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-		# op.add_argument("--no-sandbox")  # required by heroku
-		# op.add_argument("--disable-dev-sh-usage")
-
-		# driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),\
-		# 						  chrome_options=op) # on cloud
-		# driver = webdriver.Chrome() # on local
-		# driver.get("https://sa.ucla.edu/ro/public/soc")
-		# time.sleep(5)
-		# driver.find_element_by_xpath('//*[@id="select_filter_subject"]').click()
-		# time.sleep(4)
-		# ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
-		# subjects = ul.find_elements_by_tag_name("li")
-		# for subject in subjects:
-		# 	Subject.objects.create(subject=subject.text)
 		emails = Email.objects.all()
 		print(emails)
 		sections = Section.objects.none()
@@ -162,8 +145,3 @@ class Command(BaseCommand):
 					ActionChains(driver).move_to_element(search_btn).click(search_btn).perform()
 					time.sleep(2)
 					check_section(cur_section, driver, wait)
-
-
-			# print(Email.objects.all()[0].section.all()[0].email_set.all())
-
-			# Subject.objects.create(subject=driver.title)

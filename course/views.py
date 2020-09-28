@@ -3,7 +3,6 @@ from django.shortcuts import render, redirect, get_object_or_404
 
 from .forms import SectionForm
 from .models import Email, Course, Subject, Lecture, Section
-from django.views import generic
 from django.views.generic.list import ListView
 
 
