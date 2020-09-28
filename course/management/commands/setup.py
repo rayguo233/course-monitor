@@ -120,7 +120,7 @@ class Command(BaseCommand):
 
         # get courses
         subjects = Subject.objects.all()
-        should_start = False
+        should_start = True
         for i, subject in enumerate(subjects):
             print('##########################################################')
             print(subject.name)
