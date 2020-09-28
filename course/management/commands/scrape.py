@@ -3,10 +3,9 @@ from selenium import webdriver
 import os
 import time
 # local
-from course.models import Course, Subject, Lecture, Section, Email
+from course.models import Section, Email
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -24,12 +23,8 @@ def send_reminder(email, section):
 					 <p>Add the class to your email again on the website if you wish to keep receiving reminder \
 					 for this class</p>')
 	try:
-		# context = ssl._create_unverified_context()
 		sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
-		response = sg.send(message)
-	# print(response.status_code)
-	# print(response.body)
-	# print(response.headers)
+		sg.send(message)
 	except Exception as e:
 		print(e.message)
 
@@ -69,9 +64,8 @@ def check_section(cur_section, driver, wait):
 				'a').text:
 			if cur_section.name == 'No Section':
 				print(cur_section.__str__() + ' found.')
-				if 'Open' == \
-						lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p').text.partition(
-								'\n')[0]:
+				if 'Open' == lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p')\
+						.text.partition('\n')[0]:
 					emails_to_send = cur_section.email_set.all()
 					for email in emails_to_send:
 						send_reminder(email.__str__(), cur_section.__str__())
