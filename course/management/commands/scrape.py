@@ -66,6 +66,7 @@ def check_section(cur_section, driver, wait):
 				print(cur_section.__str__() + ' found.')
 				section_status = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p')\
 						.text.partition('\n')[0]
+				cur_section.status = '(' + section_status + ')'
 				if section_status == 'Open' or 'Waitlist':
 					emails_to_send = cur_section.email_set.all()
 					for email in emails_to_send:
@@ -85,6 +86,7 @@ def check_section(cur_section, driver, wait):
 						print(cur_section.__str__() + ' found.')
 						section_status = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
 							'p').text.partition('\n')[0]
+						cur_section.status = '(' + section_status + ')'
 						if section_status == 'Open' or 'Waitlist':
 							emails_to_send = cur_section.email_set.all()
 							for email in emails_to_send:

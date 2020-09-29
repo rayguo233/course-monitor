@@ -114,7 +114,7 @@ class Command(BaseCommand):
             Subject.objects.update_or_create(name=subject.text)
 
         # get courses
-        subjects = Subject.objects.all()
+        subjects = Subject.objects.order_by('name')
         should_start = True
         for i, subject in enumerate(subjects):
             print('##########################################################')

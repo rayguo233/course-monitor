@@ -35,9 +35,10 @@ class Lecture(BaseModel):
 class Section(BaseModel):
 	lecture = models.ForeignKey(Lecture, on_delete=models.CASCADE)
 	name = models.CharField(max_length=15)
+	status = models.CharField(max_length=15, default='')
 
 	def __str__(self):
-		return self.lecture.__str__() + ' ' + self.name
+		return self.lecture.__str__() + ' ' + self.name + ' ' + self.status
 
 
 class Email(BaseModel):

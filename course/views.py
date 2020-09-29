@@ -22,20 +22,15 @@ def course_detail_view(request):
 def course_add_view(request):
 	form = SectionForm()
 	if request.method == 'POST':
-		# subject = request.POST.get('subject')
-		# course = request.POST.get('course')
-		# lecture = request.POST.get('lecture')
-		# section = request.POST.get('section')
 		form = SectionForm(request.POST, request=request)
-		# form.fields['subject'].choices = [(subject, subject)]
-		# print(form.fields['course'].choices)
-		# form.fields['course'].choices = [(course, course)]
-		# form.fields['lecture'].choices = [(lecture, lecture)]
-		# form.fields['section'].choices = [(section, section)]
 		if form.is_valid():
 			email = request.POST.get('email')
 			section_id = request.POST.get('section')
 			only_remind_when_open = request.POST.get('only_remind_when_open')
+			if only_remind_when_open is None:
+				only_remind_when_open = False
+			else:
+				only_remind_when_open = True
 			email_query = Email.objects.filter(name=email)
 			if email_query.count():
 				user = Email.objects.filter(name=email)[0]
