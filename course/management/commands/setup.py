@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
-START_SUB = 'Psychology (PSYCH)'
+START_SUB = 'Music (MUSC)'
 
 
 def process_results_table(table, subject, wait):

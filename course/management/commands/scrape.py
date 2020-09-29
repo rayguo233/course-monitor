@@ -67,14 +67,16 @@ def check_section(cur_section, driver, wait):
 				section_status = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p')\
 						.text.partition('\n')[0]
 				cur_section.status = '(' + section_status + ')'
-				if section_status == 'Open' or 'Waitlist':
+				cur_section.save(update_fields=['status'])
+				print(cur_section)
+				if section_status == 'Open' or section_status == 'Waitlist':
 					emails_to_send = cur_section.email_set.all()
 					for email in emails_to_send:
 						send_reminder(email.__str__(), cur_section.__str__())
+						print(WhenToRemind.objects.get(email=email, section=cur_section))
 						email.section.remove(cur_section)
 						print(cur_section)
 						print(email)
-						print(WhenToRemind.objects.get(email=email, section=cur_section))
 						pass
 			else:
 				# find section
@@ -87,7 +89,8 @@ def check_section(cur_section, driver, wait):
 						section_status = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
 							'p').text.partition('\n')[0]
 						cur_section.status = '(' + section_status + ')'
-						if section_status == 'Open' or 'Waitlist':
+						print(cur_section)
+						if section_status == 'Open' or section_status == 'Waitlist':
 							emails_to_send = cur_section.email_set.all()
 							for email in emails_to_send:
 								send_reminder(email.name, cur_section.__str__())
@@ -96,6 +99,7 @@ def check_section(cur_section, driver, wait):
 								print(email)
 						break
 			break
+	print(cur_section)
 
 
 class Command(BaseCommand):
@@ -127,8 +131,7 @@ class Command(BaseCommand):
 			op.add_argument("--no-sandbox")  # required by heroku
 			op.add_argument("--disable-dev-sh-usage")
 
-			driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),\
-									  chrome_options=op) # on cloud
+			driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
 			# driver = webdriver.Chrome(chrome_options=op)  # on local
 			driver.set_window_size(1920, 1000)
 			wait = WebDriverWait(driver, 10, poll_frequency=1)

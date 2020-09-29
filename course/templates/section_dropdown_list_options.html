@@ -2,5 +2,5 @@
           Select a Section
 </option>
 {% for section in sections %}
-    <option value="{{ section.pk }}">{{ section }}</option>
+    <option value="{{ section.pk }}">{{ section }} {{ section.status }}</option>
 {% endfor %}
