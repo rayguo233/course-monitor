@@ -35,13 +35,14 @@ def course_add_view(request):
 		if form.is_valid():
 			email = request.POST.get('email')
 			section_id = request.POST.get('section')
-			when_to_remind = request.POST.get('when_to_remind_me')
+			only_remind_when_open = request.POST.get('only_remind_when_open')
 			email_query = Email.objects.filter(name=email)
 			if email_query.count():
 				user = Email.objects.filter(name=email)[0]
 			else:
 				user = Email.objects.create(name=email)
-			user.section.add(Section.objects.get(id=section_id))
+			user.section.add(Section.objects.get(id=section_id),
+							 through_defaults={'only_remind_when_open': only_remind_when_open})
 			form = SectionForm()
 
 	context = {
