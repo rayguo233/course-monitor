@@ -11,7 +11,8 @@ class SectionForm(forms.Form):
     lecture = forms.ModelChoiceField(queryset=Lecture.objects.all())
     section = forms.ModelChoiceField(queryset=Section.objects.all())
     only_remind_when_open = forms.BooleanField(label='Only remind me when it is "Open" '
-                                                     '(i.e. don\'t remind me when it is "Waitlist").')
+                                                     '(i.e. don\'t remind me when it is "Waitlist").',
+                                               required=False)
 
     def __init__(self, *args, **kwargs):
         course_list = Course.objects.none()
