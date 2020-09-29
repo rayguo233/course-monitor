@@ -3,7 +3,7 @@
 {% for email in object_list %}
     <h3>{{ email.name }}</h3>
     {% for section in email.section.all %}
-    <li>{{ section }} {{ section.status }}</li>
+    <li>{{ section }}</li>
     {% endfor %}
 {% empty %}
     <li>No section yet.</li>
