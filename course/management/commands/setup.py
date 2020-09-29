@@ -101,17 +101,17 @@ class Command(BaseCommand):
         driver.set_window_size(1920, 1000)
         wait = WebDriverWait(driver, 10, poll_frequency=1)
 
-        # # get subjects
-        # driver.get("https://sa.ucla.edu/ro/public/soc")
-        # time.sleep(3)
-        # input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
-        # action.move_to_element(input_box).click(input_box).perform()
-        # time.sleep(1)
-        # ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
-        # subjects = ul.find_elements_by_tag_name("li")
-        # for subject in subjects:
-        #     print(subject.text)
-        #     Subject.objects.update_or_create(name=subject.text)
+        # get subjects
+        driver.get("https://sa.ucla.edu/ro/public/soc")
+        time.sleep(3)
+        input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
+        ActionChains(driver).move_to_element(input_box).click(input_box).perform()
+        time.sleep(1)
+        ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
+        subjects = ul.find_elements_by_tag_name("li")
+        for subject in subjects:
+            print(subject.text)
+            Subject.objects.update_or_create(name=subject.text)
 
         # get courses
         subjects = Subject.objects.all()
