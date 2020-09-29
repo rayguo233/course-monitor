@@ -42,8 +42,13 @@ class Section(BaseModel):
 
 class Email(BaseModel):
 	name = models.CharField(max_length=40)
-	section = models.ManyToManyField(Section, blank=True)
+	section = models.ManyToManyField(Section, blank=True, through='WhenToRemind')
 
 	def __str__(self):
 		return self.name
 
+
+class WhenToRemind(BaseModel):
+	email = models.ForeignKey(Email, on_delete=models.CASCADE)
+	section = models.ForeignKey(Section, on_delete=models.CASCADE)
+	only_remind_when_open = models.BooleanField()

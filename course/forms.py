@@ -5,27 +5,13 @@ from django_select2.forms import ModelSelect2Widget as MS2W
 
 
 class SectionForm(forms.Form):
-    # subject_list = [(i + 1, sub.name) for i, sub in enumerate(Subject.objects.all())]
-    # course_list = ((i + 1, c.title) for i, c in enumerate(Course.objects.all()))
-    # lecture_list = ((i + 1, lec.name) for i, lec in enumerate(Lecture.objects.all()))
-    # section_list = ((i + 1, sect.name) for i, sect in enumerate(Section.objects.all()))
     email = forms.CharField()
-    # subject = forms.ChoiceField(choices=[subject_list])
-    # course = forms.CharField(widget=forms.ModelChoiceField(queryset=Course.objects.none()))
-    # lecture = forms.CharField(widget=forms.ModelChoiceField(queryset=Lecture.objects.none()))
-    # section = forms.CharField(widget=forms.ModelChoiceField(queryset=Section.objects.none()))
     subject = forms.ModelChoiceField(queryset=Subject.objects.all().order_by('name'))
     course = forms.ModelChoiceField(queryset=Course.objects.all())
     lecture = forms.ModelChoiceField(queryset=Lecture.objects.all())
     section = forms.ModelChoiceField(queryset=Section.objects.all())
-
-    # subject = forms.ChoiceField(choices=subject_list)
-    # course = forms.ChoiceField(choices=course_list)
-    # lecture = forms.ChoiceField(choices=lecture_list)
-    # section = forms.ChoiceField(choices=section_list)
-
-    # class Meta:
-    #      fields = ('name', 'section')
+    only_remind_when_open = forms.BooleanField(label='Only remind me when it is "Open" '
+                                                     '(i.e. don\'t remind me when it is "Waitlist").')
 
     def __init__(self, *args, **kwargs):
         course_list = Course.objects.none()

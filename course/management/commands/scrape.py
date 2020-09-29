@@ -3,7 +3,7 @@ from selenium import webdriver
 import os
 import time
 # local
-from course.models import Section, Email
+from course.models import Section, Email, WhenToRemind
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 from selenium.webdriver import ActionChains
@@ -73,6 +73,7 @@ def check_section(cur_section, driver, wait):
 						email.section.remove(cur_section)
 						print(cur_section)
 						print(email)
+						print(WhenToRemind.objects.get(email=email, section=cur_section))
 						pass
 			else:
 				# find section
@@ -128,7 +129,6 @@ class Command(BaseCommand):
 									  chrome_options=op) # on cloud
 			# driver = webdriver.Chrome(chrome_options=op)  # on local
 			driver.set_window_size(1920, 1000)
-			action = ActionChains(driver)
 			wait = WebDriverWait(driver, 10, poll_frequency=1)
 
 			print('Checking ' + sections[0].__str__())
