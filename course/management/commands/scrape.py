@@ -72,12 +72,13 @@ def check_section(cur_section, driver, wait):
 				if section_status == 'Open' or section_status == 'Waitlist':
 					emails_to_send = cur_section.email_set.all()
 					for email in emails_to_send:
-						send_reminder(email.__str__(), cur_section.__str__())
-						print(WhenToRemind.objects.get(email=email, section=cur_section))
-						email.section.remove(cur_section)
-						print(cur_section)
-						print(email)
-						pass
+						if WhenToRemind.objects.get(section=cur_section, email=email).only_remind_when_open:
+							if section_status == 'Open':
+								send_reminder(email.__str__(), cur_section.__str__())
+								email.section.remove(cur_section)
+						else:
+							send_reminder(email.__str__(), cur_section.__str__())
+							email.section.remove(cur_section)
 			else:
 				# find section
 				sect_divs = lec_div.find_elements_by_class_name(
@@ -85,18 +86,19 @@ def check_section(cur_section, driver, wait):
 				for sect_div in sect_divs:
 					if cur_section.name == sect_div.find_element_by_class_name('sectionColumn').find_element_by_tag_name(
 							'a').text:
-						print(cur_section.__str__() + ' found.')
-						section_status = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
+						section_status = sect_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
 							'p').text.partition('\n')[0]
 						cur_section.status = '(' + section_status + ')'
-						print(cur_section)
 						if section_status == 'Open' or section_status == 'Waitlist':
 							emails_to_send = cur_section.email_set.all()
 							for email in emails_to_send:
-								send_reminder(email.name, cur_section.__str__())
-								email.section.remove(cur_section)
-								print(cur_section)
-								print(email)
+								if WhenToRemind.objects.get(section=cur_section, email=email).only_remind_when_open:
+									if section_status == 'Open':
+										send_reminder(email.__str__(), cur_section.__str__())
+										email.section.remove(cur_section)
+								else:
+									send_reminder(email.__str__(), cur_section.__str__())
+									email.section.remove(cur_section)
 						break
 			break
 	print(cur_section)
@@ -108,16 +110,10 @@ class Command(BaseCommand):
 	# define logic of command
 	def handle(self, *args, **options):
 		emails = Email.objects.all()
-		print(emails)
 		sections = Section.objects.none()
 		for email in emails:
-			print(email.name)
-			print(email.section.all())
 			email_by_filter = Email.objects.filter(name=email.name)[0]
-			print(email_by_filter.section.all())
 			sections |= email_by_filter.section.all()
-			print(sections)
-		print(sections)
 		sections = sections.distinct()
 		if len(sections) == 0:
 			print('0 sections to search.')

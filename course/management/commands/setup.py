@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
-START_SUB = 'Music (MUSC)'
+START_SUB = 'Classics (CLASSIC)'
 
 
 def process_results_table(table, subject, wait):
@@ -115,7 +115,7 @@ class Command(BaseCommand):
 
         # get courses
         subjects = Subject.objects.order_by('name')
-        should_start = False
+        should_start = True
         for i, subject in enumerate(subjects):
             print('##########################################################')
             print(subject.name)

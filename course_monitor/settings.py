@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'course_monitor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
+        'NAME': 'testing',
         'USER': 'rayguo',
         'PASSWORD': os.environ.get('RDS_PASSWORD'),
         # 'PASSWORD': '0THOFRPsKCCA8EhTwa2D',
