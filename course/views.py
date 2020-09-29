@@ -2,7 +2,7 @@ from django.http import JsonResponse
 from django.shortcuts import render, redirect, get_object_or_404
 
 from .forms import SectionForm
-from .models import Email, Course, Lecture, Section
+from .models import Email, Course, Lecture, Section, WhenToRemind
 from django.views.generic.list import ListView
 
 
@@ -24,20 +24,22 @@ def course_add_view(request):
 	if request.method == 'POST':
 		form = SectionForm(request.POST, request=request)
 		if form.is_valid():
-			email = request.POST.get('email')
+			email_address = request.POST.get('email')
 			section_id = request.POST.get('section')
 			only_remind_when_open = request.POST.get('only_remind_when_open')
 			if only_remind_when_open is None:
 				only_remind_when_open = False
 			else:
 				only_remind_when_open = True
-			email_query = Email.objects.filter(name=email)
+			email_query = Email.objects.filter(name=email_address)
 			if email_query.count():
-				user = Email.objects.filter(name=email)[0]
+				email = Email.objects.filter(name=email_address)[0]
 			else:
-				user = Email.objects.create(name=email)
-			user.section.add(Section.objects.get(id=section_id),
-							 through_defaults={'only_remind_when_open': only_remind_when_open})
+				email = Email.objects.create(name=email_address)
+			section = Section.objects.get(id=section_id)
+			email.section.add(section)
+			WhenToRemind.objects.update_or_create(email=email, section=section,
+												  defaults={"only_remind_when_open": only_remind_when_open})
 			form = SectionForm()
 
 	context = {

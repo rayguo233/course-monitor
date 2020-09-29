@@ -52,4 +52,4 @@ class Email(BaseModel):
 class WhenToRemind(BaseModel):
 	email = models.ForeignKey(Email, on_delete=models.CASCADE)
 	section = models.ForeignKey(Section, on_delete=models.CASCADE)
-	only_remind_when_open = models.BooleanField()
+	only_remind_when_open = models.BooleanField(null=True)
