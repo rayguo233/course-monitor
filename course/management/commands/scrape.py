@@ -40,9 +40,9 @@ def check_section(cur_section, driver, wait):
 	time.sleep(1)
 	go_button = wait.until(EC.element_to_be_clickable((By.ID, 'btn_go')))
 	ActionChains(driver).move_to_element(go_button).click(go_button).perform()
-	expand_btn = wait.until(EC.element_to_be_clickable((By.ID, 'expandAll')))
-	ActionChains(driver).move_to_element(expand_btn).click(expand_btn).perform()
-	time.sleep(7)
+	# expand_btn = wait.until(EC.element_to_be_clickable((By.ID, 'expandAll')))
+	# ActionChains(driver).move_to_element(expand_btn).click(expand_btn).perform()
+	time.sleep(3)
 	while True:
 		try:
 			cur_course_div = driver.find_element_by_id(cur_section.lecture.course.abbrev)
@@ -51,11 +51,16 @@ def check_section(cur_section, driver, wait):
 			next_btn = driver.find_element_by_class_name('jPag-snext-img')
 			ActionChains(driver).move_to_element(next_btn).click(next_btn).perform()
 			time.sleep(3)
-			expand_btn = wait.until(EC.element_to_be_clickable((By.ID, 'expandAll')))
-			ActionChains(driver).move_to_element(expand_btn).click(expand_btn).perform()
-			time.sleep(7)
+			# expand_btn = wait.until(EC.element_to_be_clickable((By.ID, 'expandAll')))
+			# ActionChains(driver).move_to_element(expand_btn).click(expand_btn).perform()
+			# time.sleep(7)
 		else:
 			break
+	time.sleep(3)
+	course_link = cur_course_div.find_element_by_class_name('head').find_element_by_tag_name('a')
+	course_link.location_once_scrolled_into_view
+	course_link.click()
+	time.sleep(3)
 	lec_divs = cur_course_div.find_elements_by_class_name(
 		'row-fluid.data_row.primary-row.class-info.class-not-checked')
 	cur_lecture = cur_section.lecture
@@ -80,6 +85,10 @@ def check_section(cur_section, driver, wait):
 							send_reminder(email.__str__(), cur_section.__str__())
 							email.section.remove(cur_section)
 			else:
+				# expand sections
+				expand_sect_link = lec_div.find_element_by_class_name('toggle')
+				ActionChains(driver).move_to_element(expand_sect_link).click(expand_sect_link).perform()
+				time.sleep(3)
 				# find section
 				sect_divs = lec_div.find_elements_by_class_name(
 					'row-fluid.data_row.secondary-row.class-info.class-not-checked')
@@ -112,8 +121,7 @@ class Command(BaseCommand):
 		emails = Email.objects.all()
 		sections = Section.objects.none()
 		for email in emails:
-			email_by_filter = Email.objects.filter(name=email.name)[0]
-			sections |= email_by_filter.section.all()
+			sections |= email.section.all()
 		sections = sections.distinct()
 		if len(sections) == 0:
 			print('0 sections to search.')
