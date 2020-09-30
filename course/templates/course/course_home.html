@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dependent Dropdown in Django</title>
+</head>
+<body>
+<h2>Fall 2020</h2>
+
+<form method="post" id="emailForm" data-courses-url="{% url 'ajax_load_courses' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit">
+</form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    $("#id_subject").change(function () {
+        const url = $("#emailForm").attr("data-courses-url");  // get the url of the `load_courses` view
+        const subjectId = $(this).val();  // get the selected subject ID from the HTML input
+
+        $.ajax({                       // initialize an AJAX request
+            url: url,                    // set the url of the request (= /emails/ajax/load-courses/ )
+            data: {
+                'subject_id': subjectId       // add the subject id to the GET parameters
+            },
+            success: function (data) {   // `data` is the return of the `load_courses` view function
+                $("#id_course").html(data);  // replace the contents of the course input with the data that came from the server
+                /*
+
+                let html_data = '<option value="">---------</option>';
+                data.forEach(function (course) {
+                    html_data += `<option value="${course.id}">${course.name}</option>`
+                });
+                console.log(html_data);
+                $("#id_course").html(html_data);
+
+                */
+            }
+        });
+
+    });
+</script>
+
+</body>
+</html>
+
+{% endblock %}
