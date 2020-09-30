@@ -95,6 +95,10 @@ def check_section(cur_section, driver, wait):
 				for sect_div in sect_divs:
 					if cur_section.name == sect_div.find_element_by_class_name('sectionColumn').find_element_by_tag_name(
 							'a').text:
+						print(sect_div.find_element_by_class_name('statusColumn').get_attribute('innerHTML'))
+						print('#####################################')
+						print(sect_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
+							'p').get_attribute('innerHTML'))
 						section_status = sect_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
 							'p').text.partition('\n')[0]
 						cur_section.status = '(' + section_status + ')'
