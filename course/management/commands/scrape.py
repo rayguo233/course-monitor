@@ -130,13 +130,13 @@ class Command(BaseCommand):
 
 			# search
 			op = webdriver.ChromeOptions()
-			op.add_argument("--headless")  # set headless chrome
-			op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-			op.add_argument("--no-sandbox")  # required by heroku
-			op.add_argument("--disable-dev-sh-usage")
-
-			driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
-			# driver = webdriver.Chrome(chrome_options=op)  # on local
+			# op.add_argument("--headless")  # set headless chrome
+			# op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+			# op.add_argument("--no-sandbox")  # required by heroku
+			# op.add_argument("--disable-dev-sh-usage")
+			#
+			# driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
+			driver = webdriver.Chrome(chrome_options=op)  # on local
 			driver.set_window_size(1920, 1000)
 			wait = WebDriverWait(driver, 10, poll_frequency=1)
 
