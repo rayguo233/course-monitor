@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'course_monitor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'testing',
+        'NAME': 'postgres',
         'USER': 'rayguo',
-        # 'PASSWORD': os.environ.get('RDS_PASSWORD'),
-        'PASSWORD': '0THOFRPsKCCA8EhTwa2D',
+        'PASSWORD': os.environ.get('RDS_PASSWORD'),
+#         'PASSWORD': '0THOFRPsKCCA8EhTwa2D',
         'HOST': 'database-1.craubu8txy5u.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
