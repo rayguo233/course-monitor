@@ -13,6 +13,11 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 
+def clear_status_info(section):
+	section.status = ''
+	section.num_spots_taken = ''
+
+
 def send_reminder(email, section):
 	message = Mail(
 		from_email='siruiguo@outlook.com',
@@ -83,11 +88,11 @@ def check_section(cur_section, driver, wait):
 							if section_status == 'Open':
 								send_reminder(email.__str__(), cur_section.__str__())
 								email.section.remove(cur_section)
+								clear_status_info(cur_section)
 						else:
 							send_reminder(email.__str__(), cur_section.__str__())
 							email.section.remove(cur_section)
-					cur_section.status = ''
-					cur_section.num_spots_taken = ''
+							clear_status_info(cur_section)
 			else:
 				# expand sections
 				expand_sect_link = lec_div.find_element_by_class_name('toggle')
@@ -114,11 +119,11 @@ def check_section(cur_section, driver, wait):
 									if section_status == 'Open':
 										send_reminder(email.__str__(), cur_section.__str__())
 										email.section.remove(cur_section)
+										clear_status_info(cur_section)
 								else:
 									send_reminder(email.__str__(), cur_section.__str__())
 									email.section.remove(cur_section)
-							cur_section.status = ''
-							cur_section.num_spots_taken = ''
+									clear_status_info(cur_section)
 						break
 			break
 	cur_section.save()
