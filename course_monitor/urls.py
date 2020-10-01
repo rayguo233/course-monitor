@@ -22,7 +22,6 @@ from .views import home_view
 
 urlpatterns = [
     path('', home_view, name='home'),
-    path('ray/', admin.site.urls),  # admin view
     path('course/detail/', course_detail_view),  # see all courses
     path('register/', user_register_view, name='register'),
     path('profile/', user_profile_view, name='profile'),
