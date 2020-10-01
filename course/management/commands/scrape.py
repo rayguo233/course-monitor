@@ -75,7 +75,6 @@ def check_section(cur_section, driver, wait):
 				cur_section.status = '(' + section_status + ')'
 				num_spots_taken = section_info[2] if len(section_info) >= 2 else ''
 				cur_section.num_spots_taken = num_spots_taken
-				cur_section.save()
 				print(str(cur_section) + ': ' + cur_section.num_spots_taken)
 				if section_status == 'Open' or section_status == 'Waitlist':
 					emails_to_send = cur_section.email_set.all()
@@ -87,6 +86,8 @@ def check_section(cur_section, driver, wait):
 						else:
 							send_reminder(email.__str__(), cur_section.__str__())
 							email.section.remove(cur_section)
+					cur_section.status = ''
+					cur_section.num_spots_taken = ''
 			else:
 				# expand sections
 				expand_sect_link = lec_div.find_element_by_class_name('toggle')
@@ -116,8 +117,11 @@ def check_section(cur_section, driver, wait):
 								else:
 									send_reminder(email.__str__(), cur_section.__str__())
 									email.section.remove(cur_section)
+							cur_section.status = ''
+							cur_section.num_spots_taken = ''
 						break
 			break
+	cur_section.save()
 	print(cur_section)
 
 
