@@ -5,10 +5,23 @@
 </head>
 <body>
 	<h1>Welcome</h1>
-	{% block content %}
-	replace me
-
-	{% endblock %}
+	<div class="navbar-nav">
+		{% if user.is_authenticated %}
+			<a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+			<a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+		{% else %}
+			<a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+			<a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+		{% endif %}
+	</div>
+	{% if messages %}
+		{% for message in messages %}
+		 <div class="alert alert-{{ message.tags }}">
+			 {{ message }}
+		 </div>
+		{% endfor %}
+	{% endif %}
+	{% block content %}replace me{% endblock %}
 	</body>
 
 </html>
