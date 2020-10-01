@@ -1,13 +1,13 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, HttpResponse
+from django.contrib.admin.views.decorators import staff_member_required
 from .forms import SectionForm
 from .models import Email, Course, Lecture, Section, WhenToRemind
-from django.views.generic.list import ListView
 
 
-class EmailListView(ListView):
-	template_name = 'course/email_list.html'
-	queryset = Email.objects.all()
+@staff_member_required(login_url='login')
+def email_list_view(request):
+	emails = Email.objects.all()
+	return render(request, "course/email_list.html", {'emails': emails})
 
 
 def course_detail_view(request):

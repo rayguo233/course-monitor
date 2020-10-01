@@ -69,11 +69,14 @@ def check_section(cur_section, driver, wait):
 				'a').text:
 			if cur_section.name == 'No Section':
 				print(cur_section.__str__() + ' found.')
-				section_status = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name('p')\
-						.text.partition('\n')[0]
+				section_info = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
+					'p').text.partition('\n')
+				section_status = section_info[0]
 				cur_section.status = '(' + section_status + ')'
-				cur_section.save(update_fields=['status'])
-				print(cur_section)
+				num_spots_taken = section_info[2] if len(section_info) >= 2 else ''
+				cur_section.num_spots_taken = num_spots_taken
+				cur_section.save()
+				print(str(cur_section) + ': ' + cur_section.num_spots_taken)
 				if section_status == 'Open' or section_status == 'Waitlist':
 					emails_to_send = cur_section.email_set.all()
 					for email in emails_to_send:
@@ -95,9 +98,14 @@ def check_section(cur_section, driver, wait):
 				for sect_div in sect_divs:
 					if cur_section.name == sect_div.find_element_by_class_name('sectionColumn').find_element_by_tag_name(
 							'a').text:
-						section_status = sect_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
-							'p').text.partition('\n')[0]
+						section_info = sect_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
+							'p').text.partition('\n')
+						section_status = section_info[0]
 						cur_section.status = '(' + section_status + ')'
+						num_spots_taken = section_info[2] if len(section_info) >= 2 else ''
+						cur_section.num_spots_taken = num_spots_taken
+						print(str(cur_section) + ': ' + cur_section.num_spots_taken)
+						cur_section.save()
 						if section_status == 'Open' or section_status == 'Waitlist':
 							emails_to_send = cur_section.email_set.all()
 							for email in emails_to_send:
@@ -140,7 +148,7 @@ class Command(BaseCommand):
 			driver.set_window_size(1920, 1000)
 			wait = WebDriverWait(driver, 10, poll_frequency=1)
 
-			print('Checking ' + sections[0].__str__())
+			print('Checking ' + sections[0].__str__() + sections[0].num_spots_taken)
 			cur_section = sections[0]
 			driver.get("https://sa.ucla.edu/ro/public/soc")
 			check_section(cur_section, driver, wait)
