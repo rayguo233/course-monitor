@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '%i41@2r2!zh0-s^atux7!+g^gdd77p&qtmriioa8_%(a504u)^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['course-monitor.herokuapp.com', '127.0.0.1']
 
@@ -84,7 +84,6 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'rayguo',
         'PASSWORD': os.environ.get('RDS_PASSWORD'),
-#         'PASSWORD': '0THOFRPsKCCA8EhTwa2D',
         'HOST': 'database-1.craubu8txy5u.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
