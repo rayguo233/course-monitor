@@ -4,6 +4,8 @@
     {% for section in sections %}
         <li>{{ section }}</li>
     {% empty %}
-        <li>No section yet.</li>
+        <li>No class tracked yet.</li>
+        <br><br>
+        <a href="{% url 'course_add' %}">Track a Class Now</a>
     {% endfor %}
 {% endblock %}
