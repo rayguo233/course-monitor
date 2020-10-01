@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '%i41@2r2!zh0-s^atux7!+g^gdd77p&qtmriioa8_%(a504u)^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['course-monitor.herokuapp.com', '127.0.0.1']
 
@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     # own
     'course',
     'pages',
-    'django_select2',
+    'user',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -78,14 +79,20 @@ WSGI_APPLICATION = 'course_monitor.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'postgres',
+#         'USER': 'rayguo',
+#         'PASSWORD': os.environ.get('RDS_PASSWORD'),
+#         'HOST': 'database-1.craubu8txy5u.us-east-2.rds.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'rayguo',
-        'PASSWORD': os.environ.get('RDS_PASSWORD'),
-        'HOST': 'database-1.craubu8txy5u.us-east-2.rds.amazonaws.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 # import dj_database_url
@@ -131,6 +138,12 @@ USE_TZ = True
 
 STATIC_ROOT = BASE_DIR.joinpath('staticfiles') # added to work on heroku
 STATIC_URL = '/static/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'course_add'
+
+LOGIN_URL = 'login'
 
 # Activate Django-Heroku.
 # django_heroku.settings(locals())
