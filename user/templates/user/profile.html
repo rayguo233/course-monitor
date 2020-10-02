@@ -2,7 +2,7 @@
 {% load crispy_forms_tags %}
 {% block content %}
     {% for section in sections %}
-        <li>{{ section }}</li>
+        <li>{{ section }}: {{ section.num_spots_taken }}</li>
     {% empty %}
         <li>No class tracked yet.</li>
         <br><br>
