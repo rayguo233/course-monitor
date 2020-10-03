@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     # own
     'course',
     'pages',
-    'django_select2',
+    'user',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -128,6 +129,12 @@ USE_TZ = True
 
 STATIC_ROOT = BASE_DIR.joinpath('staticfiles') # added to work on heroku
 STATIC_URL = '/static/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'course_add'
+
+LOGIN_URL = 'login'
 
 # Activate Django-Heroku.
 # django_heroku.settings(locals())

@@ -5,7 +5,7 @@ from django_select2.forms import ModelSelect2Widget as MS2W
 
 
 class SectionForm(forms.Form):
-    email = forms.CharField()
+    email = forms.EmailField()
     subject = forms.ModelChoiceField(queryset=Subject.objects.all().order_by('name'))
     course = forms.ModelChoiceField(queryset=Course.objects.all())
     lecture = forms.ModelChoiceField(queryset=Lecture.objects.all())
@@ -14,7 +14,7 @@ class SectionForm(forms.Form):
                                                      '(i.e. don\'t remind me when it is "Waitlist").',
                                                required=False)
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, email_address='', *args, **kwargs):
         course_list = Course.objects.none()
         lecture_list = Lecture.objects.none()
         section_list = Section.objects.none()
@@ -37,6 +37,9 @@ class SectionForm(forms.Form):
         self.fields['course'].queryset = course_list
         self.fields['lecture'].queryset = lecture_list
         self.fields['section'].queryset = section_list
+        self.fields['email'] = forms.EmailField(initial=email_address)
+        if email_address != '':
+            self.fields['email'].widget.attrs['readonly'] = True
 
     # # the following is needed to hide courses before subjects are selected
     # def __init__(self, *args, **kwargs):
