@@ -1,11 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
 <h1>Emails</h1>
 <ul>
-{% for email in object_list %}
+{% for email in emails %}
     <h3>{{ email.name }}</h3>
     {% for section in email.section.all %}
-    <li>{{ section }}</li>
+    <li>{{ section }}: {{ section.num_spots_taken }}</li>
     {% endfor %}
 {% empty %}
     <li>No section yet.</li>
 {% endfor %}
 </ul>
+{% endblock %}

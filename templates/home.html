@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Your Two Options</h1>
+<ul>
+    <li>
+        (RECOMMENDED) Quickly track a class with your email and receive an
+        <br>
+        email reminder when the class(es) is available.
+        <br><br>
+        <a href="{% url 'course_add' %}">Track a Class Now</a>
+    </li>
+    <br><br>
+    <li>
+        (FOR FUN) Create an account to check course status anytime on your
+        <br>
+        profile page (In addition to tracking classes and receiving reminders).
+        <br><br>
+        <a href="{% url 'register' %}">Sign Up</a>
+    </li>
+</ul>
+{% endblock %}

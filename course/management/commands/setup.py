@@ -95,23 +95,23 @@ class Command(BaseCommand):
         op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
         op.add_argument("--no-sandbox")  # required by heroku
         op.add_argument("--disable-dev-sh-usage")
-
+        
         driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op)  # on cloud
-        # driver = webdriver.Chrome(chrome_options=op) # on local
+#         driver = webdriver.Chrome(chrome_options=op) # on local
         driver.set_window_size(1920, 1000)
         wait = WebDriverWait(driver, 10, poll_frequency=1)
 
-        # # get subjects
-        # driver.get("https://sa.ucla.edu/ro/public/soc")
-        # time.sleep(3)
-        # input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
-        # ActionChains(driver).move_to_element(input_box).click(input_box).perform()
-        # time.sleep(1)
-        # ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
-        # subjects = ul.find_elements_by_tag_name("li")
-        # for subject in subjects:
-        #     print(subject.text)
-        #     Subject.objects.update_or_create(name=subject.text)
+        # get subjects
+        driver.get("https://sa.ucla.edu/ro/public/soc")
+        time.sleep(3)
+        input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
+        ActionChains(driver).move_to_element(input_box).click(input_box).perform()
+        time.sleep(1)
+        ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
+        subjects = ul.find_elements_by_tag_name("li")
+        for subject in subjects:
+            print(subject.text)
+            Subject.objects.update_or_create(name=subject.text)
 
         # get courses
         subjects = Subject.objects.order_by('name')
