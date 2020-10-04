@@ -1,7 +1,7 @@
 from django import forms
 
 from course.models import Email, Course, Subject, Lecture, Section
-from django_select2.forms import ModelSelect2Widget as MS2W
+from django.core.exceptions import ObjectDoesNotExist
 
 
 class SectionForm(forms.Form):
@@ -41,16 +41,23 @@ class SectionForm(forms.Form):
         if email_address != '':
             self.fields['email'].widget.attrs['readonly'] = True
 
-    # # the following is needed to hide courses before subjects are selected
-    # def __init__(self, *args, **kwargs):
-    #     super().__init__(*args, **kwargs) # calling ModelForm's init
-    #     self.fields['course'].queryset = Course.objects.none()
-    #
-    #     if 'subject' in self.data:
-    #         try:
-    #             subject_id = int(self.data.get('subject'))
-    #             self.fields['course'].queryset = Course.objects.filter(subject_id=subject_id).order_by('abbrev')
-    #         except (ValueError, TypeError):
-    #             pass  # invalid input from the client; ignore and fallback to empty course queryset
-    #     elif self.instance.pk:
-    #         self.fields['course'].queryset = self.instance.subject.course_set.order_by('abbrev')
+
+class SectionUntrackForm(forms.Form):
+    email = forms.EmailField()
+    section = forms.ModelChoiceField(queryset=Section.objects.all())
+
+    def __init__(self, email_address='', *args, **kwargs):
+        if email_address != '':
+            try:
+                user = Email.objects.get(name=email_address)
+            except ObjectDoesNotExist:
+                section_list = Section.objects.none()
+            else:
+                section_list = user.section.all()
+        else:
+            section_list = Section.objects.none()
+        super().__init__(*args, **kwargs)
+        self.fields['section'].queryset = section_list
+        if email_address != '':
+            self.fields['email'] = forms.EmailField(initial=email_address)
+            self.fields['email'].widget.attrs['readonly'] = True

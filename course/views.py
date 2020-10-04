@@ -1,7 +1,8 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 from django.contrib.admin.views.decorators import staff_member_required
-from .forms import SectionForm
+from .forms import SectionForm, SectionUntrackForm
 from .models import Email, Course, Lecture, Section, WhenToRemind
+from django.core.exceptions import ObjectDoesNotExist
 
 
 @staff_member_required(login_url='login')
@@ -51,6 +52,25 @@ def course_add_view(request):
 	return render(request, 'course/course_add.html', context)
 
 
+def course_untrack_view(request):
+	if request.user.is_authenticated:
+		email_address = request.user.email
+	else:
+		email_address = ''
+	form = SectionUntrackForm(email_address=email_address)
+	if request.method == 'POST':
+		form = SectionUntrackForm(email_address, request.POST)
+		if form.is_valid():
+			email_address = request.POST.get('name')
+			email = Email.objects.get(name=email_address)
+			section_id = request.POST.get('section')
+			section = Section.objects.get(id=section_id)
+			email.section.remove(section)
+			form = SectionUntrackForm(email_address=email_address)
+
+	return render(request, 'course/course_untrack.html', {'form': form})
+
+
 def ajax_load_courses(request):
 	subject_id = request.GET.get('subject_pk')
 	courses = Course.objects.filter(subject_id=subject_id).order_by('abbrev')
@@ -69,5 +89,12 @@ def ajax_load_sections(request):
 	return render(request, 'course/section_dropdown_list_options.html', {'sections': sections})
 
 
-def course_untrack_view(request):
-	pass
+def ajax_untrack_sections(request):
+	email = request.GET.get('email')
+	try:
+		user = Email.objects.get(name=email)
+	except ObjectDoesNotExist:
+		sections = Section.objects.none()
+	else:
+		sections = user.section.all()
+	return render(request, 'course/section_dropdown_list_options.html', {'sections': sections})

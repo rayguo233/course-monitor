@@ -37,5 +37,5 @@ urlpatterns = [
 
     # untrack a course
     path('untrack/', course_untrack_view, name='course_untrack'),
-
+    path('untrack-sections/', ajax_untrack_sections, name='ajax_untrack_sections'),
 ]
