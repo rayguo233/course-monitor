@@ -8,6 +8,7 @@
 	<div class="navbar-nav">
 		<a class="nav-item nav-link" href="{% url 'home' %}">Home</a>&emsp;
 		<a class="nav-item nav-link" href="{% url 'course_add' %}">Track a Class</a>&emsp;
+		<a class="nav-item nav-link" href="{% url 'course_untrack' %}">Untrack a Class</a>&emsp;
 		{% if user.is_authenticated %}
 			<a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>&emsp;
 			<a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
