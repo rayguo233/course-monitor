@@ -68,3 +68,6 @@ def ajax_load_sections(request):
 	sections = Section.objects.filter(lecture_id=lecture_id).order_by('name')
 	return render(request, 'course/section_dropdown_list_options.html', {'sections': sections})
 
+
+def course_untrack_view(request):
+	pass
