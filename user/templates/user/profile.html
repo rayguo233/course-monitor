@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+    {% for section in sections %}
+        <li>{{ section }}: {{ section.num_spots_taken }}</li>
+    {% empty %}
+        <li>No class tracked yet.</li>
+        <br><br>
+        <a href="{% url 'course_add' %}">Track a Class Now</a>
+    {% endfor %}
+    <br><br>
+    If you don't see the status of the class you just added, allow
+    <br>
+    about 10 minutes for the backend to update the status in the
+    <br>
+    next web scraping cycle.
+{% endblock %}

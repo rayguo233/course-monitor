@@ -1,13 +1,13 @@
-from django.shortcuts import render
-
+from django.shortcuts import render, HttpResponse
+from django.contrib.admin.views.decorators import staff_member_required
 from .forms import SectionForm
 from .models import Email, Course, Lecture, Section, WhenToRemind
-from django.views.generic.list import ListView
 
 
-class EmailListView(ListView):
-	template_name = 'course/email_list.html'
-	queryset = Email.objects.all()
+@staff_member_required(login_url='login')
+def email_list_view(request):
+	emails = Email.objects.all()
+	return render(request, "course/email_list.html", {'emails': emails})
 
 
 def course_detail_view(request):
@@ -19,9 +19,13 @@ def course_detail_view(request):
 
 
 def course_add_view(request):
-	form = SectionForm()
+	if request.user.is_authenticated:
+		email_address = request.user.email
+	else:
+		email_address =''
+	form = SectionForm(email_address=email_address)
 	if request.method == 'POST':
-		form = SectionForm(request.POST, request=request)
+		form = SectionForm(email_address, request.POST, request=request)
 		if form.is_valid():
 			email_address = request.POST.get('email')
 			section_id = request.POST.get('section')
@@ -39,7 +43,7 @@ def course_add_view(request):
 			email.section.add(section)
 			WhenToRemind.objects.update_or_create(email=email, section=section,
 												  defaults={"only_remind_when_open": only_remind_when_open})
-			form = SectionForm()
+			form = SectionForm(email_address=email_address)
 
 	context = {
 		'form': form
