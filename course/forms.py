@@ -26,7 +26,6 @@ class SectionForm(forms.Form):
             subject_id = request.POST.get('subject')
             course_id = request.POST.get('course')
             lecture_id = request.POST.get('lecture')
-            # section_id = request.POST.get('section')
             if subject_id != 'None':
                 course_list = Course.objects.filter(subject=subject_id)
                 if course_id != 'None':
@@ -46,7 +45,7 @@ class SectionUntrackForm(forms.Form):
     email = forms.EmailField()
     section = forms.ModelChoiceField(queryset=Section.objects.all())
 
-    def __init__(self, email_address='', *args, **kwargs):
+    def __init__(self, is_logged_in, email_address='', *args, **kwargs):
         if email_address != '':
             try:
                 user = Email.objects.get(name=email_address)
@@ -60,4 +59,5 @@ class SectionUntrackForm(forms.Form):
         self.fields['section'].queryset = section_list
         if email_address != '':
             self.fields['email'] = forms.EmailField(initial=email_address)
+        if is_logged_in:
             self.fields['email'].widget.attrs['readonly'] = True
