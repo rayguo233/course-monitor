@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Untrack a Class</h2>
+<br>
+<form method="post" id="untrackSectionForm" data-sections-url="{% url 'ajax_untrack_sections' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Submit" class="form-control btn btn-primary">
+</form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $("#id_email").change(function () {
+            var url = $("#untrackSectionForm").attr("data-sections-url");
+            var email = $(this).val();
+
+            $.ajax({                // initialize an AJAX request
+                url: url,           // set the url of the request
+                data: {
+                    'email': email    // add the subject id to the GET parameter
+                },
+                success: function (data) {  // `data` is the return of the `ajax_load_courses` view function
+                    $("#id_section").html(data);   // replace the contents of the course input with the data that came from the server
+                }
+            });
+        });
+    </script>
+
+{% endblock %}

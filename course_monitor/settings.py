@@ -10,8 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-from pathlib import Path # os is probably used in older version of django
-import django_heroku
+from pathlib import Path  # os is probably used in older version of django
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -89,6 +88,12 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': 'mydatabase',
+#     }
+# }
 
 
 # Password validation
@@ -135,6 +140,3 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'course_add'
 
 LOGIN_URL = 'login'
-
-# Activate Django-Heroku.
-# django_heroku.settings(locals())
