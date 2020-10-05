@@ -53,20 +53,23 @@ def course_add_view(request):
 
 
 def course_untrack_view(request):
-	if request.user.is_authenticated:
+	is_logged_in = request.user.is_authenticated
+	if is_logged_in:
 		email_address = request.user.email
 	else:
 		email_address = ''
-	form = SectionUntrackForm(email_address=email_address)
+	form = SectionUntrackForm(email_address=email_address, is_logged_in=is_logged_in)
 	if request.method == 'POST':
-		form = SectionUntrackForm(email_address, request.POST)
+		email_address = request.POST.get('email')
+		form = SectionUntrackForm(is_logged_in, email_address, request.POST)
 		if form.is_valid():
-			email_address = request.POST.get('name')
 			email = Email.objects.get(name=email_address)
 			section_id = request.POST.get('section')
 			section = Section.objects.get(id=section_id)
 			email.section.remove(section)
-			form = SectionUntrackForm(email_address=email_address)
+			form = SectionUntrackForm(email_address=email_address, is_logged_in=is_logged_in)
+		else:
+			form = SectionUntrackForm(is_logged_in, email_address, request.POST)
 
 	return render(request, 'course/course_untrack.html', {'form': form})
 
