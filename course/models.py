@@ -24,7 +24,7 @@ class Course(BaseModel):
 		return self.title
 
 	class Meta:
-		ordering = ['abbrev']
+		ordering = ['title']
 
 
 class Lecture(BaseModel):
@@ -46,6 +46,9 @@ class Section(BaseModel):
 
 	def __str__(self):
 		return self.lecture.__str__() + ' ' + self.name + ' ' + self.status
+
+	class Meta:
+		ordering = ['lecture', 'name']
 
 
 class Email(BaseModel):
