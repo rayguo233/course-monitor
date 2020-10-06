@@ -5,7 +5,7 @@
 <ul>
 {% for email in emails %}
     <h3>{{ email.name }}</h3>
-    {% for section in email.section.all %}
+    {% for section in email.section.all.order_by %}
     <li>{{ section }}: {{ section.num_spots_taken }}</li>
     {% endfor %}
 {% empty %}
