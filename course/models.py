@@ -23,6 +23,9 @@ class Course(BaseModel):
 	def __str__(self):
 		return self.title
 
+	class Meta:
+		ordering = ['abbrev']
+
 
 class Lecture(BaseModel):
 	course = models.ForeignKey(Course, on_delete=models.CASCADE)
@@ -30,6 +33,9 @@ class Lecture(BaseModel):
 
 	def __str__(self):
 		return self.course.__getattribute__('abbrev') + ' ' + self.name
+
+	class Meta:
+		ordering = ['course', 'name']
 
 
 class Section(BaseModel):
