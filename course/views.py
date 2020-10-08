@@ -12,7 +12,7 @@ def email_list_view(request):
 
 
 def course_detail_view(request):
-	c = Course.objects.all()
+	c = Course.objects.all().order_by()
 	context = {
 		'courses': c
 	}
