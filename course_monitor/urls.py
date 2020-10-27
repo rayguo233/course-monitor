@@ -15,27 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
-from django.urls import path
+from django.urls import path, include
 from course.views import *
 from user.views import *
 from .views import home_view
 
 urlpatterns = [
     path('', home_view, name='home'),
-    path('course/detail/', course_detail_view),  # see all courses
     path('register/', user_register_view, name='register'),
     path('profile/', user_profile_view, name='profile'),
     path('login/', auth_views.LoginView.as_view(template_name='user/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='user/logout.html'), name='logout'),
     path('emmmail/', email_list_view, name='email_list'),
 
-    # add tracking course
-    path('add/', course_add_view, name='course_add'),
-    path('load-courses/', ajax_load_courses, name='ajax_load_courses'),
-    path('load-lectures/', ajax_load_lectures, name='ajax_load_lectures'),
-    path('load-sections/', ajax_load_sections, name='ajax_load_sections'),
-
-    # untrack a course
-    path('untrack/', course_untrack_view, name='course_untrack'),
-    path('untrack-sections/', ajax_untrack_sections, name='ajax_untrack_sections'),
+    path('course/', include('course.urls')),
 ]

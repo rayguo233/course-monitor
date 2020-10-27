@@ -25,7 +25,7 @@ def send_email(email):
 
 
 class Command(BaseCommand):
-	help = "collect courses"
+	help = "send emails"
 
 	# define logic of command
 	def handle(self, *args, **options):

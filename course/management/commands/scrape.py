@@ -163,7 +163,7 @@ def check_section(sections, driver, wait):
 
 
 class Command(BaseCommand):
-	help = "collect courses"
+	help = "scrape courses"
 
 	# define logic of command
 	def handle(self, *args, **options):
