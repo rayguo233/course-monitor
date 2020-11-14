@@ -10,11 +10,13 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         op = webdriver.ChromeOptions()
         op.add_argument("--headless")
-        try:    # see if the script is being run on cloud or local
+        # see if the script is being run on cloud or local
+        if os.environ.get("GOOGLE_CHROME_BIN") is None:
+            # on local
+            driver = webdriver.Chrome(chrome_options=op) 
+        else:
+            # on cloud
             op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-        except: # on local
-            driver = webdriver.Chrome(chrome_options=op) # on local
-        else:   # on cloud
             op.add_argument("--no-sand box")  # required by heroku
             op.add_argument("--disable-dev-sh-usage")            
             driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),
