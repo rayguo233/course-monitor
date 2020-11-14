@@ -9,15 +9,17 @@ class Command(BaseCommand):
     # define logic of command
     def handle(self, *args, **options):
         op = webdriver.ChromeOptions()
-        op.add_argument("--headless")  # set headless chrome
-        # op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-        # op.add_argument("--no-sandbox")  # required by heroku
-        # op.add_argument("--disable-dev-sh-usage")
-        
-        # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op)  # on cloud
-        driver = webdriver.Chrome(chrome_options=op) # on local
-
-        for i in range(3):
-            driver.get("https://course-monitor.herokuapp.com/")
-            print("Pin the website the " + str(i+1) + " time.")
-            time.sleep(1020) # 17 minutes
+        op.add_argument("--headless")
+        try:    # see if the script is being run on cloud or local
+            op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+        except: # on local
+            driver = webdriver.Chrome(chrome_options=op) # on local
+        else:   # on cloud
+            op.add_argument("--no-sand box")  # required by heroku
+            op.add_argument("--disable-dev-sh-usage")            
+            driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),
+                                        chrome_options=op)
+        driver.get("https://course-monitor.herokuapp.com/")
+        print("Pin the website.")
+        time.sleep(1800) # 30 minutes
+        print("Finished pinning.")
