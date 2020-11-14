@@ -1,0 +1,7 @@
+select {
+    font-family: Arial;
+}
+h1 {
+    display: inline;
+    color: red;
+}

@@ -29,7 +29,7 @@ def course_add_view(request):
 		form = SectionForm(email_address, request.POST, request=request)
 		if form.is_valid():
 			email_address = request.POST.get('email')
-			section_id = request.POST.get('section')
+			section_ids = request.POST.getlist('section')
 			only_remind_when_open = request.POST.get('only_remind_when_open')
 			if only_remind_when_open is None:
 				only_remind_when_open = False
@@ -40,10 +40,11 @@ def course_add_view(request):
 				email = Email.objects.filter(name=email_address)[0]
 			else:
 				email = Email.objects.create(name=email_address)
-			section = Section.objects.get(id=section_id)
-			email.section.add(section)
-			WhenToRemind.objects.update_or_create(email=email, section=section,
-												  defaults={"only_remind_when_open": only_remind_when_open})
+			for section_id in section_ids:
+				section = Section.objects.get(id=section_id)
+				email.section.add(section)
+				WhenToRemind.objects.update_or_create(email=email, section=section,
+													defaults={"only_remind_when_open": only_remind_when_open})
 			form = SectionForm(email_address=email_address)
 
 	context = {
@@ -64,9 +65,10 @@ def course_untrack_view(request):
 		form = SectionUntrackForm(is_logged_in, email_address, request.POST)
 		if form.is_valid():
 			email = Email.objects.get(name=email_address)
-			section_id = request.POST.get('section')
-			section = Section.objects.get(id=section_id)
-			email.section.remove(section)
+			section_ids = request.POST.getlist('section')
+			for section_id in section_ids:
+				section = Section.objects.get(id=section_id)
+				email.section.remove(section)
 			form = SectionUntrackForm(email_address=email_address, is_logged_in=is_logged_in)
 		else:
 			form = SectionUntrackForm(is_logged_in, email_address, request.POST)

@@ -9,7 +9,7 @@ class SectionForm(forms.Form):
     subject = forms.ModelChoiceField(queryset=Subject.objects.all().order_by('name'))
     course = forms.ModelChoiceField(queryset=Course.objects.all())
     lecture = forms.ModelChoiceField(queryset=Lecture.objects.all())
-    section = forms.ModelChoiceField(queryset=Section.objects.all())
+    section = forms.ModelMultipleChoiceField(queryset=Section.objects.all())
     only_remind_when_open = forms.BooleanField(label='Only remind me when it is "Open" '
                                                      '(i.e. don\'t remind me when it is "Waitlist").',
                                                required=False)
@@ -43,7 +43,7 @@ class SectionForm(forms.Form):
 
 class SectionUntrackForm(forms.Form):
     email = forms.EmailField()
-    section = forms.ModelChoiceField(queryset=Section.objects.all())
+    section = forms.ModelMultipleChoiceField(queryset=Section.objects.all())
 
     def __init__(self, is_logged_in, email_address='', *args, **kwargs):
         if email_address != '':
