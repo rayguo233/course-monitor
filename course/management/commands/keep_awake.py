@@ -8,6 +8,10 @@ class Command(BaseCommand):
 
     # define logic of command
     def handle(self, *args, **options):
+        cur_time = time.localtime()
+        if (cur_time.tm_min > 37):
+            return
+
         op = webdriver.ChromeOptions()
         op.add_argument("--headless")
         # see if the script is being run on cloud or local
@@ -29,5 +33,5 @@ class Command(BaseCommand):
 
         driver.get("https://course-monitor.herokuapp.com/")
         print("Pin the website.")
-        time.sleep(1800) # 30 minutes
+        time.sleep(90) # 1.5 minutes
         print("Finished pinning.")
