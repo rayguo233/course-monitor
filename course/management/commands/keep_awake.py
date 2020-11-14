@@ -21,8 +21,7 @@ class Command(BaseCommand):
             op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
             op.add_argument("--no-sand box")  # required by heroku
             op.add_argument("--disable-dev-sh-usage")            
-            driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"),
-                                        chrome_options=op)
+            driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op)
         driver.get("https://course-monitor.herokuapp.com/")
         print("Pin the website.")
         time.sleep(1800) # 30 minutes
