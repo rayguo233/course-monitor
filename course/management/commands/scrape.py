@@ -12,11 +12,18 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
+def keep_awake(driver):
+	# only pin the website if it's before 37 minutes into the hour
+	if (time.localtime() > 37):
+		return
+	driver.get("https://course-monitor.herokuapp.com/")
+	print("Pin the website.")
+	time.sleep(90) # wait for 1.5 minutes
+	print("Finished pinning.")
 
 def clear_status_info(section):
 	section.status = ''
 	section.num_spots_taken = ''
-
 
 def send_reminder(email, section):
 	message = Mail(
@@ -174,6 +181,25 @@ class Command(BaseCommand):
 			sections |= email.section.all()
 		sections = sections.distinct()
 
+		# prepare driver
+		op = webdriver.ChromeOptions()
+		op.add_argument("--headless")
+		# see if the script is being run on cloud or local
+		if os.environ.get("GOOGLE_CHROME_BIN") is None:
+			# if on local
+			print('Go local.')
+			driver = webdriver.Chrome(chrome_options=op) 
+		else:
+			# if on cloud
+			print('Go cloud.')
+			op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+			op.add_argument("--no-sandbox")  # required by heroku
+			op.add_argument("--disable-dev-sh-usage")        
+			driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
+
+		# pin the website to keep it from idling
+		keep_awake(driver)
+
 		# check the sections
 		if len(sections) == 0:
 			print('0 sections to search.')
@@ -181,15 +207,14 @@ class Command(BaseCommand):
 			print(str(len(sections)) + ' sections to search.')
 
 			# search
-			op = webdriver.ChromeOptions()
-			op.add_argument("--headless")  # set headless chrome
-			op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-			op.add_argument("--no-sandbox")  # required by heroku
-			op.add_argument("--disable-dev-sh-usage")
+			# op = webdriver.ChromeOptions()
+			# op.add_argument("--headless")  # set headless chrome
+			# op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+			# op.add_argument("--no-sandbox")  # required by heroku
+			# op.add_argument("--disable-dev-sh-usage")
 			
-			driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
-			# driver = webdriver.Chrome(chrome_options=op)  # on local
+			# driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
+			# # driver = webdriver.Chrome(chrome_options=op)  # on local
 			driver.set_window_size(1920, 1000)
 			wait = WebDriverWait(driver, 10, poll_frequency=1)
-
 			check_section(sections, driver, wait)
