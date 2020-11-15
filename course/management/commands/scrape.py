@@ -14,7 +14,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 def keep_awake(driver):
 	# only pin the website if it's before 37 minutes into the hour
-	if (time.localtime() > 37):
+	if (time.localtime().tm_min > 37):
 		return
 	driver.get("https://course-monitor.herokuapp.com/")
 	print("Pin the website.")
