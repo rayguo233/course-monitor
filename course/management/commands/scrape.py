@@ -13,7 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 def keep_awake(driver):
-	return
+	# return
 	# only pin the website if it's before 37 minutes into the hour
 	if (time.localtime().tm_min > 37):
 		return
@@ -132,16 +132,17 @@ def check_section(sections, driver, wait):
 						# else multiple sections for this lecture
 						else:
 							# expand sections
-							driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") # scroll to the bottom of the page; this is to make sure
-																									 # the expand link will be in range to be clickable
+							# driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") # scroll to the bottom of the page; this is to make sure
+							# 																		 # the expand link will be in range to be clickable
 																									 
-							time.sleep(2)
-							ActionChains(driver).move_to_element(lec_div).perform()
+							# time.sleep(2)
+							driver.execute_script("arguments[0].scrollIntoView();", lec_div.find_element_by_class_name('sectionColumn'))
+							time.sleep(1)
 							expand_sect_link = lec_div.find_element_by_class_name('toggle')
-							print(expand_sect_link.get_attribute('innerHTML'))
-							ActionChains(driver).move_to_element(expand_sect_link).perform()
-							time.sleep(3)
-							ActionChains(driver).click(expand_sect_link).perform()
+							# print(expand_sect_link.get_attribute('innerHTML'))
+							ActionChains(driver).move_to_element(expand_sect_link).click(expand_sect_link).perform()
+							# time.sleep(3)
+							# ActionChains(driver).perform()
 							time.sleep(3)
 							cur_sections = [section for section in sections if section.lecture == cur_lecture]
 							# find section
@@ -174,7 +175,7 @@ def check_section(sections, driver, wait):
 													email.section.remove(cur_section)
 													clear_status_info(cur_section)
 							# close the expansion
-							ActionChains(driver).move_to_element(expand_sect_link).perform()
+							ActionChains(driver).move_to_element(lec_div.find_element_by_class_name('sectionColumn')).perform()
 							time.sleep(3)
 							ActionChains(driver).click(expand_sect_link).perform()
 							time.sleep(3)
