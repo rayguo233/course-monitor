@@ -13,6 +13,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 def keep_awake(driver):
+	return
 	# only pin the website if it's before 37 minutes into the hour
 	if (time.localtime().tm_min > 37):
 		return
@@ -103,6 +104,7 @@ def check_section(sections, driver, wait):
 						cur_sections = [section for section in sections if section.lecture == cur_lecture]
 						# print(lec_div.get_attribute('innerHTML'))
 						print(cur_sections)
+						# if no sections for this lecture
 						if cur_sections[0].name == 'No Section':
 							cur_section = cur_sections[0]
 							section_info = lec_div.find_element_by_class_name('statusColumn').find_element_by_tag_name(
@@ -127,11 +129,19 @@ def check_section(sections, driver, wait):
 										send_reminder(email.__str__(), cur_section.__str__())
 										email.section.remove(cur_section)
 										clear_status_info(cur_section)
+						# else multiple sections for this lecture
 						else:
 							# expand sections
+							driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") # scroll to the bottom of the page; this is to make sure
+																									 # the expand link will be in range to be clickable
+																									 
+							time.sleep(2)
+							ActionChains(driver).move_to_element(lec_div).perform()
 							expand_sect_link = lec_div.find_element_by_class_name('toggle')
 							print(expand_sect_link.get_attribute('innerHTML'))
-							ActionChains(driver).move_to_element(expand_sect_link).click(expand_sect_link).perform()
+							ActionChains(driver).move_to_element(expand_sect_link).perform()
+							time.sleep(3)
+							ActionChains(driver).click(expand_sect_link).perform()
 							time.sleep(3)
 							cur_sections = [section for section in sections if section.lecture == cur_lecture]
 							# find section
@@ -163,8 +173,11 @@ def check_section(sections, driver, wait):
 													send_reminder(email.__str__(), cur_section.__str__())
 													email.section.remove(cur_section)
 													clear_status_info(cur_section)
-							ActionChains(driver).move_to_element(expand_sect_link).click(expand_sect_link).perform()
-							time.sleep(2)
+							# close the expansion
+							ActionChains(driver).move_to_element(expand_sect_link).perform()
+							time.sleep(3)
+							ActionChains(driver).click(expand_sect_link).perform()
+							time.sleep(3)
 
 		search_btn = wait.until(EC.element_to_be_clickable((By.ID, 'btn_start_search')))
 		ActionChains(driver).move_to_element(search_btn).click(search_btn).perform()
