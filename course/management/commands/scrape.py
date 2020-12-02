@@ -101,6 +101,7 @@ def check_section(sections, driver, wait):
 				for lec_div in lec_divs:
 					if cur_lecture.name == lec_div.find_element_by_class_name('sectionColumn').find_element_by_tag_name('a').text:
 						cur_sections = [section for section in sections if section.lecture == cur_lecture]
+						# print(lec_div.get_attribute('innerHTML'))
 						print(cur_sections)
 						if cur_sections[0].name == 'No Section':
 							cur_section = cur_sections[0]
@@ -129,6 +130,7 @@ def check_section(sections, driver, wait):
 						else:
 							# expand sections
 							expand_sect_link = lec_div.find_element_by_class_name('toggle')
+							print(expand_sect_link.get_attribute('innerHTML'))
 							ActionChains(driver).move_to_element(expand_sect_link).click(expand_sect_link).perform()
 							time.sleep(3)
 							cur_sections = [section for section in sections if section.lecture == cur_lecture]
