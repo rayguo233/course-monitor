@@ -1,8 +1,8 @@
-from django.core.management.base import BaseCommand
-from selenium import webdriver
 import os
 import time
-# local
+from django.core.management.base import BaseCommand
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from course.models import Subject, Course, Lecture, Section, Email, WhenToRemind
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
@@ -13,7 +13,6 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 def keep_awake(driver):
-	# return
 	# only pin the website if it's before 37 minutes into the hour
 	if (time.localtime().tm_min > 37):
 		return
@@ -21,6 +20,12 @@ def keep_awake(driver):
 	print("Pin the website.")
 	time.sleep(90) # wait for 1.5 minutes
 	print("Finished pinning.")
+
+# returns True if the minute of local time is 0*, 2*, 4*, ..., etc
+def should_i_scrape():
+	if (int((time.localtime().tm_min/10) % 2) == 0):
+		return True
+	return False
 
 def clear_status_info(section):
 	section.status = ''
@@ -188,15 +193,10 @@ def check_section(sections, driver, wait):
 class Command(BaseCommand):
 	help = "scrape courses"
 
+
+
 	# define logic of command
 	def handle(self, *args, **options):
-		# get all sections needed to check
-		emails = Email.objects.all()
-		sections = Section.objects.none()
-		for email in emails:
-			sections |= email.section.all()
-		sections = sections.distinct()
-
 		# prepare driver
 		op = webdriver.ChromeOptions()
 		op.add_argument("--headless")
@@ -204,7 +204,7 @@ class Command(BaseCommand):
 		if os.environ.get("GOOGLE_CHROME_BIN") is None:
 			# if on local
 			print('Go local.')
-			driver = webdriver.Chrome(chrome_options=op) 
+			driver = webdriver.Chrome(ChromeDriverManager().install()) 
 		else:
 			# if on cloud
 			print('Go cloud.')
@@ -215,6 +215,20 @@ class Command(BaseCommand):
 
 		# pin the website to keep it from idling
 		keep_awake(driver)
+		
+		# see if it's time to scrape
+		if (not should_i_scrape()):
+			print("Not time to scrape")
+			return
+		print("Time to scrape")
+
+		# get all sections needed to check
+		emails = Email.objects.all()
+		sections = Section.objects.none()
+		for email in emails:
+			sections |= email.section.all()
+		sections = sections.distinct()
+
 
 		# check the sections
 		if len(sections) == 0:
