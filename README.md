@@ -1,5 +1,3 @@
-# course-monitor
-
 ## Description  
 Track classes for UCLA students and send emails when there are spots available.  
 
