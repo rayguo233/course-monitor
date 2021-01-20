@@ -215,6 +215,8 @@ class Command(BaseCommand):
 
 		# pin the website to keep it from idling
 		keep_awake(driver)
+
+		return
 		
 		# see if it's time to scrape
 		if (not should_i_scrape()):
