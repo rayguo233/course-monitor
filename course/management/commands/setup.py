@@ -93,14 +93,30 @@ class Command(BaseCommand):
 
     # define logic of command
     def handle(self, *args, **options):
-        op = webdriver.ChromeOptions()
-        op.add_argument("--headless")  # set headless chrome
-        # op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-        # op.add_argument("--no-sandbox")  # required by heroku
-        # op.add_argument("--disable-dev-sh-usage")
+        # prepare driver
+		op = webdriver.ChromeOptions()
+		op.add_argument("--headless")
+		# see if the script is being run on cloud or local
+		if os.environ.get("GOOGLE_CHROME_BIN") is None:
+			# if on local
+			print('Go local.')
+			driver = webdriver.Chrome(ChromeDriverManager().install()) 
+		else:
+			# if on cloud
+			print('Go cloud.')
+			op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+			op.add_argument("--no-sandbox")  # required by heroku
+			op.add_argument("--disable-dev-sh-usage")        
+			driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
+
+        # op = webdriver.ChromeOptions()
+        # op.add_argument("--headless")  # set headless chrome
+        # # op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+        # # op.add_argument("--no-sandbox")  # required by heroku
+        # # op.add_argument("--disable-dev-sh-usage")
         
-        # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op)  # on cloud
-        driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=op)  # on local
+        # # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op)  # on cloud
+        # driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=op)  # on local
         driver.set_window_size(1920, 1000)
         wait = WebDriverWait(driver, 10, poll_frequency=1)
 
