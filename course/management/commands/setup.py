@@ -11,7 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
 
-START_SUB = 'Human Genetics (HUM GEN)'
+START_SUB = 'Psychology (PSYCH)'
 
 def is_over_300(lec_name):
     digits = [int(c) for c in lec_name if c.isdigit()]
@@ -127,30 +127,20 @@ class Command(BaseCommand):
             op.add_argument("--disable-dev-sh-usage")        
             driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
 
-        # op = webdriver.ChromeOptions()
-        # op.add_argument("--headless")  # set headless chrome
-        # # op.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-        # # op.add_argument("--no-sandbox")  # required by heroku
-        # # op.add_argument("--disable-dev-sh-usage")
-        
-        # # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op)  # on cloud
-        # driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=op)  # on local
         driver.set_window_size(1920, 1000)
         wait = WebDriverWait(driver, 10, poll_frequency=1)
 
         # get subjects
-        driver.get("https://sa.ucla.edu/ro/public/soc")
-        time.sleep(3)
-        input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
-        # ActionChains(driver).move_to_element(input_box).click(input_box).perform()
-        # time.sleep(1)
-        subjects = input_box.get_attribute("options")
-        subjects = subjects.split("}")[:-1]
-        for subject in subjects:
-            subject = subject.split('","value"')[0].split('{"text":"')[1]
-            print("Adding subject:", subject)
-            Subject.objects.update_or_create(name=subject)
-            print('##########################################################')
+        # driver.get("https://sa.ucla.edu/ro/public/soc")
+        # time.sleep(3)
+        # input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
+        # subjects = input_box.get_attribute("options")
+        # subjects = subjects.split("}")[:-1]
+        # for subject in subjects:
+        #     subject = subject.split('","value"')[0].split('{"text":"')[1]
+        #     print("Adding subject:", subject)
+        #     Subject.objects.update_or_create(name=subject)
+        #     print('##########################################################')
 
         # get courses
         subjects = Subject.objects.order_by('name')
