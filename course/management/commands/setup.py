@@ -11,7 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
 
-START_SUB = 'Classics (CLASSIC)'
+START_SUB = 'Bioinformatics (Graduate) (BIOINFO)'
 
 
 def process_results_table(table, subject, wait):
@@ -118,7 +118,7 @@ class Command(BaseCommand):
 
         # get courses
         subjects = Subject.objects.order_by('name')
-        should_start = True
+        should_start = False
         for i, subject in enumerate(subjects):
             print('##########################################################')
             print(subject.name)
