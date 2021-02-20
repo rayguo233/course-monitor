@@ -11,8 +11,18 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
 
-START_SUB = 'Bioinformatics (Graduate) (BIOINFO)'
+START_SUB = 'Molecular, Cellular, and Integrative Physiology (MC&IP)'
 
+def is_over_300(lec_name):
+    digits = [int(c) for c in lec_name if c.isdigit()]
+    digits.reverse()
+    cur_digit = 1
+    for i in digits:
+        if cur_digit == 3:
+            if i > 2: return True
+            else: return False
+        cur_digit += 1
+    return False
 
 def process_results_table(table, subject, wait):
     # get courses
@@ -24,12 +34,20 @@ def process_results_table(table, subject, wait):
         print(abbrev)
         # get lectures
         lec_divs = head.find_elements_by_class_name('row-fluid.data_row.primary-row.class-info.class-not-checked')
+        num_lec = 0
         for lec_div in lec_divs:
             lec_sub_divs = lec_div.find_elements_by_class_name('sectionColumn')
             lec_names = []
             for lec_sub_div in lec_sub_divs:    # for each lecture
                 lec_names.append(lec_sub_div.find_element_by_tag_name('a').text)
             print(lec_names)
+            num_lec += 1
+            if num_lec > 7:
+                print("Stop searching this class. Too many lecs.")
+                if is_over_300(abbrev):
+                    print("Course number bigger than 300. Next subject.")
+                    return
+                break
             if len(lec_names) == 1:
                 new_lec = Lecture.objects.update_or_create(course=course, name=lec_names[0])[0]
                 Section.objects.update_or_create(lecture=new_lec, name='No Section')
@@ -100,7 +118,7 @@ class Command(BaseCommand):
         if os.environ.get("GOOGLE_CHROME_BIN") is None:
 			# if on local
             print('Go local.')
-            driver = webdriver.Chrome(ChromeDriverManager().install()) 
+            driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=op) 
         else:
 			# if on cloud
             print('Go cloud.')

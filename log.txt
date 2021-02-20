@@ -1,0 +1,9310 @@
+Go local.
+ 
+##########################################################
+Aerospace Studies (AERO ST)
+##########################################################
+African American Studies (AF AMER)
+##########################################################
+African Studies (AFRC ST)
+##########################################################
+American Indian Studies (AM IND)
+##########################################################
+American Sign Language (ASL)
+##########################################################
+Ancient Near East (AN N EA)
+##########################################################
+Anthropology (ANTHRO)
+##########################################################
+Arabic
+##########################################################
+Archaeology (ARCHEOL)
+##########################################################
+Architecture and Urban Design (ARCH&UD)
+##########################################################
+Armenian (ARMENIA)
+##########################################################
+Art
+##########################################################
+Art History (ART HIS)
+##########################################################
+Arts and Architecture (ART&ARC)
+##########################################################
+Arts Education (ARTS ED)
+##########################################################
+Asian
+##########################################################
+Asian American Studies (ASIA AM)
+##########################################################
+Astronomy (ASTR)
+##########################################################
+Atmospheric and Oceanic Sciences (A&O SCI)
+##########################################################
+Bioengineering (BIOENGR)
+##########################################################
+Bioinformatics (Graduate) (BIOINFO)
+BIOINFO0201
+['Sem 1', 'Dis 1A']
+BIOINFO0202
+['Sem 1']
+BIOINFO0222M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+BIOINFO0225M
+['Lec 1']
+BIOINFO0275A
+['Lab 1']
+BIOINFO0275B
+['Lab 1']
+BIOINFO0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+BIOINFO0597
+['Tut 1']
+['Tut 2']
+BIOINFO0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+BIOINFO0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+##########################################################
+Bioinformatics (Undergraduate) (BIOINFR)
+BIOINFR0088S
+['Sem 1']
+BIOINFR0188SC
+['Tut 1']
+##########################################################
+Biological Chemistry (BIOL CH)
+BIOLCH0201B
+['Lec 1']
+BIOLCH0220C
+['Lab 1']
+BIOLCH0229SM001
+['Sem 1']
+BIOLCH0229SM002
+['Sem 2']
+BIOLCH0251C
+['Sem 1']
+BIOLCH0255M
+['Sem 1']
+BIOLCH0259M
+['Lec 1']
+BIOLCH0266C
+['Sem 1']
+BIOLCH0296
+['Sem 1']
+BIOLCH0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+BIOLCH0597
+['Tut 1']
+BIOLCH0598
+['Tut 1']
+BIOLCH0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+##########################################################
+Biomathematics (BIOMATH)
+BIOMATH0204
+['Lec 1']
+BIOMATH0208
+['Lec 1']
+BIOMATH0260BM
+['Lec 1']
+BIOMATH0266B
+['Lec 1']
+BIOMATH0282M
+['Lec 1', 'Lab 1A']
+BIOMATH0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+BIOMATH0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+BIOMATH0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+##########################################################
+Biomedical Research (BMD RES)
+BMDRES0001A
+['Lec 1', 'Dis 1A']
+BMDRES0005HA
+['Lec 1']
+BMDRES0005HB
+['Lec 1', 'Dis 1A']
+BMDRES0193H
+['Sem 1']
+BMDRES0194H
+['Sem 1']
+['Sem 2']
+##########################################################
+Biostatistics (BIOSTAT)
+BIOSTAT0100A
+['Lec 1', 'Lab G1', 'Dis 1A', 'Lab G2', 'Dis 1A', 'Lab G3', 'Dis 1A', 'Lab G4', 'Dis 1A', 'Lab G5', 'Dis 1A', 'Lab G6', 'Dis 1A', 'Lab G7', 'Dis 1A', 'Lab G8', 'Dis 1A', 'Lab G9', 'Dis 1A', 'Lab G10', 'Dis 1A', 'Lab G11', 'Dis 1A']
+BIOSTAT0200C
+['Lec 1', 'Dis 1A', 'Lab G1', 'Lab G2']
+BIOSTAT0202B
+['Lec 1', 'Dis 1A']
+BIOSTAT0208M
+['Lec 1']
+BIOSTAT0231
+['Lec 1', 'Lab 1A']
+BIOSTAT0236M
+['Lec 1', 'Lab 1A']
+BIOSTAT0241
+['Lec 1', 'Dis 1A']
+BIOSTAT0244
+['Sem 1']
+BIOSTAT0245
+['Sem 1']
+BIOSTAT0250C
+['Lec 1', 'Dis 1A']
+BIOSTAT0257
+['Lec 1', 'Dis 1A']
+BIOSTAT0274
+['Lec 1']
+BIOSTAT0276
+['Lec 1', 'Dis 1A']
+BIOSTAT0279
+['Lec 1']
+BIOSTAT0285002
+['Lec 2']
+BIOSTAT0285001
+['Lec 1']
+BIOSTAT0402A
+['Lec 1']
+BIOSTAT0402B
+['Dis 1']
+BIOSTAT0406
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C']
+BIOSTAT0595
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 10']
+['Tut 11']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+BIOSTAT0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+BIOSTAT0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+BIOSTAT0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+##########################################################
+Chemical Engineering (CH ENGR)
+CHENGR0101C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+CHENGR0102B
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+CHENGR0103
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+CHENGR0104A
+['Lec 1', 'Lab 1A']
+CHENGR0104B
+['Lec 1', 'Lab 1A']
+CHENGR0104D
+['Lec 1', 'Lab 1A']
+CHENGR0108B
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHENGR0116C
+['Lec 1', 'Dis 1A']
+CHENGR0121C
+['Lec 1', 'Dis 1A']
+CHENGR0125C
+['Lec 1', 'Dis 1A']
+CHENGR0128C
+['Lec 1', 'Dis 1A']
+CHENGR0188SC
+['Tut 1']
+CHENGR0194
+['Sem 1']
+CHENGR0216C
+['Lec 1', 'Dis 1A']
+CHENGR0221C
+['Lec 1', 'Dis 1A']
+CHENGR0225CM
+['Lec 1', 'Dis 1A']
+CHENGR0228C
+['Lec 1', 'Dis 1A']
+CHENGR0246
+['Lec 1']
+CHENGR0298A
+['Sem 1']
+CHENGR0298B
+['Sem 1']
+CHENGR0298C
+['Sem 1']
+CHENGR0298D
+['Sem 1']
+CHENGR0298F
+['Sem 1']
+CHENGR0298G
+['Sem 1']
+CHENGR0298H
+['Sem 1']
+CHENGR0298J
+['Sem 1']
+CHENGR0298M
+['Sem 1']
+CHENGR0298N
+['Sem 1']
+CHENGR0298O
+['Sem 1']
+CHENGR0298P
+['Sem 1']
+CHENGR0298S
+['Sem 1']
+CHENGR0298T
+['Sem 1']
+CHENGR0298V
+['Sem 1']
+CHENGR0298Z
+['Sem 1']
+CHENGR0299
+['Sem 1']
+CHENGR0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+CHENGR0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+CHENGR0597A
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+CHENGR0597B
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+CHENGR0597C
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+CHENGR0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+CHENGR0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+##########################################################
+Chemistry and Biochemistry (CHEM)
+CHEM0014A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+CHEM0014B
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F', 'Dis 2G', 'Dis 2H', 'Dis 2I']
+CHEM0014BL
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J', 'Lab 1K', 'Lab 1L']
+['Lec 2', 'Lab 2A', 'Lab 2B', 'Lab 2C', 'Lab 2D', 'Lab 2E', 'Lab 2F', 'Lab 2G', 'Lab 2H', 'Lab 2I', 'Lab 2J', 'Lab 2K', 'Lab 2L']
+CHEM0014C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F', 'Dis 2G', 'Dis 2H', 'Dis 2I', 'Dis 2J', 'Dis 2K', 'Dis 2L']
+CHEM0014CL
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J']
+['Lec 2', 'Lab 2A', 'Lab 2B', 'Lab 2C', 'Lab 2D', 'Lab 2E', 'Lab 2F', 'Lab 2G', 'Lab 2H', 'Lab 2I', 'Lab 2J']
+CHEM0014D
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F', 'Dis 2G', 'Dis 2H', 'Dis 2I', 'Dis 2J', 'Dis 2K', 'Dis 2L']
+CHEM0019001
+['Sem 1']
+CHEM0020B
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+CHEM0020L
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J']
+CHEM0030A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F', 'Dis 2G', 'Dis 2H', 'Dis 2I']
+CHEM0030AL
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E']
+CHEM0030BL
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E']
+CHEM0030C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+CHEM0098XA
+['Lab 1']
+['Lab 2']
+['Lab 3']
+['Lab 4']
+['Lab 5']
+CHEM0098XB
+['Lab 1']
+['Lab 2']
+CHEM0103
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHEM0105C
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHEM0110A
+['Lec 1', 'Dis 1A', 'Tut 1AA']
+['Lec 2', 'Dis 2A', 'Tut 2AA']
+CHEM0110B
+['Lec 1', 'Dis 1A', 'Tut 1AA']
+CHEM0113A
+['Lec 1', 'Dis 1A', 'Dis 1AA']
+CHEM0114
+['Lec 1', 'Lab 1A', 'Lab 1B']
+CHEM0120M
+['Lab 1']
+CHEM0126AC
+['Lec 1']
+CHEM0136
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C']
+CHEM0143BC
+['Lec 1', 'Dis 1A']
+CHEM0147
+['Sem 1']
+CHEM0153A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F', 'Dis 2G', 'Dis 2H', 'Dis 2I', 'Dis 2J', 'Dis 2K', 'Dis 2L']
+CHEM0153B
+['Lec 1', 'Dis 1A', 'Tut G1', 'Dis 1B', 'Tut G1', 'Dis 1C', 'Tut G1', 'Dis 1D', 'Tut G1']
+CHEM0153C
+['Lec 1', 'Dis 1A', 'Tut G1', 'Dis 1B', 'Tut G1', 'Dis 1C', 'Tut G1', 'Dis 1D', 'Tut G1']
+CHEM0153L
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J']
+CHEM0154
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C']
+CHEM0155C
+['Sem 1']
+CHEM0156
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+CHEM0159C
+['Lec 1']
+CHEM0160BCM
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHEM0172C
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHEM0180C
+['Lec 1']
+CHEM0185
+['Lec 1', 'Lab 1A', 'Lab 1B']
+CHEM0192A
+['Lec 1']
+CHEM0192EM
+['Sem 1']
+CHEM0193A
+['Sem 1']
+CHEM0194
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 32']
+['Sem 33']
+['Sem 34']
+['Sem 35']
+['Sem 36']
+['Sem 37']
+['Sem 38']
+['Sem 39']
+['Sem 40']
+['Sem 41']
+['Sem 42']
+['Sem 43']
+['Sem 44']
+['Sem 45']
+['Sem 46']
+['Sem 47']
+['Sem 48']
+['Sem 49']
+['Sem 50']
+['Sem 51']
+['Sem 52']
+['Sem 53']
+['Sem 54']
+['Sem 55']
+['Sem 56']
+['Sem 57']
+['Sem 58']
+CHEM0203D
+['Sem 1']
+CHEM0204
+['Sem 1']
+CHEM0205ACM
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHEM0206
+['Sem 1']
+CHEM0218
+['Sem 1']
+CHEM0219A
+['Sem 1']
+CHEM0219E
+['Sem 1']
+CHEM0219I
+['Sem 1']
+CHEM0219J
+['Sem 1']
+CHEM0219K
+['Sem 1']
+CHEM0219L
+['Sem 1']
+CHEM0219Q
+['Sem 1']
+CHEM0219R
+['Sem 1']
+CHEM0219S
+['Sem 1']
+CHEM0219T
+['Sem 1']
+CHEM0219U
+['Sem 1']
+CHEM0219V
+['Sem 1']
+CHEM0219W
+['Sem 1']
+CHEM0219X
+['Sem 1']
+CHEM0219Y
+['Sem 1']
+CHEM0219Z
+['Sem 1']
+CHEM0226AC
+['Lec 1']
+CHEM0228
+['Sem 1']
+CHEM0235E
+['Sem 1']
+CHEM0235F
+['Sem 1']
+CHEM0235G
+['Sem 1']
+CHEM0235I
+['Sem 1']
+CHEM0235K
+['Sem 1']
+CHEM0235N
+['Sem 1']
+CHEM0235O
+['Sem 1']
+CHEM0235P
+['Rgp 1']
+CHEM0235Q
+['Sem 1']
+CHEM0235R
+['Sem 1']
+CHEM0241A
+['Lec 1']
+CHEM0243BC
+CHEM0247
+CHEM0248
+['Sem 1']
+CHEM0249A
+['Sem 1']
+CHEM0249B
+['Sem 1']
+CHEM0249C
+['Sem 1']
+CHEM0255CM
+['Sem 1']
+CHEM0256B
+['Sem 1']
+CHEM0256D
+['Sem 1']
+CHEM0256F
+['Sem 1']
+CHEM0256G
+['Sem 1']
+CHEM0256J
+['Sem 1']
+CHEM0256K
+['Sem 1']
+CHEM0256L
+['Sem 1']
+CHEM0256N
+['Sem 1']
+CHEM0256O
+['Sem 1']
+CHEM0256P
+['Sem 1']
+CHEM0256Q
+['Sem 1']
+CHEM0256R
+['Sem 1']
+CHEM0256S
+['Sem 1']
+CHEM0256T
+['Sem 1']
+CHEM0256U
+['Sem 1']
+CHEM0256V
+['Dis 1']
+CHEM0256W
+['Rgp 1']
+CHEM0256X
+['Sem 1']
+CHEM0256Y
+['Sem 1']
+CHEM0256Z
+['Sem 1']
+CHEM0258
+['Lec 1']
+CHEM0259CM
+['Lec 1']
+CHEM0260BCM
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHEM0266
+['Lec 1']
+CHEM0268
+['Sem 1']
+CHEM0272C
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHEM0272A
+['Sem 1']
+CHEM0272C
+CHEM0272G
+['Sem 1']
+CHEM0272I
+['Sem 1']
+CHEM0272K
+['Sem 1']
+CHEM0272L
+['Sem 1']
+CHEM0272M
+['Sem 1']
+CHEM0272N
+['Sem 1']
+CHEM0278
+['Sem 1']
+CHEM0280C
+['Lec 1']
+CHEM0375
+['Sem 1']
+['Sem 3']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 30']
+['Sem 31']
+['Sem 33']
+['Sem 34']
+['Sem 35']
+['Sem 36']
+['Sem 37']
+['Sem 38']
+['Sem 39']
+['Sem 41']
+['Sem 43']
+['Sem 44']
+['Sem 46']
+['Sem 47']
+['Sem 48']
+['Sem 49']
+['Sem 50']
+['Sem 51']
+['Sem 52']
+['Sem 53']
+['Sem 54']
+['Sem 55']
+['Sem 56']
+['Sem 57']
+['Sem 58']
+['Sem 59']
+['Sem 61']
+['Sem 62']
+['Sem 64']
+['Sem 65']
+['Sem 66']
+['Sem 67']
+['Sem 68']
+['Sem 69']
+['Sem 71']
+['Sem 72']
+['Sem 74']
+['Sem 76']
+['Sem 77']
+['Sem 80']
+['Sem 81']
+['Sem 83']
+['Sem 84']
+CHEM0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+CHEM0597
+['Tut 1']
+CHEM0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+CHEM0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+##########################################################
+Chicana/o and Central American Studies (CCAS)
+CCAS0005CM
+['Lec 1']
+CCAS0015CM
+['Lec 1']
+CCAS0100XP
+['Sem 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+CCAS0101
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+CCAS0102M
+['Sem 1']
+CCAS0104A
+['Sem 1']
+CCAS0108AM
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+CCAS0117
+['Lec 1']
+CCAS0120
+['Lec 1']
+CCAS0130M
+['Sem 1']
+CCAS0136M
+['Lec 1']
+CCAS0138A
+['Sem 1']
+CCAS0143
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+CCAS0143B
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CCAS0145BM
+['Lec 1']
+CCAS0148M
+['Lec 1']
+CCAS0154M
+['Lec 1']
+CCAS0155BM
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+CCAS0156BM
+['Sem 1']
+CCAS0162CM
+['Lec 1']
+CCAS0163
+['Lec 1']
+CCAS0167XPM
+['Sem 1']
+CCAS0170XPM
+['Sem 1']
+CCAS0173M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+CCAS0179C
+['Lec 1']
+CCAS0187C
+['Lec 1']
+CCAS0188001
+['Sem 1']
+CCAS0188002
+['Sem 2']
+CCAS0189001
+['Sem 1']
+CCAS0191002
+['Sem 2']
+CCAS0191003
+['Sem 3']
+CCAS0191001
+['Sem 1']
+CCAS0202
+['Sem 1']
+CCAS0207
+['Sem 1']
+CCAS0208
+['Sem 1']
+CCAS0210
+['Sem 1']
+CCAS0213M
+['Sem 1']
+CCAS0238
+['Sem 1']
+CCAS0274C
+['Lec 1']
+CCAS0291003
+['Sem 3']
+CCAS0291001
+['Sem 1']
+CCAS0291002
+['Sem 2']
+CCAS0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+CCAS0495
+['Sem 1']
+CCAS0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+CCAS0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+CCAS0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+##########################################################
+Chinese (CHIN)
+CHIN0003
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C']
+CHIN0003A
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHIN0006
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHIN0006A
+['Lec 1', 'Dis 1A']
+CHIN0050
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+CHIN0100C
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CHIN0101C
+['Lec 1']
+CHIN0103
+['Lec 1']
+CHIN0105B
+['Lec 1']
+CHIN0110C
+['Lec 1']
+CHIN0150AC
+['Lec 1']
+CHIN0156C001
+['Lec 1']
+CHIN0175C
+['Lec 1']
+CHIN0213A
+['Sem 1']
+CHIN0250AC
+['Lec 1']
+CHIN0257C001
+['Lec 1']
+##########################################################
+Civil and Environmental Engineering (C&EE)
+CEE0020M
+['Lec 1', 'Dis 1A', 'Lab G1', 'Lab G2', 'Lab G3', 'Lab G4']
+CEE0103
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CEE0108
+['Lec 1', 'Dis 1A']
+CEE0110
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+CEE0123
+['Lec 1', 'Dis 1A']
+CEE0125
+['Lec 1', 'Dis 1A']
+CEE0129L
+['Lec 1', 'Lab 1A']
+CEE0130
+['Lec 1', 'Dis 1A']
+CEE0135CM
+['Lec 1', 'Dis 1A', 'Dis 1B']
+['Lec 80']
+CEE0135L
+['Lec 1', 'Lab 1A']
+CEE0140L
+['Lec 1', 'Lab 1A']
+CEE0143
+['Lec 1', 'Dis 1A']
+CEE0144
+['Lec 1', 'Dis 1A']
+CEE0152
+['Lec 1', 'Dis 1A']
+CEE0156A
+['Lec 1', 'Lab 1A']
+CEE0157C
+['Lec 1']
+CEE0158C
+['Lec 1', 'Dis 1A']
+CEE0159C
+['Lec 1', 'Dis 1A']
+CEE0165M
+['Lec 1', 'Dis 1A']
+CEE0180
+['Lec 1', 'Dis 1A', 'Dis 1B']
+CEE0182C
+['Lec 1']
+CEE0194001
+['Sem 1']
+CEE0194002
+['Sem 2']
+CEE0200
+['Sem 1']
+['Sem 2']
+CEE0206
+['Lec 1']
+CEE0225
+['Lec 1']
+CEE0227
+['Lec 1']
+CEE0233
+['Lec 80']
+CEE0235C
+['Lec 1']
+CEE0237AM
+['Lec 80']
+CEE0241
+['Lec 1', 'Dis 1A']
+CEE0243B
+['Lec 1', 'Dis 1A']
+CEE0247
+['Lec 1', 'Dis 1A']
+CEE0250D
+['Lec 1']
+CEE0251C
+['Lec 1']
+['Lec 80']
+CEE0258C
+['Lec 1', 'Dis 1A']
+CEE0258A
+['Lec 1']
+CEE0259C
+['Lec 1', 'Dis 1A']
+CEE0261B
+['Lec 1']
+CEE0282C
+['Lec 1']
+CEE0296
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+CEE0298001
+['Sem 1']
+CEE0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+CEE0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+CEE0597A
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+CEE0597B
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+CEE0597C
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+CEE0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+CEE0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+##########################################################
+Classics (CLASSIC)
+CLASSIC0030
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K']
+CLASSIC0051A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+CLASSIC0088GE001
+['Sem 1']
+CLASSIC0121M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+CLASSIC0140001
+['Lec 1']
+CLASSIC0152A001
+['Lec 1']
+CLASSIC0163
+['Lec 1']
+CLASSIC0185
+['Lec 1']
+CLASSIC0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+CLASSIC0495
+['Sem 1']
+CLASSIC0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+CLASSIC0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+CLASSIC0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+##########################################################
+Clusters (CLUSTER)
+CLUSTER0001CWM005
+['Sem 5']
+CLUSTER0001CWM008
+['Sem 8']
+CLUSTER0001CWM002
+['Sem 2']
+CLUSTER0001CWM001
+['Sem 1']
+CLUSTER0001CWM004
+['Sem 4']
+CLUSTER0001CWM006
+['Sem 6']
+CLUSTER0001CWM007
+['Sem 7']
+CLUSTER0001CWM003
+['Sem 3']
+CLUSTER0020CW010
+['Sem 10']
+CLUSTER0020CW003
+['Sem 3']
+CLUSTER0020CW008
+['Sem 8']
+CLUSTER0020CW007
+['Sem 7']
+CLUSTER0020CW005
+['Sem 5']
+CLUSTER0020CW006
+['Sem 6']
+CLUSTER0020CW011
+['Sem 11']
+CLUSTER0020CW004
+['Sem 4']
+CLUSTER0020CW002
+['Sem 2']
+CLUSTER0020CW012
+['Sem 12']
+CLUSTER0020CW001
+['Sem 1']
+CLUSTER0020CW009
+['Sem 9']
+CLUSTER0027CW004
+['Sem 4']
+CLUSTER0027CW003
+['Sem 3']
+CLUSTER0027CW001
+['Sem 1']
+CLUSTER0027CW005
+['Sem 5']
+CLUSTER0027CW002
+['Sem 2']
+CLUSTER0027CW006
+['Sem 6']
+CLUSTER0048CW006
+['Sem 6']
+CLUSTER0048CW009
+['Sem 9']
+CLUSTER0048CW008
+['Sem 8']
+CLUSTER0048CW002
+['Sem 2']
+CLUSTER0048CW003
+['Sem 3']
+CLUSTER0048CW007
+['Sem 7']
+CLUSTER0048CW010
+['Sem 10']
+CLUSTER0048CW005
+['Sem 5']
+CLUSTER0048CW004
+['Sem 4']
+CLUSTER0048CW001
+['Sem 1']
+CLUSTER0060CW008
+['Sem 8']
+CLUSTER0060CW002
+['Sem 2']
+CLUSTER0060CW009
+['Sem 9']
+CLUSTER0060CW010
+['Sem 10']
+CLUSTER0060CW004
+['Sem 4']
+CLUSTER0060CW007
+['Sem 7']
+CLUSTER0060CW003
+['Sem 3']
+CLUSTER0060CW001
+['Sem 1']
+CLUSTER0060CW006
+['Sem 6']
+CLUSTER0060CW005
+['Sem 5']
+CLUSTER0070CW001
+['Sem 1']
+CLUSTER0070CW007
+['Sem 7']
+CLUSTER0070CW002
+['Sem 2']
+CLUSTER0070CW010
+['Sem 10']
+CLUSTER0070CW009
+['Sem 9']
+CLUSTER0070CW008
+['Sem 8']
+CLUSTER0070CW004
+['Sem 4']
+CLUSTER0070CW005
+['Sem 5']
+CLUSTER0070CW012
+['Sem 12']
+CLUSTER0070CW006
+['Sem 6']
+CLUSTER0070CW011
+['Sem 11']
+CLUSTER0070CW003
+['Sem 3']
+CLUSTER0071CWM009
+['Sem 9']
+CLUSTER0071CWM002
+['Sem 2']
+CLUSTER0071CWM012
+['Sem 12']
+CLUSTER0071CWM005
+['Sem 5']
+CLUSTER0071CWM001
+['Sem 1']
+CLUSTER0071CWM011
+['Sem 11']
+CLUSTER0071CWM008
+['Sem 8']
+CLUSTER0071CWM003
+['Sem 3']
+CLUSTER0071CWM004
+['Sem 4']
+CLUSTER0071CWM007
+['Sem 7']
+CLUSTER0071CWM010
+['Sem 10']
+CLUSTER0071CWM006
+['Sem 6']
+CLUSTER0073CW001
+['Sem 1']
+CLUSTER0073CW006
+['Sem 6']
+CLUSTER0073CW005
+['Sem 5']
+CLUSTER0073CW002
+['Sem 2']
+CLUSTER0073CW004
+['Sem 4']
+CLUSTER0073CW003
+['Sem 3']
+CLUSTER0073CW007
+['Sem 7']
+CLUSTER0080CW005
+['Sem 5']
+CLUSTER0080CW001
+['Sem 1']
+CLUSTER0080CW003
+['Sem 3']
+CLUSTER0080CW002
+['Sem 2']
+CLUSTER0080CW006
+['Sem 6']
+CLUSTER0080CW007
+['Sem 7']
+CLUSTER0080CW004
+['Sem 4']
+CLUSTER0375
+['Sem 1']
+['Sem 2']
+##########################################################
+Communication (COMM)
+COMM0001
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+['Lec 5']
+['Lec 6']
+['Lec 7']
+['Lec 8']
+['Lec 9']
+['Lec 10']
+COMM0010
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+COMM0089001
+['Sem 1']
+COMM0101
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+COMM0102
+['Lec 1']
+COMM0107
+['Lec 1']
+COMM0110
+['Lec 1']
+COMM0117M
+['Lec 1']
+['Lec 2']
+COMM0122
+['Lec 1', 'Dis 1A']
+COMM0123M
+['Lec 1']
+COMM0125M
+['Lec 1']
+COMM0133
+['Lec 1']
+COMM0140
+['Lec 1']
+COMM0146
+['Lec 1']
+COMM0147M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+COMM0148
+['Lec 1']
+COMM0150
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C']
+COMM0154
+['Lec 1']
+COMM0155
+['Lec 1']
+COMM0163
+['Sem 1']
+COMM0178
+['Lec 1']
+COMM0185
+['Lec 1']
+COMM0186
+['Lec 1']
+COMM0191DCM
+['Sem 1']
+COMM0191E001
+['Sem 1']
+COMM0198C
+['Tut 1']
+COMM0250
+['Sem 1']
+COMM0273
+['Sem 1']
+COMM0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+COMM0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+##########################################################
+Community Engagement and Social Change (CESC)
+CESC0050XP
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+CESC0095CE
+['Tut 1']
+['Tut 2']
+CESC0098B
+['Sem 1']
+CESC0122M
+['Sem 1']
+CESC0151
+['Lec 1']
+CESC0172XP
+['Lec 1']
+CESC0175SLM
+['Sem 1']
+CESC0190CM
+['Sem 1']
+CESC0191BX
+['Sem 1']
+CESC0375
+['Sem 1']
+##########################################################
+Community Health Sciences (COM HLT)
+COMHLT0131
+['Lec 1', 'Lab 1A']
+COMHLT0179
+['Sem 1']
+COMHLT0208M
+['Lec 1']
+COMHLT0211B
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+COMHLT0216M
+['Sem 1']
+COMHLT0225
+['Sem 1']
+COMHLT0226
+['Lec 1']
+COMHLT0229
+['Lec 1']
+COMHLT0237M
+['Sem 1']
+COMHLT0240
+['Lec 1']
+COMHLT0246
+['Lec 1']
+COMHLT0247
+['Lec 1']
+COMHLT0250M
+['Sem 1']
+COMHLT0254
+['Lec 1']
+COMHLT0258
+['Lec 1']
+COMHLT0259M
+['Lec 1']
+COMHLT0264M
+['Lec 1']
+COMHLT0270B
+['Lec 1']
+COMHLT0286
+['Sem 1']
+COMHLT0287M
+['Lec 1']
+COMHLT0292
+['Lec 1']
+COMHLT0375
+['Sem 2']
+['Sem 3']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+COMHLT0400
+['Fld 1']
+COMHLT0428M
+['Sem 1']
+COMHLT0430M
+['Sem 1']
+COMHLT0431
+['Lec 1']
+COMHLT0448
+['Lec 1']
+COMHLT0449
+['Lec 1']
+COMHLT0482
+['Dis 3']
+COMHLT0484
+['Lec 1']
+COMHLT0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 83']
+COMHLT0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+COMHLT0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+COMHLT0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+##########################################################
+Comparative Literature (COM LIT)
+COMLIT0002CW
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+COMLIT0002DW
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+COMLIT0004CW
+['Dis 1']
+COMLIT0019003
+['Sem 3']
+COMLIT0019001
+['Sem 1']
+COMLIT0019002
+['Sem 2']
+COMLIT0100
+['Lec 1']
+COMLIT0112
+['Sem 1']
+COMLIT0113
+['Sem 1']
+COMLIT0163C
+['Sem 1']
+COMLIT0169
+['Lec 1']
+COMLIT0191001
+['Sem 1']
+COMLIT0263C
+['Sem 1']
+COMLIT0284
+['Sem 1']
+COMLIT0290001
+['Sem 1']
+COMLIT0294M001
+['Sem 1']
+COMLIT0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+COMLIT0495
+['Sem 1']
+COMLIT0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+COMLIT0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+COMLIT0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+##########################################################
+Computational and Systems Biology (C&S BIO)
+CSBIO0130M
+['Lec 1', 'Lab 1A', 'Lab 1B']
+CSBIO0150M
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D']
+CSBIO0187M
+['Lec 1']
+CSBIO0198B
+['Tut 1']
+##########################################################
+Computer Science (COM SCI)
+COMSCI0031
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E']
+COMSCI0032
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+COMSCI0033
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+COMSCI0035L
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+COMSCI0051AM
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E']
+COMSCI0111
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C']
+COMSCI0118
+['Lec 1', 'Dis 1A', 'Dis 1B']
+COMSCI0122CM
+['Lec 1', 'Dis 1A', 'Dis 1B']
+COMSCI0130
+['Lec 1', 'Lab 1A', 'Lab 1B']
+COMSCI0131
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C']
+COMSCI0143
+['Lec 1', 'Lab 1A', 'Lab 1B']
+COMSCI0144
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+COMSCI0145
+['Lec 1', 'Dis 1A']
+COMSCI0146M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E']
+COMSCI0148M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+COMSCI0151BM
+['Lec 1', 'Dis 1A', 'Dis 1B']
+COMSCI0152AM
+['Lab 1']
+['Lab 2']
+['Lab 3']
+['Lab 5']
+['Lab 6']
+['Lab 7']
+COMSCI0152B
+['Lab 1', 'Dis 1A']
+COMSCI0161
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+COMSCI0174A
+['Lec 1', 'Dis 1A', 'Dis 1B']
+COMSCI0180
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+COMSCI0181
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+COMSCI0187CM
+['Lec 1']
+COMSCI0188003
+['Lec 3', 'Dis 3A']
+COMSCI0188001
+['Lec 1', 'Dis 1A']
+COMSCI0188002
+['Lec 2', 'Dis 2A']
+COMSCI0192
+['Sem 1']
+COMSCI0192AM
+['Sem 1']
+COMSCI0201
+['Sem 1']
+COMSCI0205
+['Lec 1']
+COMSCI0216
+['Lec 1']
+COMSCI0218
+['Lec 80']
+COMSCI0222CM
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1D']
+COMSCI0225M
+['Lec 1']
+COMSCI0229SM002
+['Sem 2']
+COMSCI0229SM001
+['Sem 1']
+COMSCI0236
+['Lec 80']
+COMSCI0239002
+['Lec 2']
+COMSCI0239001
+['Lec 1']
+COMSCI0247
+['Lec 1']
+['Lec 80']
+COMSCI0249080
+['Lec 80']
+COMSCI0259001
+['Lec 1']
+COMSCI0269001
+['Sem 1']
+COMSCI0275
+['Lec 1']
+COMSCI0287CM
+['Lec 1']
+COMSCI0289A001
+['Lec 1']
+COMSCI0289A002
+['Lec 2']
+COMSCI0298
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+['Sem 32']
+['Sem 33']
+['Sem 34']
+['Sem 35']
+['Sem 36']
+['Sem 37']
+['Sem 38']
+['Sem 39']
+['Sem 40']
+['Sem 41']
+['Sem 42']
+['Sem 43']
+['Sem 44']
+['Sem 45']
+['Sem 46']
+['Sem 47']
+['Sem 48']
+['Sem 49']
+['Sem 50']
+['Sem 51']
+['Sem 52']
+['Sem 53']
+['Sem 54']
+['Sem 55']
+['Sem 56']
+['Sem 57']
+['Sem 58']
+COMSCI0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+COMSCI0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 60']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+COMSCI0597A
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+COMSCI0597B
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 63']
+['Tut 64']
+COMSCI0597C
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 61']
+['Tut 62']
+['Tut 64']
+['Tut 68']
+COMSCI0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 57']
+['Tut 68']
+['Tut 69']
+COMSCI0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 65']
+['Tut 67']
+['Tut 68']
+##########################################################
+Conservation of Archaeological and Ethnographic Materials (CAEM)
+CAEM0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+CAEM0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+CAEM0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+CAEM0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+##########################################################
+Dance
+DANCE0010001
+['Stu 1']
+DANCE0011001
+['Stu 1']
+DANCE0015001
+['Lab 1']
+DANCE0045
+['Lec 1']
+DANCE0056001
+['Stu 1']
+DANCE0059001
+['Stu 1']
+DANCE0060001
+['Stu 1']
+DANCE0063001
+['Stu 1']
+DANCE0065001
+['Stu 1']
+DANCE0067B
+['Sem 1']
+DANCE0070
+['Lec 1']
+DANCE0098TB
+['Sem 1']
+DANCE0106AC001
+['Stu 1']
+DANCE0109AC001
+['Stu 1']
+DANCE0113AC001
+['Stu 1']
+DANCE0115C
+['Stu 1']
+DANCE0116001
+['Stu 1']
+DANCE0117A
+['Sem 1']
+DANCE0117B
+['Sem 1']
+DANCE0117C001
+['Lec 1']
+DANCE0145C001
+['Lec 1']
+DANCE0152C
+['Lec 1']
+DANCE0170
+['Lab 1']
+DANCE0174BC001
+['Lab 1']
+DANCE0174BC002
+['Lab 2']
+DANCE0174BC003
+['Lab 3']
+DANCE0186B
+['Lec 1']
+DANCE0211C
+['Stu 1']
+DANCE0245C001
+['Lec 1']
+DANCE0252C
+['Lec 1']
+DANCE0274BC001
+['Lab 1']
+DANCE0274BC002
+['Lab 2']
+DANCE0274BC003
+['Lab 3']
+DANCE0406AC001
+['Stu 1']
+DANCE0409AC001
+['Stu 1']
+DANCE0413AC001
+['Stu 1']
+DANCE0415C
+['Stu 1']
+DANCE0441
+['Lab 1']
+['Lab 2']
+['Lab 3']
+['Lab 4']
+['Lab 5']
+['Lab 6']
+['Lab 7']
+DANCE0490
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+##########################################################
+Design / Media Arts (DESMA)
+DESMA0009
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E']
+['Lec 2', 'Dis 2A']
+DESMA0021
+['Stu 1']
+DESMA0022
+['Stu 1']
+DESMA0024
+['Stu 1']
+DESMA0028
+['Stu 1']
+DESMA0104
+['Lec 1']
+DESMA0153
+['Stu 1']
+DESMA0154
+['Stu 1']
+DESMA0157
+['Stu 1']
+DESMA0159A
+['Stu 1']
+DESMA0159B
+['Stu 1']
+DESMA0159C
+['Stu 1']
+DESMA0160002
+['Stu 2']
+DESMA0160001
+['Stu 1']
+DESMA0160003
+['Stu 3']
+DESMA0163
+['Lec 1']
+DESMA0289001
+['Sem 1']
+DESMA0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+DESMA0403
+['Sem 1']
+DESMA0404
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+DESMA0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+DESMA0597
+['Tut 1']
+##########################################################
+Digital Humanities (DGT HUM)
+DGTHUM0101
+['Lec 1', 'Dis 1A', 'Dis 1B']
+DGTHUM0110
+['Sem 1']
+DGTHUM0150001
+['Sem 1']
+DGTHUM0151001
+['Sem 1']
+DGTHUM0187
+['Sem 1']
+DGTHUM0250001
+['Sem 1']
+DGTHUM0299
+['Tut 1']
+['Tut 2']
+DGTHUM0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+##########################################################
+Disability Studies (DIS STD)
+DISSTD0115M
+['Lec 1']
+DISSTD0120001
+['Lec 1']
+DISSTD0191001
+['Sem 1']
+DISSTD0195CE
+['Tut 1']
+##########################################################
+Dutch
+DUTCH0103C
+['Lec 1']
+##########################################################
+Earth, Planetary, and Space Sciences (EPS SCI)
+EPSSCI0008
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+EPSSCI0009
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+EPSSCI0015
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J', 'Lab 1K', 'Lab 1L', 'Lab 1M', 'Lab 1N', 'Lab 1O']
+EPSSCI0017
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J', 'Lab 1K', 'Lab 1L', 'Lab 1M', 'Lab 1N', 'Lab 1O']
+EPSSCI0101
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D']
+EPSSCI0103C
+['Lec 1', 'Lab 1A']
+EPSSCI0106C
+['Lec 1']
+EPSSCI0111
+['Lec 1', 'Fld 1AA', 'Lab 1A']
+EPSSCI0119
+['Lec 1', 'Lab 1A']
+EPSSCI0120
+['Lec 1']
+EPSSCI0121
+['Lec 1']
+EPSSCI0133
+['Lec 1', 'Dis 1A']
+EPSSCI0152
+['Lec 1', 'Dis 1A']
+EPSSCI0155
+['Lec 1']
+EPSSCI0179C
+['Lec 1']
+EPSSCI0193C
+['Sem 1']
+EPSSCI0211
+['Lec 1']
+EPSSCI0219
+['Lec 1']
+EPSSCI0228
+['Lec 1', 'Lab 1A']
+EPSSCI0235C
+['Sem 1']
+EPSSCI0261
+['Lec 1']
+EPSSCI0264
+['Sem 1', 'Dis 1A']
+EPSSCI0279C
+['Lec 1']
+EPSSCI0286C
+['Sem 1']
+EPSSCI0287C
+['Sem 1']
+EPSSCI0288CM
+['Sem 1']
+EPSSCI0293C
+['Sem 1']
+EPSSCI0295C
+['Lec 1']
+EPSSCI0297
+['Lec 1']
+EPSSCI0298
+['Lec 1']
+['Lec 2']
+EPSSCI0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+EPSSCI0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+EPSSCI0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+EPSSCI0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+EPSSCI0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+##########################################################
+East Asian Studies (EA STDS)
+Expand button not found
+##########################################################
+Ecology and Evolutionary Biology (EE BIOL)
+EEBIOL0088S
+['Sem 1']
+EEBIOL0100
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+EEBIOL0100L
+['Lab 1']
+['Lab 2']
+['Lab 3']
+['Lab 4']
+['Lab 5']
+['Lab 6']
+EEBIOL0101
+['Lec 1', 'Lab 1A', 'Lab 1B']
+EEBIOL0106
+['Lec 1', 'Lab 1A']
+EEBIOL0109L
+['Lab 1', 'Fld 1A']
+['Lab 2', 'Fld 2A']
+['Lab 3', 'Fld 3A']
+['Lab 4', 'Fld 4A']
+EEBIOL0113A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+EEBIOL0113AL
+['Lab 1']
+['Lab 2']
+EEBIOL0114A
+['Lec 1', 'Lab 1A']
+EEBIOL0116
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C']
+EEBIOL0119AC
+['Lec 1', 'Dis 1A', 'Dis 1B']
+EEBIOL0123A
+['Lec 1', 'Fld 1A']
+EEBIOL0124A
+['Lec 1', 'Fld 1A']
+EEBIOL0124B
+['Lec 1', 'Fld 1A']
+EEBIOL0130
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+EEBIOL0131M
+['Lec 1']
+EEBIOL0132
+['Lec 1', 'Fld 1A', 'Lab 1B']
+EEBIOL0135C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+EEBIOL0136
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C']
+EEBIOL0142
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+EEBIOL0148
+['Lec 1', 'Lab 1A']
+EEBIOL0149
+['Lec 1', 'Lab 1A']
+EEBIOL0154
+['Lec 1', 'Lab 1A']
+EEBIOL0159M
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D']
+EEBIOL0162
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L', 'Dis 1M', 'Dis 1N', 'Dis 1O', 'Dis 1P', 'Dis 1Q', 'Dis 1R']
+EEBIOL0162L
+['Lab 1']
+['Lab 2']
+['Lab 3']
+['Lab 4']
+['Lab 5']
+EEBIOL0179C
+['Lec 1', 'Dis 1A']
+EEBIOL0185
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+EEBIOL0186
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+EEBIOL0187002
+['Lec 2', 'Dis 2A']
+EEBIOL0187001
+['Lec 1', 'Dis 1A', 'Dis 1B']
+EEBIOL0193
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 10']
+['Sem 11']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+EEBIOL0194B
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 10']
+['Sem 11']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+EEBIOL0219AC
+['Lec 1', 'Dis 1A', 'Dis 1B']
+EEBIOL0235C
+['Lec 1']
+EEBIOL0296
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+['Sem 32']
+['Sem 33']
+EEBIOL0297001
+['Sem 1']
+EEBIOL0297002
+['Sem 2']
+EEBIOL0297003
+['Sem 3']
+EEBIOL0297004
+['Sem 4']
+EEBIOL0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+['Sem 32']
+['Sem 33']
+['Sem 34']
+['Sem 35']
+['Sem 36']
+['Sem 37']
+['Sem 38']
+EEBIOL0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+EEBIOL0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+EEBIOL0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+EEBIOL0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+##########################################################
+Economics (ECON)
+ECON0001
+['Lec 1', 'Qiz 1A', 'Qiz 1B', 'Qiz 1C', 'Qiz 1D', 'Qiz 1E', 'Qiz 1F', 'Qiz 1G', 'Qiz 1H', 'Qiz 1I', 'Qiz 1J', 'Qiz 1K', 'Qiz 1L']
+ECON0002
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J']
+ECON0011
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J']
+ECON0019001
+['Sem 1']
+ECON0041
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J']
+ECON0101
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+ECON0102
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L', 'Dis 1M', 'Dis 1N']
+ECON0103
+['Lec 1']
+ECON0103L
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J', 'Lab 1K', 'Lab 1M', 'Lab 1N', 'Lab 1O']
+ECON0104
+['Lec 1']
+ECON0104L
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H']
+ECON0106G
+['Lec 1']
+['Lec 2']
+ECON0106GL
+['Lec 1', 'Lab 1A', 'Lab 1B']
+['Lec 2', 'Lab 2A', 'Lab 2B']
+ECON0106M
+['Lec 1']
+ECON0106ML
+['Lec 1', 'Lab 1A', 'Lab 1B']
+ECON0106P
+['Lec 1']
+ECON0107
+['Lec 1']
+ECON0112AM
+['Lec 1']
+ECON0113
+['Lec 1']
+ECON0122
+['Lec 1']
+['Lec 2']
+ECON0131
+['Lec 1']
+['Lec 2']
+ECON0134
+['Lec 1']
+ECON0143
+['Lec 1']
+ECON0148
+['Lec 1']
+['Lec 2']
+ECON0152
+['Lec 1']
+ECON0152L
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D']
+ECON0160
+['Lec 1']
+ECON0170
+['Lec 1']
+ECON0170L
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D']
+ECON0173B
+['Lec 1']
+ECON0185
+['Lec 1']
+ECON0187001
+['Sem 1']
+ECON0187002
+['Sem 2']
+ECON0201C
+['Lec 1']
+ECON0202C
+['Lec 1']
+ECON0203C
+['Lec 1', 'Dis 1A']
+ECON0204AM
+['Sem 1']
+ECON0204C
+['Sem 1']
+ECON0208M
+['Lec 1']
+ECON0214A
+['Lec 1']
+ECON0218C
+['Sem 1']
+ECON0219C
+['Lec 1']
+ECON0221C
+['Lec 1']
+ECON0228C
+['Sem 1']
+ECON0229C
+['Lec 1']
+ECON0231C
+['Lec 1']
+ECON0232M001
+['Lec 1']
+ECON0238C
+['Sem 1']
+ECON0239C
+['Lec 1']
+ECON0246CC
+['Sem 1']
+ECON0248C
+['Sem 1']
+ECON0262A001
+['Lec 1']
+ECON0262D
+['Lec 1']
+ECON0268C
+['Sem 1']
+ECON0269C
+['Lec 1']
+ECON0271C
+['Lec 1']
+ECON0278C
+['Sem 1']
+ECON0279C
+['Lec 1']
+ECON0282B001
+['Lec 1']
+ECON0285CC
+['Sem 1']
+ECON0288C
+['Sem 1']
+['Sem 2']
+ECON0298C
+['Sem 1']
+ECON0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+ECON0405
+['Lec 1']
+ECON0406
+['Lec 1']
+ECON0409
+['Lec 1']
+ECON0410
+['Sem 1']
+ECON0412
+['Lec 1']
+ECON0413
+['Lec 1']
+ECON0414
+['Lec 1']
+ECON0422
+['Lec 1']
+ECON0424
+['Lec 1']
+ECON0434
+['Lec 1']
+ECON0495
+['Sem 1']
+ECON0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 20']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+ECON0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 20']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+ECON0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 20']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+##########################################################
+Education (EDUC)
+EDUC0010
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+EDUC0035
+['Lec 1', 'Dis 1A', 'Dis 1B']
+EDUC0088S
+['Sem 1']
+EDUC0098
+['Sem 1']
+EDUC0102M
+['Sem 1']
+EDUC0104M
+['Sem 1']
+EDUC0108M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+EDUC0118
+['Sem 1']
+EDUC0129XPM
+['Sem 1']
+EDUC0133
+['Sem 1']
+EDUC0134
+['Lec 1', 'Dis 1A', 'Dis 1B']
+EDUC0136M
+['Sem 1']
+EDUC0141
+['Lec 1']
+EDUC0152
+['Lec 1', 'Dis 1A']
+EDUC0152C
+['Lec 1']
+EDUC0156
+['Sem 1']
+EDUC0180
+['Sem 1']
+EDUC0181
+['Sem 1']
+EDUC0184
+['Lec 1']
+EDUC0187002
+['Sem 2']
+EDUC0187001
+['Sem 1']
+EDUC0188SC
+['Tut 1']
+EDUC0191A001
+['Sem 1']
+EDUC0191A002
+['Sem 2']
+EDUC0191A003
+['Sem 3']
+EDUC0192AC
+['Sem 1']
+EDUC0195CE
+['Tut 1']
+EDUC0196C
+['Tut 1']
+EDUC0196D
+['Tut 1']
+EDUC0197
+['Tut 1']
+EDUC0208A
+['Lec 1']
+EDUC0217B
+['Lec 1']
+EDUC0221
+['Lec 1']
+EDUC0222C
+['Lec 1']
+['Lec 2']
+EDUC0222D001
+['Lec 1']
+EDUC0224
+['Lec 1']
+EDUC0229001
+['Sem 1']
+EDUC0229002
+['Sem 2']
+EDUC0230C
+['Lec 1']
+EDUC0230CL
+['Lab 1']
+EDUC0235
+['Sem 1']
+EDUC0250C
+['Lec 1']
+EDUC0253D001
+['Sem 1']
+EDUC0255C001
+['Sem 1']
+EDUC0261E
+['Sem 1']
+EDUC0263001
+['Sem 1']
+EDUC0263002
+['Sem 2']
+EDUC0270
+['Lec 1']
+EDUC0288001
+['Dis 1']
+EDUC0288010
+['Dis 10']
+EDUC0288011
+['Dis 11']
+EDUC0288014
+['Dis 14']
+EDUC0288015
+['Dis 15']
+EDUC0288016
+['Dis 16']
+EDUC0288017
+['Dis 17']
+EDUC0288019
+['Dis 19']
+EDUC0288021
+['Dis 21']
+EDUC0288022
+['Dis 22']
+EDUC0288023
+['Dis 23']
+EDUC0288025
+['Dis 25']
+EDUC0288028
+['Dis 28']
+EDUC0288029
+['Dis 29']
+EDUC0288003
+['Dis 3']
+EDUC0288030
+['Dis 30']
+EDUC0288031
+['Dis 31']
+EDUC0288004
+['Dis 4']
+EDUC0288005
+['Dis 5']
+EDUC0288006
+['Dis 6']
+EDUC0288007
+['Dis 7']
+EDUC0288008
+['Dis 8']
+EDUC0288009
+['Dis 9']
+EDUC0292AC
+['Sem 1']
+EDUC0295
+['Sem 1']
+EDUC0299A001
+['Cli 1']
+EDUC0299A002
+['Cli 2']
+EDUC0299B001
+['Cli 1']
+EDUC0299C
+['Cli 1']
+['Cli 2']
+['Cli 3']
+['Cli 4']
+['Cli 5']
+EDUC0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+EDUC0390C
+['Sem 1']
+EDUC0472
+['Sem 1']
+EDUC0475
+['Lec 1']
+EDUC0495
+['Sem 1']
+EDUC0498C
+['Cli 2']
+EDUC0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+EDUC0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+['Tut 72']
+['Tut 73']
+['Tut 74']
+['Tut 75']
+EDUC0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+EDUC0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+##########################################################
+Electrical and Computer Engineering (EC ENGR)
+ECENGR0002
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+ECENGR0003
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F']
+ECENGR0016M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+ECENGR0100
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+ECENGR0101B
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+ECENGR0102
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+ECENGR0110
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+ECENGR0110L
+['Lab 1']
+['Lab 2']
+ECENGR0111L
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+['Lec 5']
+ECENGR0113
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+ECENGR0115A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+ECENGR0115C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+ECENGR0115E
+['Lec 1', 'Dis 1A']
+ECENGR0116CM
+['Lec 1', 'Dis 1A', 'Dis 1B']
+ECENGR0116LM
+['Lab 1']
+['Lab 2']
+['Lab 3']
+['Lab 4']
+['Lab 5']
+['Lab 6']
+['Lab 7']
+['Lab 8']
+ECENGR0121DB
+['Lec 1', 'Lab 1A', 'Lab 1B']
+ECENGR0128
+['Lec 1', 'Dis 1A']
+ECENGR0132A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+['Lec 80']
+ECENGR0133A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+ECENGR0141
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+ECENGR0143AC
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+ECENGR0146M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E']
+ECENGR0148M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+ECENGR0162A
+['Lec 1', 'Dis 1A']
+ECENGR0163DB
+['Lec 1', 'Lab 1A']
+ECENGR0164DB
+['Lec 1', 'Lab 1A']
+ECENGR0170C
+['Lec 1', 'Rec 1A']
+ECENGR0176
+['Lec 1', 'Dis 1A', 'Dis 1B']
+ECENGR0183DB
+['Lab 1']
+ECENGR0188001
+['Sem 1']
+ECENGR0188SC
+['Tut 1']
+ECENGR0189001
+['Sem 1']
+ECENGR0189002
+['Sem 2']
+ECENGR0194
+['Sem 1']
+ECENGR0201A
+['Lec 80']
+ECENGR0209AS001
+['Lec 1']
+ECENGR0209AS080
+['Lec 80']
+ECENGR0209AS002
+['Lec 2']
+ECENGR0209BS001
+['Sem 1']
+ECENGR0214B
+['Lec 1']
+ECENGR0215B
+['Lec 1']
+['Lec 80']
+ECENGR0215D
+['Lec 1']
+['Lec 80']
+ECENGR0215E
+['Lec 1']
+['Lec 80']
+ECENGR0219
+['Lec 80']
+ECENGR0221C
+['Lec 1']
+ECENGR0230B
+['Lec 80']
+ECENGR0231A
+['Lec 80']
+ECENGR0232E
+['Lec 1', 'Rec 1A', 'Rec 1B', 'Rec 1C', 'Rec 1D', 'Rec 1E', 'Rec 1F']
+ECENGR0233
+['Lec 1', 'Dis 1A', 'Dis 1B']
+['Lec 80']
+ECENGR0235A
+['Lec 80']
+ECENGR0238
+['Lec 1']
+ECENGR0239AS080
+['Lec 80']
+ECENGR0239AS001
+['Lec 1', 'Dis 1A']
+ECENGR0243AC
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+ECENGR0263
+['Lec 1']
+ECENGR0266
+['Lec 1']
+ECENGR0274
+['Lec 1']
+ECENGR0275M
+['Lec 1']
+ECENGR0279AS002
+['Lec 2']
+ECENGR0279AS001
+['Lec 1']
+ECENGR0295
+['Sem 1']
+ECENGR0296
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+['Sem 32']
+['Sem 33']
+['Sem 34']
+['Sem 35']
+['Sem 36']
+['Sem 37']
+['Sem 38']
+['Sem 39']
+['Sem 40']
+['Sem 41']
+['Sem 42']
+['Sem 43']
+['Sem 44']
+['Sem 45']
+['Sem 46']
+['Sem 47']
+['Sem 48']
+['Sem 49']
+['Sem 50']
+['Sem 51']
+['Sem 52']
+['Sem 53']
+ECENGR0297001
+['Sem 1']
+ECENGR0299
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+['Sem 32']
+['Sem 33']
+['Sem 34']
+['Sem 35']
+['Sem 36']
+['Sem 37']
+['Sem 38']
+['Sem 39']
+['Sem 40']
+['Sem 41']
+['Sem 42']
+['Sem 43']
+['Sem 44']
+['Sem 45']
+['Sem 46']
+['Sem 47']
+['Sem 48']
+['Sem 49']
+['Sem 50']
+['Sem 51']
+['Sem 52']
+['Sem 53']
+ECENGR0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+['Sem 32']
+['Sem 33']
+ECENGR0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+ECENGR0597A
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 17']
+['Tut 19']
+['Tut 20']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 29']
+['Tut 30']
+['Tut 32']
+['Tut 33']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 44']
+['Tut 47']
+['Tut 48']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+ECENGR0597B
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+ECENGR0597C
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 51']
+['Tut 55']
+ECENGR0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+ECENGR0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+##########################################################
+Engineering (ENGR)
+ENGR0002001
+['Lec 1']
+ENGR0023
+['Sem 1']
+ENGR0024
+['Sem 1']
+ENGR0095
+['Tut 1']
+ENGR0096C
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D']
+ENGR0103M
+['Lec 1', 'Dis 1A']
+ENGR0111
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+ENGR0180
+['Lec 1', 'Dis 1A']
+ENGR0181EW
+['Lec 1', 'Dis 1A', 'Dis 1B']
+ENGR0183EW
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L', 'Dis 1M']
+ENGR0188082
+['Sem 82']
+ENGR0191
+['Sem 1']
+ENGR0192
+['Sem 1']
+ENGR0195
+['Tut 1']
+ENGR0202
+['Lec 80']
+ENGR0210
+['Lec 80']
+ENGR0212
+['Lec 80']
+ENGR0214
+['Lec 80']
+ENGR0299
+['Act 1']
+['Act 2']
+['Act 3']
+['Act 4']
+['Act 5']
+['Act 6']
+['Act 7']
+ENGR0375
+['Sem 80']
+['Sem 81']
+['Sem 82']
+['Sem 83']
+['Sem 84']
+['Sem 85']
+['Sem 86']
+['Sem 87']
+['Sem 88']
+['Sem 89']
+['Sem 90']
+['Sem 91']
+['Sem 92']
+['Sem 93']
+['Sem 94']
+['Sem 95']
+['Sem 96']
+['Sem 97']
+['Sem 98']
+['Sem 99']
+['Sem 100']
+['Sem 101']
+['Sem 102']
+ENGR0495IM
+['Sem 1']
+##########################################################
+English as A Second Language (ESL)
+ESL0300
+['Lec 2']
+ESL0301
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+ESL0310
+['Lec 1']
+['Lec 2']
+ESL0311
+['Lec 3']
+ESL0313
+['Lec 1']
+##########################################################
+English Composition (ENGCOMP)
+ENGCOMP0002
+['Lec 1']
+ENGCOMP0002I
+['Lec 1']
+['Lec 2']
+ENGCOMP0003
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+['Lec 6']
+['Lec 8']
+['Lec 9']
+['Lec 10']
+['Lec 11']
+['Lec 12']
+['Lec 13']
+['Lec 14']
+['Lec 16']
+['Lec 18']
+['Lec 19']
+['Lec 20']
+['Lec 21']
+['Lec 22']
+['Lec 23']
+ENGCOMP0003D
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 8']
+['Lec 9']
+['Lec 10']
+['Lec 11']
+['Lec 12']
+['Lec 13']
+ENGCOMP0005W001
+['Lec 1']
+ENGCOMP0005W002
+['Lec 2']
+ENGCOMP0005W003
+['Lec 3']
+ENGCOMP0005W004
+['Lec 4']
+ENGCOMP0005W005
+['Lec 5']
+ENGCOMP0005W006
+['Lec 6']
+ENGCOMP0005W007
+['Lec 7']
+ENGCOMP0005W008
+['Lec 8']
+ENGCOMP0006W
+['Lec 1']
+['Lec 2']
+ENGCOMP0088S
+['Sem 1']
+ENGCOMP0100W001
+['Lec 1']
+ENGCOMP0100W002
+['Lec 2']
+ENGCOMP0100W003
+['Lec 3']
+ENGCOMP0100W004
+['Lec 4']
+ENGCOMP0100W006
+['Lec 6']
+ENGCOMP0100W007
+['Lec 7']
+ENGCOMP0100WD
+['Lec 1']
+['Lec 2']
+ENGCOMP0130A
+['Lec 1']
+ENGCOMP0130B
+['Lec 1']
+ENGCOMP0131A
+['Lec 1']
+ENGCOMP0131B
+['Lec 1']
+['Lec 2']
+ENGCOMP0131C
+['Lec 1']
+['Lec 2']
+ENGCOMP0133001
+['Lec 1']
+ENGCOMP0134001
+['Lec 1']
+ENGCOMP0136
+['Lec 1']
+ENGCOMP0137
+['Lec 1']
+ENGCOMP0138M001
+['Sem 1']
+ENGCOMP0138M002
+['Sem 2']
+ENGCOMP0138M003
+['Sem 3']
+ENGCOMP0138M004
+['Sem 4']
+ENGCOMP0138M006
+['Sem 6']
+ENGCOMP0141M
+['Lec 1']
+ENGCOMP0175
+['Sem 1']
+['Sem 2']
+ENGCOMP0185M
+['Sem 1']
+['Sem 2']
+ENGCOMP0192M
+['Sem 1']
+['Sem 2']
+ENGCOMP0375
+['Sem 1']
+ENGCOMP0403
+['Sem 1']
+ENGCOMP0495A
+['Sem 1']
+ENGCOMP0495C
+['Sem 1']
+['Sem 2']
+ENGCOMP0495D
+['Sem 2']
+ENGCOMP0495E
+['Sem 1']
+ENGCOMP0495F
+['Sem 1']
+ENGCOMP0495IM
+['Sem 1']
+ENGCOMP0495O
+['Sem 1']
+['Sem 3']
+ENGCOMP0495P
+['Sem 1']
+ENGCOMP0499
+['Sem 1']
+['Sem 2']
+##########################################################
+English (ENGL)
+ENGL0004HW
+['Lec 1']
+ENGL0004W
+['Lec 1']
+['Lec 2']
+['Lec 4']
+['Lec 6']
+['Lec 7']
+['Lec 8']
+['Lec 9']
+['Lec 10']
+['Lec 11']
+['Lec 12']
+ENGL0004WX
+['Lec 1']
+ENGL0010A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+ENGL0010C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+ENGL0011
+['Lec 1', 'Dis 1A', 'Dis 1B']
+ENGL0019002
+['Sem 2']
+ENGL0019001
+['Sem 1']
+ENGL0020W
+['Lec 1']
+ENGL0030M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+ENGL0080
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+ENGL0087001
+['Sem 1']
+ENGL0091C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+ENGL0101DM001
+['Lec 1']
+ENGL0104CM
+['Lec 1']
+ENGL0104DM
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+ENGL0107BM001
+['Lec 1']
+ENGL0110C
+['Lec 1']
+ENGL0118B001
+['Lec 1']
+ENGL0119001
+['Lec 1']
+ENGL0124001
+['Lec 1']
+ENGL0126M001
+['Lec 1']
+ENGL0131001
+['Lec 1']
+ENGL0132001
+['Lec 1']
+ENGL0135001
+['Lec 1']
+ENGL0136
+['Sem 1']
+['Sem 2']
+ENGL0137
+['Sem 1']
+['Sem 2']
+['Sem 3']
+ENGL0138M001
+['Sem 1']
+ENGL0138M004
+['Sem 4']
+ENGL0138M006
+['Sem 6']
+ENGL0138M002
+['Sem 2']
+ENGL0138M003
+['Sem 3']
+ENGL0139001
+['Lec 1']
+ENGL0140A
+['Lec 1']
+ENGL0142001
+['Lec 1']
+ENGL0150A
+['Lec 1']
+ENGL0150B
+['Lec 1']
+ENGL0153001
+['Lec 1']
+ENGL0156001
+['Lec 1']
+ENGL0157001
+['Lec 1']
+ENGL0163B
+['Lec 1']
+ENGL0164C001
+['Lec 1']
+ENGL0165A
+['Lec 1']
+ENGL0166A
+['Lec 1']
+ENGL0166B
+['Lec 1']
+ENGL0168
+['Lec 1']
+ENGL0170A
+['Lec 1']
+ENGL0171C
+['Lec 1']
+ENGL0172B
+['Lec 1']
+ENGL0173A
+['Lec 1']
+ENGL0173B
+['Lec 1']
+ENGL0174B
+['Lec 1']
+ENGL0174C001
+['Lec 1']
+ENGL0175001
+['Lec 1']
+ENGL0177001
+['Lec 1', 'Dis 1A', 'Dis 1B']
+ENGL0179001
+['Lec 1']
+ENGL0179002
+['Lec 2']
+ENGL0180002
+['Sem 2']
+ENGL0181B001
+['Sem 1']
+ENGL0181C001
+['Sem 1']
+ENGL0182B001
+['Sem 1']
+ENGL0182F001
+['Sem 1']
+ENGL0183B001
+['Sem 1']
+ENGL0183C001
+['Sem 1']
+ENGL0183C002
+['Sem 2']
+ENGL0184002
+['Sem 2']
+ENGL0184003
+['Sem 3']
+ENGL0184004
+['Sem 4']
+ENGL0184001
+['Sem 1']
+ENGL0185M
+['Sem 1']
+['Sem 2']
+ENGL0191CM002
+['Sem 2']
+ENGL0191CM001
+['Sem 1']
+ENGL0191H
+['Sem 1']
+['Sem 2']
+['Sem 3']
+ENGL0192M
+['Sem 1']
+['Sem 2']
+ENGL0195CE
+['Tut 1']
+ENGL0220
+['Sem 1']
+ENGL0248
+['Lec 1']
+ENGL0252
+['Lec 1']
+ENGL0259
+['Lec 1']
+['Lec 2']
+ENGL0262M001
+['Lec 1']
+ENGL0270M
+['Sem 1']
+ENGL0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+ENGL0495A
+['Sem 1']
+ENGL0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+['Tut 72']
+ENGL0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+ENGL0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+ENGL0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+##########################################################
+Environmental Health Sciences (ENV HLT)
+ENVHLT0100
+['Lec 1']
+ENVHLT0140C
+['Lec 1']
+ENVHLT0157C
+['Sem 1']
+ENVHLT0164C
+['Lec 1']
+ENVHLT0200CC
+['Lec 1']
+ENVHLT0200D
+['Lec 1']
+ENVHLT0216
+['Sem 1']
+ENVHLT0217M
+['Sem 1']
+ENVHLT0218
+['Lec 1']
+ENVHLT0219
+['Sem 1']
+ENVHLT0221
+['Lec 1']
+ENVHLT0230C
+['Sem 1']
+ENVHLT0240C
+['Lec 1']
+ENVHLT0252E
+['Lec 1']
+ENVHLT0257C
+['Sem 1']
+ENVHLT0259A
+['Lec 1']
+ENVHLT0264C
+['Lec 1']
+ENVHLT0296A
+['Rgp 1']
+ENVHLT0296C
+['Rgp 1']
+ENVHLT0296J
+['Rgp 1']
+ENVHLT0400
+['Fld 1']
+['Fld 2']
+['Fld 3']
+['Fld 12']
+['Fld 13']
+['Fld 14']
+['Fld 15']
+['Fld 18']
+['Fld 25']
+ENVHLT0401
+['Lec 1']
+ENVHLT0414B
+['Lec 1']
+ENVHLT0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 10']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+ENVHLT0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 13']
+ENVHLT0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 12']
+ENVHLT0599
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+##########################################################
+Environment (ENVIRON)
+ENVIRON0001CWM001
+['Sem 1']
+ENVIRON0001CWM002
+['Sem 2']
+ENVIRON0001CWM003
+['Sem 3']
+ENVIRON0001CWM004
+['Sem 4']
+ENVIRON0001CWM005
+['Sem 5']
+ENVIRON0001CWM006
+['Sem 6']
+ENVIRON0001CWM007
+['Sem 7']
+ENVIRON0001CWM008
+['Sem 8']
+ENVIRON0030M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+ENVIRON0111M
+['Lec 1']
+ENVIRON0134
+['Lec 1']
+ENVIRON0159C
+['Lec 1']
+ENVIRON0175
+['Lec 1']
+ENVIRON0180C
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J', 'Lab 1K', 'Lab 1L', 'Lab 1M']
+ENVIRON0185B
+['Lec 1']
+ENVIRON0185C
+['Sem 1', 'Fld 1A']
+ENVIRON0188B001
+['Lec 1']
+ENVIRON0188SC
+['Tut 1']
+ENVIRON0192M
+['Sem 1']
+['Sem 2']
+ENVIRON0259C
+['Lec 1']
+ENVIRON0297B001
+['Sem 1']
+ENVIRON0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+ENVIRON0400
+['Sem 1']
+['Sem 2']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 8']
+ENVIRON0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+ENVIRON0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+##########################################################
+Epidemiology (EPIDEM)
+EPIDEM0100
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+EPIDEM0175CM
+['Sem 1']
+EPIDEM0200C
+['Lec 1', 'Lab 1A', 'Lab 1B']
+EPIDEM0215
+['Lec 1']
+EPIDEM0217
+['Lec 1']
+EPIDEM0227
+['Lec 1']
+EPIDEM0230
+['Lec 1']
+EPIDEM0240
+['Lec 1']
+EPIDEM0249
+['Lec 1']
+EPIDEM0260
+['Lec 1']
+EPIDEM0270
+['Lec 1']
+EPIDEM0275C
+['Sem 1']
+EPIDEM0291
+['Sem 1']
+EPIDEM0292
+['Sem 1']
+EPIDEM0293
+['Sem 1']
+EPIDEM0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+EPIDEM0400
+['Fld 1']
+['Fld 2']
+['Fld 3']
+['Fld 4']
+['Fld 5']
+['Fld 6']
+['Fld 7']
+['Fld 8']
+['Fld 9']
+['Fld 10']
+['Fld 11']
+['Fld 12']
+['Fld 13']
+['Fld 14']
+['Fld 15']
+['Fld 16']
+['Fld 17']
+['Fld 18']
+['Fld 19']
+['Fld 20']
+['Fld 21']
+['Fld 22']
+['Fld 23']
+['Fld 24']
+['Fld 25']
+['Fld 26']
+['Fld 27']
+['Fld 28']
+['Fld 29']
+['Fld 30']
+['Fld 31']
+['Fld 32']
+['Fld 33']
+['Fld 34']
+['Fld 35']
+EPIDEM0401
+['Lec 1']
+EPIDEM0404
+['Lec 1']
+EPIDEM0407B
+['Lec 1']
+EPIDEM0410
+['Lec 1']
+EPIDEM0412
+['Lec 1']
+EPIDEM0420
+['Lec 1']
+EPIDEM0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+EPIDEM0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+EPIDEM0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+EPIDEM0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+##########################################################
+Ethnomusicology (ETHNMUS)
+Expand button not found
+##########################################################
+Filipino (FILIPNO)
+FILIPNO0003
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+##########################################################
+Film and Television (FILM TV)
+FILMTV0001C
+['Lab 1']
+FILMTV0004
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K']
+FILMTV0006A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J']
+FILMTV0010A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+FILMTV0033
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K']
+FILMTV0084A
+['Lec 1', 'Dis 1A', 'Dis 1B']
+FILMTV0098TA
+['Sem 1']
+FILMTV0098TB
+['Sem 1']
+FILMTV0102C
+['Lab 1']
+FILMTV0106C001
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+FILMTV0112
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+FILMTV0118C
+['Lec 1']
+FILMTV0122D
+['Lec 1']
+FILMTV0122E
+['Lec 1']
+FILMTV0122M
+['Lec 1']
+FILMTV0122N
+['Lec 1']
+FILMTV0134
+['Sem 1']
+['Sem 2']
+FILMTV0135C
+['Lab 1']
+FILMTV0146
+['Lec 1']
+FILMTV0148C
+['Lab 1']
+FILMTV0150
+['Lec 1', 'Lab 1A']
+FILMTV0181AC
+['Lec 1']
+FILMTV0181CC001
+['Stu 1']
+FILMTV0183C
+['Lec 1']
+FILMTV0185
+['Lab 1']
+['Lab 2']
+FILMTV0186CC
+['Lec 1']
+FILMTV0188A002
+['Lec 2']
+FILMTV0188A003
+['Lec 3']
+FILMTV0188A001
+['Lec 1']
+FILMTV0188SC
+['Tut 1']
+FILMTV0212
+['Lec 1']
+FILMTV0213
+['Sem 1']
+FILMTV0218001
+['Sem 1']
+FILMTV0219001
+['Sem 1']
+FILMTV0222001
+['Sem 1']
+FILMTV0224
+['Lec 1']
+FILMTV0248C
+['Lab 1']
+FILMTV0273
+['Sem 1']
+FILMTV0274
+['Sem 1']
+FILMTV0283B
+['Sem 1']
+['Sem 2']
+FILMTV0283C
+['Sem 1']
+FILMTV0284B
+['Sem 1']
+['Sem 2']
+['Sem 3']
+FILMTV0284C
+['Sem 1']
+FILMTV0287C
+['Sem 1']
+FILMTV0289A001
+['Dis 1']
+FILMTV0290C
+['Sem 1']
+FILMTV0291C
+['Lec 1']
+FILMTV0294A
+['Lec 1']
+FILMTV0294C
+['Lec 1']
+FILMTV0295C
+['Lec 1']
+FILMTV0297C
+['Sem 1']
+FILMTV0298A003
+['Sem 3']
+FILMTV0298A011
+['Sem 11']
+FILMTV0298A007
+['Sem 7']
+FILMTV0298A005
+['Sem 5']
+FILMTV0298A002
+['Sem 2']
+FILMTV0298A006
+['Sem 6']
+FILMTV0298A008
+['Sem 8']
+FILMTV0298A001
+['Sem 1']
+FILMTV0298A004
+['Sem 4']
+FILMTV0298A050
+['Sem 50']
+FILMTV0298A012
+['Sem 12']
+FILMTV0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+['Sem 32']
+['Sem 34']
+['Sem 35']
+['Sem 36']
+['Sem 37']
+['Sem 38']
+['Sem 39']
+['Sem 40']
+['Sem 41']
+['Sem 42']
+['Sem 44']
+FILMTV0402C
+['Lab 1']
+['Lab 2']
+FILMTV0403CC
+['Lec 1']
+FILMTV0404
+['Lec 1']
+FILMTV0408B
+['Stu 1']
+['Stu 2']
+FILMTV0410A
+['Sem 1']
+FILMTV0410C
+['Sem 1']
+['Sem 2']
+['Sem 3']
+FILMTV0410D
+['Sem 1']
+['Sem 2']
+FILMTV0416C
+['Lec 1']
+FILMTV0423B
+['Lab 1']
+FILMTV0434
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+FILMTV0454BC
+['Lec 1']
+FILMTV0481CC001
+['Stu 1']
+FILMTV0483C
+['Lec 1']
+FILMTV0485
+['Lec 1']
+FILMTV0489A
+['Lec 1']
+FILMTV0495A
+['Sem 1']
+FILMTV0498
+['Tut 1']
+FILMTV0596A
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+FILMTV0596B
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+FILMTV0596C
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 7']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+FILMTV0596F
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 7']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+FILMTV0597
+['Tut 1']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+FILMTV0599
+['Tut 1']
+['Tut 4']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+##########################################################
+Food Studies (FOOD ST)
+FOODST0079M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+FOODST0167M
+['Lec 1']
+FOODST0187001
+['Lec 1']
+FOODST0187002
+['Lec 2']
+FOODST0195CE
+['Tut 1']
+##########################################################
+French (FRNCH)
+FRNCH0001
+['Lec 1']
+['Lec 2']
+['Lec 3']
+FRNCH0002
+['Lec 1']
+['Lec 2']
+['Lec 3']
+FRNCH0003
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+['Lec 5']
+FRNCH0004
+['Lec 1']
+['Lec 2']
+FRNCH0005
+['Lec 1']
+['Lec 2']
+FRNCH0006
+['Lec 1']
+['Lec 2']
+FRNCH0012
+['Lec 1']
+FRNCH0016
+['Lec 1']
+FRNCH0101
+['Lec 1']
+FRNCH0105
+['Lec 1']
+FRNCH0109
+['Lec 1']
+FRNCH0112
+['Lec 1']
+FRNCH0116001
+['Lec 1']
+FRNCH0117
+['Lec 1']
+FRNCH0120001
+['Lec 1']
+FRNCH0130
+['Lec 1']
+FRNCH0191B001
+['Sem 1']
+FRNCH0216
+['Lec 1']
+FRNCH0217
+['Lec 1']
+FRNCH0375
+['Sem 1']
+FRNCH0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+FRNCH0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+FRNCH0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+FRNCH0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+##########################################################
+Gender Studies (GENDER)
+GENDER0010
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+GENDER0019001
+['Sem 1']
+GENDER0103
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+GENDER0105DM001
+['Lec 1']
+GENDER0107BM001
+['Lec 1']
+GENDER0109M
+['Lec 1']
+GENDER0114M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+GENDER0126M001
+['Lec 1']
+GENDER0131
+['Lec 1']
+GENDER0132BM
+['Lec 1']
+GENDER0162M
+['Lec 1']
+GENDER0170CM
+['Lec 1']
+GENDER0180BM
+['Lec 1']
+GENDER0185001
+['Lec 1']
+GENDER0185003
+['Lec 3']
+GENDER0185004
+['Lec 4']
+GENDER0185005
+['Lec 5']
+GENDER0185002
+['Lec 2']
+GENDER0186BM
+['Lec 1']
+GENDER0187
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+GENDER0203
+['Lec 1']
+GENDER0204
+['Sem 1']
+GENDER0205001
+['Sem 1']
+GENDER0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+GENDER0495
+['Sem 1']
+GENDER0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+GENDER0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+GENDER0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+##########################################################
+Geography (GEOG)
+GEOG0002
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+GEOG0004
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F']
+GEOG0005
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J', 'Lab 1K', 'Lab 1L', 'Lab 1M', 'Lab 1N', 'Lab 1O', 'Lab 1P', 'Lab 1Q', 'Lab 1R', 'Lab 1S', 'Lab 1T', 'Lab 1U', 'Lab 1V', 'Lab 1W', 'Lab 1X']
+GEOG0006
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+GEOG0098T
+['Sem 1']
+GEOG0106
+['Lec 1']
+GEOG0107
+['Lec 1']
+GEOG0108
+['Lec 1']
+GEOG0110M
+['Lec 1']
+GEOG0116
+['Lec 1']
+GEOG0130
+['Lec 1']
+GEOG0150
+['Lec 1']
+GEOG0151
+['Lec 1']
+GEOG0159
+['Lec 1']
+GEOG0171A
+['Lec 1']
+GEOG0174A
+['Lec 1']
+GEOG0181B
+['Lec 1']
+GEOG0181C
+['Lec 1']
+GEOG0182B
+['Lec 1']
+GEOG0184
+['Lec 1']
+GEOG0194AC
+['Sem 1']
+GEOG0205M
+['Lec 1']
+GEOG0208
+['Lec 1']
+GEOG0224M
+['Lec 1']
+GEOG0230BM
+['Lec 1']
+GEOG0236
+['Sem 1']
+GEOG0240
+['Sem 1']
+GEOG0271
+['Sem 1']
+GEOG0277
+['Sem 1']
+GEOG0299A
+['Sem 1']
+GEOG0299BC
+['Sem 1']
+GEOG0375
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+GEOG0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+GEOG0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+GEOG0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+GEOG0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+##########################################################
+German
+GERMAN0001
+['Dis 1']
+GERMAN0002
+['Dis 1']
+['Dis 2']
+GERMAN0003
+['Dis 1']
+['Dis 2']
+GERMAN0004
+['Dis 1']
+GERMAN0005
+['Dis 1']
+GERMAN0006
+['Dis 1']
+GERMAN0103
+['Lec 1']
+GERMAN0110001
+['Lec 1']
+GERMAN0112
+['Lec 1']
+GERMAN0159
+['Lec 1']
+GERMAN0174001
+['Lec 1']
+GERMAN0191A001
+['Sem 1']
+GERMAN0191C
+['Sem 1']
+GERMAN0261001
+['Sem 1']
+GERMAN0375
+['Sem 1']
+GERMAN0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+GERMAN0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+GERMAN0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+GERMAN0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+##########################################################
+Gerontology (GRNTLGY)
+Expand button not found
+##########################################################
+Global Health (GLB HLT)
+GLBHLT0088S
+['Sem 1']
+GLBHLT0188SC
+['Tut 1']
+GLBHLT0191001
+['Sem 1']
+##########################################################
+Global Jazz Studies (GJ STDS)
+GJSTDS0012BM
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+GJSTDS0071A
+['Stu 1']
+['Stu 2']
+GJSTDS0071B
+['Stu 1']
+['Stu 2']
+GJSTDS0071C
+['Stu 1']
+['Stu 2']
+GJSTDS0071D
+['Stu 1']
+['Stu 2']
+['Stu 3']
+GJSTDS0071E
+['Stu 1']
+GJSTDS0071F
+['Stu 1']
+GJSTDS0071G
+['Stu 1']
+GJSTDS0071I
+['Stu 1']
+['Stu 2']
+GJSTDS0109M
+['Lec 1']
+GJSTDS0122C
+['Lec 1']
+GJSTDS0127C
+['Lab 1']
+GJSTDS0129C
+['Lec 1']
+GJSTDS0171A
+['Stu 1']
+['Stu 2']
+GJSTDS0171B
+['Stu 1']
+['Stu 2']
+GJSTDS0171C
+['Stu 1']
+['Stu 2']
+GJSTDS0171D
+['Stu 1']
+['Stu 2']
+['Stu 3']
+GJSTDS0171E
+['Stu 1']
+GJSTDS0171F
+['Stu 1']
+GJSTDS0171G
+['Stu 1']
+GJSTDS0171I
+['Stu 1']
+['Stu 2']
+GJSTDS0175
+['Act 1']
+['Act 3']
+['Act 4']
+['Act 5']
+['Act 7']
+GJSTDS0176A001
+['Act 1']
+GJSTDS0176B001
+['Act 1']
+GJSTDS0176C001
+['Act 1']
+GJSTDS0176F001
+['Act 1']
+GJSTDS0176G001
+['Act 1']
+GJSTDS0186A
+['Sem 1']
+GJSTDS0186B
+['Sem 1']
+##########################################################
+Global Studies (GLBL ST)
+GLBLST0088S
+['Sem 1']
+GLBLST0102
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+GLBLST0104
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+GLBLST0160001
+['Lec 1']
+GLBLST0188SC
+['Tut 1']
+GLBLST0199A
+['Tut 1']
+GLBLST0199B
+['Tut 1']
+['Tut 2']
+##########################################################
+Graduate Student Professional Development (GRAD PD)
+GRADPD0496C
+['Tut 1']
+##########################################################
+Greek
+GREEK0003
+['Lec 1']
+GREEK0008C
+['Lec 1']
+GREEK0009C
+['Lec 1']
+GREEK0104
+['Lec 1']
+GREEK0123
+['Lec 1']
+GREEK0200B
+['Lec 1']
+GREEK0205
+['Sem 1']
+GREEK0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+GREEK0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+GREEK0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+##########################################################
+Health Policy and Management (HLT POL)
+HLTPOL0100
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+HLTPOL0200B
+['Lec 1']
+HLTPOL0215A
+['Lec 1']
+HLTPOL0216
+['Sem 1']
+HLTPOL0217
+['Lec 1']
+HLTPOL0225C
+['Lec 1']
+HLTPOL0227B
+['Sem 1']
+HLTPOL0230B
+['Sem 1']
+HLTPOL0234
+['Lec 1']
+HLTPOL0237C
+['Lec 1', 'Dis 1A']
+HLTPOL0249001
+['Sem 1']
+HLTPOL0252M
+['Lec 1']
+HLTPOL0259M
+['Lec 1']
+HLTPOL0287M
+['Lec 1']
+HLTPOL0290M
+['Sem 1']
+HLTPOL0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+HLTPOL0400
+['Fld 1']
+HLTPOL0415
+['Sem 1']
+HLTPOL0422M
+['Lec 1']
+HLTPOL0423
+['Lec 1']
+HLTPOL0424
+['Sem 1']
+HLTPOL0428M
+['Sem 1']
+HLTPOL0430
+['Lec 1']
+HLTPOL0433
+['Lec 1']
+HLTPOL0434M
+['Sem 1']
+HLTPOL0446
+['Lec 1']
+HLTPOL0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+HLTPOL0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+HLTPOL0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+HLTPOL0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+##########################################################
+Hebrew
+HEBREW0001C
+['Lec 1']
+HEBREW0102C
+['Lec 1']
+HEBREW0220001
+['Sem 1']
+HEBREW0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+HEBREW0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+HEBREW0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+##########################################################
+Hindi-Urdu (HIN-URD)
+HINURD0003
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+HINURD0100C
+['Lec 1', 'Dis 1A']
+##########################################################
+History (HIST)
+HIST0003C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+HIST0008C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+HIST0012C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+HIST0013C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L']
+HIST0014
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+HIST0019001
+['Sem 1']
+HIST0022
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+HIST0088S
+['Sem 1']
+HIST0096W002
+['Sem 2']
+HIST0096W003
+['Sem 3']
+HIST0096W006
+['Sem 6']
+HIST0096W007
+['Sem 7']
+HIST0096W005
+['Sem 5']
+HIST0096W001
+['Sem 1']
+HIST0096W004
+['Sem 4']
+HIST0097C001
+['Sem 1']
+HIST0105C
+['Lec 1']
+HIST0107B
+['Lec 1']
+HIST0107C
+['Lec 1']
+HIST0109B
+['Lec 1']
+HIST0110CM
+['Lec 1']
+HIST0115001
+['Lec 1']
+HIST0116A
+['Lec 1']
+HIST0124C
+['Lec 1']
+HIST0127D
+['Lec 1']
+HIST0130
+['Lec 1']
+HIST0132002
+['Lec 2']
+HIST0132001
+['Lec 1']
+HIST0139B
+['Lec 1']
+HIST0140C
+['Lec 1']
+HIST0141A
+['Lec 1']
+HIST0142CM
+['Lec 1']
+HIST0146B
+['Lec 1']
+HIST0149B
+['Lec 1']
+HIST0161003
+['Lec 3']
+HIST0164E001
+['Lec 1']
+HIST0166B
+['Lec 1']
+HIST0168B
+['Lec 1']
+HIST0170CM
+['Lec 1']
+HIST0174B
+['Lec 1']
+HIST0179A001
+['Lec 1']
+HIST0180BM
+['Lec 1']
+HIST0186BM
+['Lec 1']
+HIST0187B001
+['Sem 1']
+HIST0187D001
+['Sem 1']
+HIST0187D002
+['Sem 2']
+HIST0187E001
+['Sem 1']
+HIST0187G001
+['Sem 1']
+HIST0187I001
+['Sem 1']
+HIST0191C002
+['Sem 2']
+HIST0191C001
+['Sem 1']
+HIST0191DC001
+['Sem 1']
+HIST0191DC002
+['Sem 2']
+HIST0191DCM
+['Sem 1']
+HIST0191F001
+['Sem 1']
+HIST0191I001
+['Sem 1']
+HIST0191L001
+['Sem 1']
+HIST0195
+['Tut 1']
+HIST0195CE
+['Tut 1']
+HIST0198A
+['Tut 1']
+['Tut 2']
+['Tut 3']
+HIST0201D001
+['Sem 1']
+HIST0201E002
+['Sem 2']
+HIST0201E001
+['Sem 1']
+HIST0201HC001
+['Sem 1']
+HIST0201O001
+['Sem 1']
+HIST0201QC001
+['Sem 1']
+HIST0246C
+['Sem 1']
+HIST0256CM
+['Sem 1']
+HIST0282B001
+['Sem 1']
+HIST0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+HIST0490
+['Tut 1']
+HIST0495
+['Sem 1']
+HIST0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+['Tut 72']
+['Tut 73']
+['Tut 74']
+['Tut 75']
+['Tut 76']
+['Tut 77']
+['Tut 78']
+['Tut 79']
+['Tut 80']
+['Tut 81']
+['Tut 82']
+HIST0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+['Tut 72']
+['Tut 73']
+['Tut 74']
+['Tut 75']
+['Tut 76']
+['Tut 77']
+['Tut 78']
+['Tut 79']
+HIST0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+['Tut 72']
+['Tut 73']
+['Tut 74']
+['Tut 75']
+['Tut 76']
+['Tut 77']
+['Tut 78']
+['Tut 79']
+['Tut 80']
+##########################################################
+Honors Collegium (HNRS)
+HNRS0019002
+['Sem 2']
+HNRS0019003
+['Sem 3']
+HNRS0019001
+['Sem 1']
+HNRS0021W
+['Sem 1']
+HNRS0027
+['Sem 1']
+HNRS0037W
+['Sem 1']
+HNRS0050
+['Sem 1']
+['Sem 2']
+HNRS0065W
+['Sem 1']
+HNRS0070A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+HNRS0086
+['Sem 1']
+HNRS0088SA
+['Sem 1']
+HNRS0088SB
+['Sem 1']
+HNRS0101B
+['Sem 1']
+HNRS0101C
+['Sem 1']
+HNRS0101D
+['Sem 1']
+HNRS0101F
+['Sem 1']
+HNRS0101J
+['Sem 1']
+HNRS0101K
+['Sem 1']
+HNRS0101L
+['Sem 1']
+HNRS0123M
+['Sem 1']
+HNRS0130
+['Sem 1']
+HNRS0132
+['Sem 1']
+HNRS0136
+['Sem 1']
+['Sem 2']
+HNRS0138
+['Sem 1']
+HNRS0144
+['Sem 1']
+HNRS0146
+['Sem 1']
+HNRS0154
+['Sem 1']
+HNRS0175M
+['Sem 1']
+HNRS0177
+['Sem 1']
+HNRS0193A
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+##########################################################
+Human Genetics (HUM GEN)
+HUMGEN0229SM
+['Sem 1']
+['Sem 2']
+HUMGEN0265M
+['Lec 1']
+HUMGEN0400C
+['Lec 1']
+HUMGEN0403
+['Lec 1']
+HUMGEN0412
+['Lec 1']
+HUMGEN0413
+['Lec 1']
+HUMGEN0431A
+['Cli 1', 'Dis 1A']
+HUMGEN0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+HUMGEN0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+HUMGEN0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+HUMGEN0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+##########################################################
+Hungarian (HNGAR)
+HNGAR0102C
+['Lec 1']
+##########################################################
+Indigenous Languages of the Americas (IL AMER)
+ILAMER0005CM
+['Lec 1']
+ILAMER0015CM
+['Lec 1']
+ILAMER0018C
+['Lec 1']
+ILAMER0115CM
+['Lec 1']
+##########################################################
+Indo-European Studies (I E STD)
+IESTD0020M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+IESTD0150M
+['Lec 1', 'Dis 1A', 'Dis 1B']
+IESTD0215
+['Lec 1']
+IESTD0230BM
+['Lec 1']
+IESTD0280A001
+['Sem 1']
+IESTD0281B001
+['Sem 1']
+IESTD0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+IESTD0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+IESTD0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+##########################################################
+Indonesian (INDO)
+INDO0003
+['Lec 1', 'Dis 1A']
+INDO0006
+['Lec 1']
+INDO0100C
+['Lec 1']
+##########################################################
+Information Studies (INF STD)
+INFSTD0010
+['Lec 1']
+INFSTD0020
+['Lec 1']
+INFSTD0210
+['Lec 1']
+INFSTD0212
+['Lec 1']
+INFSTD0233
+['Lec 1']
+INFSTD0234
+['Lec 1']
+INFSTD0246
+['Lec 1']
+INFSTD0253M
+['Sem 1']
+INFSTD0289001
+['Sem 1']
+INFSTD0289004
+['Sem 4']
+INFSTD0289005
+['Sem 5']
+INFSTD0289002
+['Sem 2']
+INFSTD0289006
+['Sem 6']
+INFSTD0289003
+['Sem 3']
+INFSTD0290
+['Sem 1']
+INFSTD0291B
+['Sem 1']
+INFSTD0291C001
+['Sem 1']
+INFSTD0298C001
+['Sem 1']
+INFSTD0427
+['Lec 1']
+INFSTD0430
+['Lec 1']
+INFSTD0433
+['Lec 1']
+INFSTD0438A
+['Sem 1']
+INFSTD0439
+['Sem 1']
+INFSTD0462
+['Lec 1']
+INFSTD0464
+['Lec 1']
+INFSTD0498
+['Dis 1']
+INFSTD0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+INFSTD0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+INFSTD0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+INFSTD0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+##########################################################
+International and Area Studies (I A STD)
+IASTD0005CM
+['Lec 1']
+IASTD0006CM
+['Lec 1']
+IASTD0007CM
+['Lec 1']
+IASTD0015CM
+['Lec 1']
+IASTD0111B
+['Sem 1']
+IASTD0115CM
+['Lec 1']
+IASTD0191001
+['Sem 1']
+IASTD0191002
+['Sem 2']
+IASTD0195CE
+['Tut 1']
+##########################################################
+International Development Studies (INTL DV)
+INTLDV0120M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I']
+INTLDV0140
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+INTLDV0160001
+['Lec 1']
+INTLDV0188001
+['Sem 1']
+INTLDV0191002
+['Sem 2']
+INTLDV0191001
+['Sem 1']
+INTLDV0194
+['Sem 1']
+##########################################################
+International Migration Studies (I M STD)
+IMSTD0019001
+['Sem 1']
+IMSTD0193
+['Sem 1']
+##########################################################
+Iranian
+IRANIAN0001C
+['Lec 1']
+IRANIAN0020C
+['Lec 1']
+['Lec 2']
+IRANIAN0102C
+['Lec 1']
+IRANIAN0105CM
+['Lec 1']
+IRANIAN0110CM
+['Lec 1']
+IRANIAN0131
+['Lec 1']
+IRANIAN0141
+['Lec 1']
+IRANIAN0150A
+['Lec 1']
+IRANIAN0187001
+['Lec 1']
+IRANIAN0230BM
+['Lec 1']
+IRANIAN0250
+['Sem 1']
+IRANIAN0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+IRANIAN0597
+['Tut 1']
+['Tut 2']
+IRANIAN0599
+['Tut 1']
+['Tut 2']
+##########################################################
+Islamic Studies (ISLM ST)
+ISLMST0112M
+['Lec 1']
+ISLMST0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+ISLMST0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+ISLMST0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+ISLMST0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+##########################################################
+Italian
+ITALIAN0001
+['Lec 1']
+['Lec 2']
+['Lec 3']
+ITALIAN0002
+['Lec 1']
+['Lec 2']
+['Lec 3']
+ITALIAN0003
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+ITALIAN0004
+['Lec 1']
+ITALIAN0005
+['Lec 1']
+ITALIAN0006
+['Lec 1']
+ITALIAN0098T
+['Sem 1']
+ITALIAN0102B001
+['Lec 1']
+ITALIAN0116A
+['Lec 1']
+ITALIAN0121
+['Lec 1']
+ITALIAN0150001
+['Lec 1']
+ITALIAN0260C001
+['Lec 1']
+ITALIAN0375
+['Sem 1']
+ITALIAN0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+ITALIAN0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+ITALIAN0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+##########################################################
+Japanese (JAPAN)
+JAPAN0003
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C']
+JAPAN0006
+['Lec 1', 'Dis 1A', 'Dis 1B']
+['Lec 2', 'Dis 2A', 'Dis 2B']
+JAPAN0050
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+JAPAN0100C
+['Lec 1', 'Dis 1A']
+['Lec 2', 'Dis 2A', 'Dis 2B']
+JAPAN0101C
+['Lec 1']
+JAPAN0103B
+['Lec 1']
+JAPAN0159C001
+['Lec 1']
+JAPAN0191A001
+['Sem 1']
+JAPAN0191B001
+['Sem 1']
+JAPAN0241B
+['Sem 1']
+##########################################################
+Jewish Studies (JEWISH)
+JEWISH0082M
+['Lec 1', 'Dis 1A']
+##########################################################
+Korean (KOREA)
+KOREA0003
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C']
+KOREA0003A
+['Lec 1', 'Dis 1A', 'Dis 1B']
+KOREA0006
+['Lec 1', 'Dis 1A', 'Dis 1B']
+KOREA0050
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+KOREA0060M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E']
+KOREA0075
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+KOREA0100C
+['Lec 1', 'Dis 1A', 'Dis 1B']
+KOREA0101C
+['Lec 1']
+KOREA0103A
+['Lec 1']
+KOREA0124
+['Lec 1']
+KOREA0160CM
+['Lec 1']
+KOREA0177C
+['Lec 1']
+KOREA0180B
+['Lec 1']
+KOREA0184B
+['Lec 1']
+KOREA0191A001
+['Sem 1']
+KOREA0191B001
+['Sem 1']
+KOREA0203001
+['Sem 1']
+KOREA0215
+['Lec 1']
+KOREA0235A
+['Sem 1']
+KOREA0243
+['Sem 1']
+KOREA0277C
+['Lec 1']
+##########################################################
+Labor Studies (LBR STD)
+LBRSTD0097001
+['Sem 1']
+LBRSTD0101
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LBRSTD0115M
+['Sem 1']
+LBRSTD0117M
+['Lec 1']
+['Lec 2']
+LBRSTD0136M
+['Sem 1']
+LBRSTD0166BM
+['Sem 1']
+LBRSTD0167M
+['Sem 1']
+LBRSTD0173M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+LBRSTD0188001
+['Sem 1']
+LBRSTD0188002
+['Sem 2']
+LBRSTD0190CM
+['Sem 1']
+LBRSTD0191A001
+['Sem 1']
+LBRSTD0375
+['Sem 1']
+['Sem 2']
+##########################################################
+Latin
+LATIN0002
+['Lec 1']
+LATIN0003
+['Lec 1', 'Dis 1A', 'Dis 1B']
+['Lec 2']
+['Lec 3']
+LATIN0102
+['Lec 1']
+LATIN0119A
+['Lec 1']
+LATIN0210
+['Lec 1']
+LATIN0240
+['Lec 1']
+LATIN0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+LATIN0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+LATIN0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+##########################################################
+Latin American Studies (LATN AM)
+LATNAM0262M
+['Sem 1']
+LATNAM0264M
+['Lec 1']
+LATNAM0596
+['Tut 1']
+##########################################################
+Law (Undergraduate) (UG-LAW)
+UGLAW0019001
+['Sem 1']
+UGLAW0019002
+['Sem 2']
+##########################################################
+Lesbian, Gay, Bisexual, Transgender, and Queer Studies (LGBTQS)
+LGBTQS0101DM001
+['Lec 1']
+LGBTQS0107BM001
+['Lec 1']
+LGBTQS0114M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+LGBTQS0126M001
+['Lec 1']
+LGBTQS0136M
+['Lec 1']
+LGBTQS0180XP
+['Lec 1']
+LGBTQS0181001
+['Lec 1']
+##########################################################
+Life Sciences (LIFESCI)
+LIFESCI0007A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F', 'Dis 2G', 'Dis 2H', 'Dis 2I', 'Dis 2J', 'Dis 2K', 'Dis 2L']
+LIFESCI0007B
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I']
+['Lec 2', 'Lab 2A', 'Lab 2B', 'Lab 2C', 'Lab 2D', 'Lab 2E', 'Lab 2F', 'Lab 2G', 'Lab 2H', 'Lab 2I']
+['Lec 3', 'Lab 3A', 'Lab 3B', 'Lab 3C', 'Lab 3D', 'Lab 3E', 'Lab 3F', 'Lab 3G', 'Lab 3H', 'Lab 3I']
+LIFESCI0007C
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L', 'Dis 1M', 'Dis 1N', 'Dis 1O', 'Dis 1P', 'Dis 1Q', 'Dis 1R']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F', 'Dis 2G', 'Dis 2H', 'Dis 2I', 'Dis 2J', 'Dis 2K', 'Dis 2L', 'Dis 2M', 'Dis 2N', 'Dis 2O']
+['Lec 3', 'Dis 3A', 'Dis 3B', 'Dis 3C', 'Dis 3D', 'Dis 3E', 'Dis 3F', 'Dis 3G', 'Dis 3H', 'Dis 3I', 'Dis 3J', 'Dis 3K', 'Dis 3L', 'Dis 3M', 'Dis 3N', 'Dis 3O']
+LIFESCI0019001
+['Sem 1']
+LIFESCI0023L
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J', 'Lab 1K', 'Lab 1L', 'Lab 1O', 'Lab 1P', 'Lab 1Q', 'Lab 1R', 'Lab 1S', 'Lab 1T', 'Lab 1U', 'Lab 1V', 'Lab 1W', 'Lab 1X', 'Lab 1Y', 'Lab 1Z']
+LIFESCI0030A
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D']
+LIFESCI0030B
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H', 'Lab 1I', 'Lab 1J', 'Lab 1K', 'Lab 1L']
+LIFESCI0040
+['Lec 1', 'Lab 1A', 'Lab 1B', 'Lab 1C', 'Lab 1D', 'Lab 1E', 'Lab 1F', 'Lab 1G', 'Lab 1H']
+['Lec 2', 'Lab 2A', 'Lab 2B', 'Lab 2C', 'Lab 2D', 'Lab 2E', 'Lab 2F', 'Lab 2G', 'Lab 2H']
+LIFESCI0098XA
+['Sem 1']
+LIFESCI0098XB
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+LIFESCI0107
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J', 'Dis 1K', 'Dis 1L', 'Dis 1M', 'Dis 1N', 'Dis 1O']
+LIFESCI0110
+['Sem 1']
+LIFESCI0174M
+['Lec 1']
+LIFESCI0192AM
+['Sem 1']
+LIFESCI0192B
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+LIFESCI0192C
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+LIFESCI0192D
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+LIFESCI0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+LIFESCI0495
+['Sem 1']
+##########################################################
+Linguistics (LING)
+LING0001
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F', 'Dis 1G', 'Dis 1H', 'Dis 1I', 'Dis 1J']
+LING0020
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F']
+LING0102
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+LING0119A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+LING0120A
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LING0120B
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D']
+LING0120C
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LING0127
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LING0132
+['Lec 1', 'Lab 1A', 'Lab 1B']
+LING0141M
+['Lec 1']
+LING0144
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LING0146M
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+LING0150M
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LING0165B
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LING0165C
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LING0170M
+['Lec 1']
+LING0185A
+['Lec 1', 'Lab 1A', 'Lab 1B']
+LING0185B
+['Lec 1', 'Dis 1A', 'Dis 1B']
+LING0191A001
+['Sem 1']
+LING0209A
+['Lec 1']
+LING0210B
+['Lec 1']
+LING0211
+['Lec 1']
+LING0216
+['Lec 1']
+LING0239
+['Lec 1']
+LING0251A
+['Sem 1']
+LING0251B
+['Sem 1']
+LING0252A
+['Sem 1']
+LING0252B
+['Sem 1']
+LING0254A
+['Sem 1']
+LING0254B
+['Sem 1']
+LING0260C
+['Sem 1']
+LING0261C
+['Sem 1']
+LING0262C
+['Sem 1']
+LING0263
+['Sem 1']
+LING0264C
+['Sem 1']
+LING0265C
+['Sem 1']
+LING0275
+['Dis 1']
+LING0276
+['Dis 1']
+LING0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+LING0422
+['Lab 1']
+LING0444
+['Sem 1']
+LING0495
+['Sem 1']
+LING0596A
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+LING0596B
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+LING0597
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+LING0598
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+LING0599
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+##########################################################
+Management-Executive MBA (MGMTEX)
+MGMTEX0405
+['Lec 1']
+MGMTEX0408
+['Lec 3']
+MGMTEX0414C
+['Lec 3']
+MGMTEX0421001
+['Sem 1']
+MGMTEX0421002
+['Sem 2']
+MGMTEX0421003
+['Sem 3']
+MGMTEX0422
+['Lec 1']
+['Lec 2']
+MGMTEX0439003
+['Sem 3']
+MGMTEX0439004
+['Sem 4']
+MGMTEX0440002
+['Sem 2']
+##########################################################
+Management-Full-Time MBA (MGMTFT)
+MGMTFT0409
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+['Lec 5']
+MGMTFT0421A
+['Lec 2']
+['Lec 4']
+['Lec 6']
+['Lec 8']
+MGMTFT0421B
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+['Lec 5']
+['Lec 6']
+['Lec 7']
+['Lec 8']
+['Lec 9']
+['Lec 10']
+MGMTFT0423C
+['Fld 2']
+MGMTFT0426
+['Fld 1']
+MGMTFT0428B
+['Lec 1']
+##########################################################
+Management-Fully Employed MBA (MGMTFE)
+MGMTFE0408
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+['Lec 5']
+MGMTFE0411
+['Lec 1']
+['Lec 2']
+['Lec 3']
+['Lec 4']
+['Lec 5']
+##########################################################
+Management-Master of Financial Engineering (MGMTMFE)
+MGMTMFE0405
+['Lec 1']
+['Lec 2']
+MGMTMFE0409
+['Lec 1']
+['Lec 2']
+MGMTMFE0431005
+['Lec 5']
+MGMTMFE0431001
+['Lec 1']
+MGMTMFE0431002
+['Lec 2']
+MGMTMFE0431003
+['Lec 3']
+##########################################################
+Management-Master of Science in Business Analytics (MGMTMSA)
+MGMTMSA0408
+['Lec 1']
+MGMTMSA0409
+['Lec 1']
+MGMTMSA0410
+['Lec 1']
+MGMTMSA0413
+['Sem 1']
+##########################################################
+Management (MGMT)
+MGMT0001A
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+['Lec 2', 'Dis 2A', 'Dis 2B', 'Dis 2C', 'Dis 2D', 'Dis 2E', 'Dis 2F']
+MGMT0001B
+['Lec 1', 'Dis 1A', 'Dis 1B', 'Dis 1C', 'Dis 1D', 'Dis 1E', 'Dis 1F']
+MGMT0108
+['Lec 1']
+['Lec 2']
+MGMT0120A
+['Lec 1']
+['Lec 2']
+MGMT0120B
+['Lec 1']
+['Lec 2']
+MGMT0122
+['Lec 1']
+['Lec 2']
+MGMT0123
+['Lec 1']
+MGMT0124
+['Lec 1']
+MGMT0126
+['Lec 1']
+MGMT0127A
+['Lec 1']
+['Lec 2']
+MGMT0127B
+['Lec 1']
+MGMT0128001
+['Lec 1']
+MGMT0142B
+['Lec 1']
+MGMT0160
+['Lec 1']
+['Lec 2']
+MGMT0161
+['Lec 1']
+MGMT0163
+['Lec 1']
+MGMT0164
+['Lec 1']
+MGMT0167
+['Lec 1']
+MGMT0168
+['Lec 1']
+MGMT0169
+['Lec 1']
+MGMT0170
+['Lec 1']
+MGMT0180001
+['Lec 1']
+MGMT0188SC
+['Tut 1']
+MGMT0201B
+['Dis 1']
+MGMT0209
+['Lec 1']
+MGMT0215A
+['Lec 1']
+['Lec 2']
+MGMT0218
+['Lec 1']
+['Lec 2']
+MGMT0220
+['Lec 1']
+MGMT0222
+['Lec 1']
+MGMT0224
+['Lec 1']
+MGMT0225M
+['Lec 1']
+MGMT0226
+['Lec 1']
+MGMT0228
+['Lec 1']
+['Lec 2']
+MGMT0231D
+['Lec 1']
+MGMT0232A
+['Lec 1']
+['Lec 2']
+MGMT0232F
+['Lec 1']
+['Lec 2']
+MGMT0235
+['Lec 1']
+['Lec 2']
+MGMT0240E
+['Lec 1']
+MGMT0240F
+['Lec 1']
+MGMT0252
+['Lec 1']
+['Lec 2']
+MGMT0260A
+['Lec 1']
+['Lec 2']
+MGMT0261A
+['Lec 1']
+['Lec 2']
+MGMT0261B
+['Lec 1']
+['Lec 2']
+MGMT0263A
+['Lec 1']
+MGMT0264A
+['Lec 1']
+['Lec 2']
+MGMT0265
+['Lec 1']
+['Lec 2']
+MGMT0266B
+['Lec 1']
+MGMT0267
+['Lec 1']
+['Lec 2']
+MGMT0268001
+['Lec 1']
+MGMT0271BM
+['Lec 1']
+MGMT0273002
+['Sem 2']
+MGMT0275001
+['Sem 1']
+MGMT0275002
+['Sem 2']
+MGMT0275003
+['Sem 3']
+MGMT0278A
+['Lec 1']
+MGMT0279B
+['Lec 1']
+MGMT0281B
+['Dis 1']
+MGMT0284C
+['Lec 1']
+MGMT0295A
+['Dis 1']
+MGMT0295C
+['Dis 1']
+MGMT0295D
+['Lec 1']
+['Lec 2']
+MGMT0295F
+['Lec 1']
+MGMT0297E
+['Lec 1']
+MGMT0298D001
+['Lec 1']
+MGMT0298D010
+['Lec 10']
+MGMT0298D011
+['Lec 11']
+MGMT0298D012
+['Lec 12']
+MGMT0298D013
+['Lec 13']
+MGMT0298D014
+['Lec 14']
+MGMT0298D015
+['Lec 15']
+MGMT0298D017
+['Lec 17']
+MGMT0298D018
+['Lec 18']
+MGMT0298D019
+['Lec 19']
+MGMT0298D002
+['Lec 2']
+MGMT0298D020
+['Lec 20']
+MGMT0298D021
+['Lec 21']
+MGMT0298D022
+['Lec 22']
+MGMT0298D023
+['Lec 23']
+MGMT0298D003
+['Lec 3']
+MGMT0298D004
+['Lec 4']
+MGMT0298D005
+['Lec 5']
+MGMT0298D006
+['Lec 6']
+MGMT0298D007
+['Lec 7']
+MGMT0298D008
+['Lec 8']
+MGMT0298D009
+['Lec 9']
+MGMT0298E001
+['Lec 1']
+MGMT0298E002
+['Lec 2']
+MGMT0298E003
+['Lec 3']
+MGMT0298E004
+['Lec 4']
+MGMT0298H001
+['Lec 1']
+MGMT0375
+['Sem 1']
+['Sem 2']
+['Sem 3']
+['Sem 4']
+['Sem 5']
+['Sem 6']
+['Sem 7']
+['Sem 8']
+['Sem 9']
+['Sem 10']
+['Sem 11']
+['Sem 12']
+['Sem 13']
+['Sem 14']
+['Sem 15']
+['Sem 16']
+['Sem 17']
+['Sem 18']
+['Sem 19']
+['Sem 20']
+['Sem 21']
+['Sem 22']
+['Sem 23']
+['Sem 24']
+['Sem 25']
+['Sem 26']
+['Sem 27']
+['Sem 28']
+['Sem 29']
+['Sem 30']
+['Sem 31']
+['Sem 32']
+['Sem 33']
+['Sem 34']
+['Sem 35']
+['Sem 36']
+['Sem 37']
+['Sem 38']
+['Sem 39']
+['Sem 40']
+['Sem 41']
+['Sem 42']
+['Sem 43']
+['Sem 44']
+['Sem 45']
+['Sem 46']
+['Sem 47']
+['Sem 48']
+['Sem 49']
+['Sem 50']
+['Sem 51']
+['Sem 52']
+['Sem 53']
+['Sem 54']
+['Sem 55']
+['Sem 56']
+['Sem 57']
+['Sem 58']
+['Sem 59']
+['Sem 60']
+['Sem 61']
+['Sem 62']
+['Sem 63']
+['Sem 64']
+['Sem 65']
+['Sem 66']
+['Sem 67']
+['Sem 68']
+['Sem 69']
+['Sem 70']
+['Sem 71']
+['Sem 72']
+['Sem 73']
+['Sem 74']
+['Sem 75']
+['Sem 76']
+['Sem 77']
+['Sem 78']
+['Sem 79']
+['Sem 80']
+['Sem 81']
+['Sem 82']
+['Sem 83']
+['Sem 84']
+['Sem 85']
+['Sem 86']
+['Sem 87']
+['Sem 88']
+['Sem 89']
+['Sem 90']
+['Sem 91']
+['Sem 92']
+['Sem 93']
+['Sem 94']
+['Sem 95']
+['Sem 96']
+['Sem 97']
+['Sem 98']
+['Sem 99']
+['Sem 100']
+['Sem 101']
+['Sem 102']
+['Sem 103']
+['Sem 104']
+['Sem 105']
+['Sem 106']
+['Sem 107']
+['Sem 108']
+['Sem 109']
+['Sem 110']
+['Sem 111']
+['Sem 112']
+['Sem 113']
+['Sem 114']
+['Sem 115']
+['Sem 116']
+['Sem 117']
+['Sem 118']
+['Sem 119']
+['Sem 120']
+['Sem 121']
+['Sem 122']
+['Sem 123']
+['Sem 124']
+['Sem 125']
+['Sem 126']
+['Sem 127']
+['Sem 128']
+['Sem 129']
+['Sem 130']
+['Sem 131']
+['Sem 132']
+['Sem 133']
+['Sem 134']
+['Sem 135']
+['Sem 136']
+['Sem 137']
+['Sem 138']
+['Sem 139']
+['Sem 140']
+['Sem 141']
+['Sem 142']
+['Sem 143']
+['Sem 144']
+['Sem 145']
+['Sem 146']
+['Sem 147']
+['Sem 148']
+['Sem 149']
+['Sem 150']
+['Sem 151']
+['Sem 152']
+['Sem 153']
+['Sem 154']
+['Sem 155']
+['Sem 156']
+['Sem 157']
+['Sem 158']
+['Sem 159']
+['Sem 160']
+['Sem 161']
+['Sem 162']
+['Sem 163']
+['Sem 164']
+['Sem 165']
+['Sem 166']
+['Sem 167']
+['Sem 168']
+['Sem 169']
+['Sem 170']
+['Sem 171']
+['Sem 172']
+['Sem 173']
+['Sem 174']
+['Sem 175']
+['Sem 176']
+['Sem 177']
+['Sem 178']
+['Sem 179']
+['Sem 180']
+['Sem 181']
+['Sem 182']
+['Sem 183']
+['Sem 184']
+['Sem 185']
+['Sem 186']
+['Sem 187']
+['Sem 188']
+['Sem 189']
+['Sem 190']
+['Sem 191']
+['Sem 192']
+['Sem 193']
+['Sem 194']
+['Sem 195']
+['Sem 196']
+['Sem 197']
+['Sem 198']
+['Sem 199']
+['Sem 200']
+['Sem 201']
+['Sem 202']
+['Sem 203']
+['Sem 204']
+['Sem 205']
+['Sem 206']
+['Sem 207']
+['Sem 208']
+['Sem 209']
+['Sem 210']
+['Sem 211']
+['Sem 212']
+['Sem 213']
+MGMT0406
+['Lec 1']
+['Lec 2']
+MGMT0407
+['Lec 1']
+['Lec 2']
+MGMT0425
+['Lec 1']
+MGMT0430
+['Lec 2']
+['Lec 3']
+MGMT0457A
+['Sem 1']
+['Sem 2']
+MGMT0457D
+['Sem 1']
+['Sem 2']
+MGMT0458B001
+['Fld 1']
+MGMT0458B002
+['Fld 2']
+MGMT0489
+['Lec 1']
+MGMT0596
+['Tut 1']
+['Tut 2']
+['Tut 3']
+['Tut 4']
+['Tut 5']
+['Tut 6']
+['Tut 7']
+['Tut 8']
+['Tut 9']
+['Tut 10']
+['Tut 11']
+['Tut 12']
+['Tut 13']
+['Tut 14']
+['Tut 15']
+['Tut 16']
+['Tut 17']
+['Tut 18']
+['Tut 19']
+['Tut 20']
+['Tut 21']
+['Tut 22']
+['Tut 23']
+['Tut 24']
+['Tut 25']
+['Tut 26']
+['Tut 27']
+['Tut 28']
+['Tut 29']
+['Tut 30']
+['Tut 31']
+['Tut 32']
+['Tut 33']
+['Tut 34']
+['Tut 35']
+['Tut 36']
+['Tut 37']
+['Tut 38']
+['Tut 39']
+['Tut 40']
+['Tut 41']
+['Tut 42']
+['Tut 43']
+['Tut 44']
+['Tut 45']
+['Tut 46']
+['Tut 47']
+['Tut 48']
+['Tut 49']
+['Tut 50']
+['Tut 51']
+['Tut 52']
+['Tut 53']
+['Tut 54']
+['Tut 55']
+['Tut 56']
+['Tut 57']
+['Tut 58']
+['Tut 59']
+['Tut 60']
+['Tut 61']
+['Tut 62']
+['Tut 63']
+['Tut 64']
+['Tut 65']
+['Tut 66']
+['Tut 67']
+['Tut 68']
+['Tut 69']
+['Tut 70']
+['Tut 71']
+['Tut 72']
+['Tut 73']
+['Tut 74']
+['Tut 75']
+['Tut 76']
+['Tut 77']
+['Tut 78']
+['Tut 79']
+['Tut 80']
+['Tut 81']
+['Tut 82']
+['Tut 83']
+['Tut 84']
+['Tut 85']
+['Tut 86']
+['Tut 87']
+['Tut 88']
+['Tut 89']
+['Tut 90']
+['Tut 91']
+['Tut 92']
+['Tut 93']
+['Tut 94']
+['Tut 95']
+['Tut 96']
+['Tut 97']
+['Tut 98']
+['Tut 99']
+['Tut 100']
+['Tut 101']
+['Tut 102']
+['Tut 103']
+['Tut 104']
+['Tut 105']
+['Tut 106']
+['Tut 107']
+['Tut 108']
+['Tut 109']
+['Tut 110']
+['Tut 111']
+['Tut 112']
+['Tut 113']
+['Tut 114']
+['Tut 115']
+['Tut 116']
+['Tut 117']
+['Tut 118']
+['Tut 119']
+['Tut 120']
+['Tut 121']
+['Tut 122']
+['Tut 123']
+['Tut 124']
+['Tut 125']
+['Tut 126']
+['Tut 127']
+['Tut 128']
+['Tut 129']
+['Tut 130']
+['Tut 131']
+['Tut 132']
+['Tut 133']
+['Tut 134']
+['Tut 135']
+['Tut 136']
+['Tut 137']
+['Tut 138']
+['Tut 139']
+['Tut 140']
+['Tut 141']
+['Tut 142']
+['Tut 143']
+['Tut 144']
+['Tut 145']
+['Tut 146']
+['Tut 147']
+['Tut 148']
+['Tut 149']
+['Tut 150']
+['Tut 151']
+['Tut 152']
+['Tut 153']
+['Tut 154']
+['Tut 155']
+['Tut 156']
+['Tut 157']
+['Tut 158']
+['Tut 159']
+['Tut 160']
+['Tut 161']
+['Tut 162']
+['Tut 163']
+['Tut 164']
+['Tut 165']
+['Tut 166']
+['Tut 167']
+['Tut 168']
+['Tut 169']
+['Tut 170']
