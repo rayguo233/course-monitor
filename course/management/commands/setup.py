@@ -139,20 +139,22 @@ class Command(BaseCommand):
         wait = WebDriverWait(driver, 10, poll_frequency=1)
 
         # get subjects
-        # driver.get("https://sa.ucla.edu/ro/public/soc")
-        # time.sleep(3)
-        # input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
+        driver.get("https://sa.ucla.edu/ro/public/soc")
+        time.sleep(3)
+        input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
         # ActionChains(driver).move_to_element(input_box).click(input_box).perform()
         # time.sleep(1)
-        # ul = driver.find_element_by_id('dropdownitems')
-        # subjects = ul.find_elements_by_tag_name("div")
-        # for subject in subjects:
-        #     print(subject.text)
-        #     Subject.objects.update_or_create(name=subject.text)
+        subjects = input_box.get_attribute("options")
+        subjects = subjects.split("}")[:-1]
+        for subject in subjects:
+            subject = subject.split('","value"')[0].split('{"text":"')[1]
+            print("Adding subject:", subject)
+            Subject.objects.update_or_create(name=subject)
+            print('##########################################################')
 
         # get courses
         subjects = Subject.objects.order_by('name')
-        should_start = False
+        should_start = True
         for i, subject in enumerate(subjects):
             print('##########################################################')
             print(subject.name)
