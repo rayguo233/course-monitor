@@ -10,6 +10,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 
 def keep_awake(driver):
@@ -72,12 +73,12 @@ def check_section(sections, driver, wait):
 		time.sleep(2)
 		ActionChains(driver).send_keys(cur_subject.name).perform()
 		time.sleep(2)
-		item_in_dropdown = driver.find_element_by_class_name('ui-menu-item')
-		ActionChains(driver).move_to_element(item_in_dropdown).click(item_in_dropdown).perform()
+		ActionChains(driver).send_keys(Keys.DOWN).perform()
 		time.sleep(1)
-		go_button = wait.until(EC.element_to_be_clickable((By.ID, 'btn_go')))
-		ActionChains(driver).move_to_element(go_button).click(go_button).perform()
-		time.sleep(4)
+		ActionChains(driver).send_keys(Keys.RETURN).perform()
+		time.sleep(1)
+		ActionChains(driver).send_keys(Keys.RETURN).perform()
+		time.sleep(4)		
 		# get courses to search in this subject
 		cur_courses = courses.filter(subject=cur_subject).order_by()
 		print(cur_courses)
@@ -214,15 +215,13 @@ class Command(BaseCommand):
 			driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op) # on cloud
 
 		# pin the website to keep it from idling
-		keep_awake(driver)
+		# keep_awake(driver)
 
-		return
-		
 		# see if it's time to scrape
-		if (not should_i_scrape()):
-			print("Not time to scrape")
-			return
-		print("Time to scrape")
+		# if (not should_i_scrape()):
+		# 	print("Not time to scrape")
+		# 	return
+		# print("Time to scrape")
 
 		# get all sections needed to check
 		emails = Email.objects.all()

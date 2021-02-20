@@ -3,11 +3,13 @@ from selenium import webdriver
 import os
 import time
 from course.models import Course, Subject, Lecture, Section
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.webdriver.common.keys import Keys
 
 START_SUB = 'Classics (CLASSIC)'
 
@@ -47,18 +49,19 @@ def get_course_info(subject, driver, wait):
     time.sleep(2)
     ActionChains(driver).send_keys(subject.name).perform()
     time.sleep(2)
-    first_item_in_dropdown = driver.find_element_by_class_name('ui-menu-item')
-    ActionChains(driver).move_to_element(first_item_in_dropdown).click(first_item_in_dropdown).perform()
+    ActionChains(driver).send_keys(Keys.DOWN).perform()
     time.sleep(1)
+    ActionChains(driver).send_keys(Keys.RETURN).perform()
+    time.sleep(1)
+    ActionChains(driver).send_keys(Keys.RETURN).perform()
+    time.sleep(4)
 
     try:
-        go_button = wait.until(EC.element_to_be_clickable((By.ID, 'btn_go')))
-    except TimeoutException:
-        print('This subject has no course listing yet.')
+        expand_btn = wait.until(EC.element_to_be_clickable((By.ID, 'expandAll')))
+    except:
+        print('Expand button not found')
     else:
         # get courses on the first page
-        ActionChains(driver).move_to_element(go_button).click(go_button).perform()
-        expand_btn = wait.until(EC.element_to_be_clickable((By.ID, 'expandAll')))
         ActionChains(driver).move_to_element(expand_btn).click(expand_btn).perform()
         time.sleep(7)
         table = wait.until(EC.presence_of_element_located((By.ID, 'resultsTitle')))
@@ -97,21 +100,21 @@ class Command(BaseCommand):
         # op.add_argument("--disable-dev-sh-usage")
         
         # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=op)  # on cloud
-        driver = webdriver.Chrome(chrome_options=op) # on local
+        driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=op)  # on local
         driver.set_window_size(1920, 1000)
         wait = WebDriverWait(driver, 10, poll_frequency=1)
 
         # get subjects
-        driver.get("https://sa.ucla.edu/ro/public/soc")
-        time.sleep(3)
-        input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
-        ActionChains(driver).move_to_element(input_box).click(input_box).perform()
-        time.sleep(1)
-        ul = driver.find_element_by_xpath('//*[@id="ui-id-1"]')
-        subjects = ul.find_elements_by_tag_name("li")
-        for subject in subjects:
-            print(subject.text)
-            Subject.objects.update_or_create(name=subject.text)
+        # driver.get("https://sa.ucla.edu/ro/public/soc")
+        # time.sleep(3)
+        # input_box = driver.find_element_by_xpath('//*[@id="select_filter_subject"]')
+        # ActionChains(driver).move_to_element(input_box).click(input_box).perform()
+        # time.sleep(1)
+        # ul = driver.find_element_by_id('dropdownitems')
+        # subjects = ul.find_elements_by_tag_name("div")
+        # for subject in subjects:
+        #     print(subject.text)
+        #     Subject.objects.update_or_create(name=subject.text)
 
         # get courses
         subjects = Subject.objects.order_by('name')
