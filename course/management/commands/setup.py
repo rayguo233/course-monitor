@@ -11,7 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.common.keys import Keys
 
-START_SUB = 'Molecular, Cellular, and Integrative Physiology (MC&IP)'
+START_SUB = 'Human Genetics (HUM GEN)'
 
 def is_over_300(lec_name):
     digits = [int(c) for c in lec_name if c.isdigit()]
@@ -154,7 +154,7 @@ class Command(BaseCommand):
 
         # get courses
         subjects = Subject.objects.order_by('name')
-        should_start = True
+        should_start = False
         for i, subject in enumerate(subjects):
             print('##########################################################')
             print(subject.name)
