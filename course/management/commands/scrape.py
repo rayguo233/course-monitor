@@ -68,21 +68,27 @@ def check_section(sections, driver, wait):
 	for cur_subject in subjects:
 		print('###########################')
 		print('Subject: ' + cur_subject.name)
-		input_box = wait.until(EC.presence_of_element_located((By.ID, 'select_filter_subject')))
-		ActionChains(driver).move_to_element(input_box).click(input_box).perform()
-		time.sleep(2)
-		ActionChains(driver).send_keys(cur_subject.name).perform()
-		time.sleep(2)
-		ActionChains(driver).send_keys(Keys.DOWN).perform()
-		time.sleep(1)
-		ActionChains(driver).send_keys(Keys.RETURN).perform()
-		time.sleep(1)
-		ActionChains(driver).send_keys(Keys.RETURN).perform()
-		time.sleep(4)		
+		for i in range(2):
+			input_box = wait.until(EC.presence_of_element_located((By.ID, 'select_filter_subject')))
+			ActionChains(driver).move_to_element(input_box).click(input_box).perform()
+			time.sleep(2)
+			ActionChains(driver).send_keys(cur_subject.name).perform()
+			time.sleep(2)
+			ActionChains(driver).send_keys(Keys.DOWN).perform()
+			time.sleep(1)
+			ActionChains(driver).send_keys(Keys.RETURN).perform()
+			time.sleep(2)
+			ActionChains(driver).send_keys(Keys.RETURN).perform()
+			time.sleep(4)
+			# check if landed on the right page
+			if cur_subject.name not in driver.find_element_by_xpath('//*[@id="spanSearchResultsHeader"]').text:
+				driver.get("https://sa.ucla.edu/ro/public/soc")
+			else: break
 		# get courses to search in this subject
 		cur_courses = courses.filter(subject=cur_subject).order_by()
 		print(cur_courses)
 		for cur_course in cur_courses:
+			
 			# find to the right page
 			while True:
 				try:
