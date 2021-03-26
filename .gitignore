@@ -4,3 +4,4 @@ sendgrid.env
 **/cs130.py
 .vscode
 **/migrations
+**/.DS_Store
