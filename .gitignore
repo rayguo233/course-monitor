@@ -1,4 +1,7 @@
 sendgrid.env
-**/__pycache__/**
+**/__pycache__
 **/**.pyc
 **/cs130.py
+.vscode
+**/migrations
+**/.DS_Store
