@@ -5,3 +5,4 @@ sendgrid.env
 .vscode
 **/migrations
 **/.DS_Store
+.venv
